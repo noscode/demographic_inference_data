@@ -1,0 +1,1 @@
+Model	Replicate	log-likelihood	AIC	chi-squared	theta	optimized_params( )

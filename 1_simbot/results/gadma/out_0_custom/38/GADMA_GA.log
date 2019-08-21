@@ -1,0 +1,4001 @@
+--Start genetic algorithm pipeline--
+
+
+Iteration #0.
+Current population of models:
+N		logLL				model
+Model   0	   -770.06	[    18.428,      1.085,      3.952,      0.977]	r
+Model   1	   -804.09	[     2.269,      0.972,      3.693,      1.130]	r
+Model   2	  -1134.09	[    12.226,      2.253,      4.434,      3.197]	r
+Model   3	  -1419.08	[     1.336,      0.562,      3.061,      1.301]	r
+Model   4	  -1987.66	[    25.550,      2.064,      1.738,      3.059]	r
+Model   5	  -1989.43	[     0.907,      0.816,      2.015,      0.801]	r
+Model   6	  -2095.54	[     1.015,      0.644,      1.812,      1.955]	r
+Model   7	  -2160.11	[     0.539,      0.423,      0.829,      1.374]	r
+Model   8	  -2191.45	[     5.684,      1.996,      1.825,      4.193]	r
+Model   9	  -2194.46	[     0.138,      0.096,      1.345,      0.319]	r
+Current mean mutation rate:    0.20000
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -770.06
+Model:	[    18.428,      1.085,      3.952,      0.977]	r
+
+
+Iteration #1.
+Current population of models:
+N		logLL				model
+Model   0	   -622.30	[    18.428,      0.723,      3.952,      0.977]	rm
+Model   1	   -688.29	[     2.269,      0.562,      3.693,      1.130]	c
+Model   2	   -764.37	[     1.624,      0.562,      3.061,      0.948]	rm
+Model   3	   -770.06	[    18.428,      1.085,      3.952,      0.977]	r
+Model   4	   -804.09	[     2.269,      0.972,      3.693,      1.130]	r
+Model   5	   -937.17	[    18.428,      1.085,      2.015,      0.977]	c
+Model   6	  -1765.70	[     0.796,      0.665,      4.650,      0.527]	r
+Model   7	  -2115.92	[     1.015,      0.760,      1.119,      1.955]	rm
+Model   8	  -2179.22	[    12.226,      0.562,      3.061,      3.197]	c
+Model   9	  -2336.41	[     1.690,      0.311,      2.225,      3.541]	r
+Current mean mutation rate:    0.20400
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -622.30
+Model:	[    18.428,      0.723,      3.952,      0.977]	rm
+
+Mean time: 	0.0562309424082
+
+
+Iteration #2.
+Current population of models:
+N		logLL				model
+Model   0	   -395.67	[     9.406,      0.366,      3.952,      0.977]	rmm
+Model   1	   -481.81	[    18.428,      0.760,      2.015,      0.977]	c
+Model   2	   -530.60	[     2.269,      0.562,      3.693,      0.977]	c
+Model   3	   -622.30	[    18.428,      0.723,      3.952,      0.977]	rm
+Model   4	   -624.54	[    18.428,      0.859,      3.952,      0.977]	rmm
+Model   5	   -688.29	[     2.269,      0.562,      3.693,      1.130]	c
+Model   6	   -799.90	[     1.624,      0.562,      3.061,      0.977]	c
+Model   7	   -843.40	[    12.524,      1.085,      2.315,      0.977]	cm
+Model   8	  -2353.38	[     0.110,      0.442,      2.618,      2.676]	r
+Model   9	-127110.99	[     0.026,     92.447,      3.502,      3.863]	r
+Current mean mutation rate:    0.20808
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -395.67
+Model:	[     9.406,      0.366,      3.952,      0.977]	rmm
+
+Mean time: 	0.111799657345
+
+
+Iteration #3.
+Current population of models:
+N		logLL				model
+Model   0	   -395.67	[     9.406,      0.366,      3.952,      0.977]	rmm
+Model   1	   -477.86	[    18.428,      0.760,      2.081,      0.977]	cm
+Model   2	   -481.81	[    18.428,      0.760,      2.015,      0.977]	c
+Model   3	   -508.62	[    18.428,      0.760,      3.061,      0.977]	c
+Model   4	   -540.13	[    18.428,      0.859,      2.315,      0.977]	c
+Model   5	   -600.09	[     2.269,      0.562,      2.742,      0.992]	cm
+Model   6	   -669.71	[     2.269,      0.562,      4.075,      1.130]	cm
+Model   7	   -704.60	[    12.524,      1.085,      3.693,      0.977]	c
+Model   8	  -4652.57	[     0.029,      1.821,      0.505,      3.225]	r
+Model   9	 -31880.11	[     0.330,     10.510,      4.444,      3.537]	r
+Current mean mutation rate:    0.20705
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -395.67
+Model:	[     9.406,      0.366,      3.952,      0.977]	rmm
+
+Mean time: 	0.131806325912
+
+
+Iteration #4.
+Current population of models:
+N		logLL				model
+Model   0	   -395.09	[     9.406,      0.366,      4.390,      0.977]	rmmm
+Model   1	   -395.67	[     9.406,      0.366,      3.952,      0.977]	rmm
+Model   2	   -411.32	[    18.428,      0.546,      2.015,      0.977]	cm
+Model   3	   -477.86	[    18.428,      0.760,      2.081,      0.977]	cm
+Model   4	   -509.93	[    12.524,      1.085,      4.498,      1.245]	cm
+Model   5	   -565.21	[    18.428,      0.859,      2.015,      0.977]	c
+Model   6	   -919.23	[     2.269,      1.085,      3.693,      1.130]	c
+Model   7	  -4126.96	[     3.767,      4.101,      3.682,      3.445]	r
+Model   8	 -15517.10	[    56.284,      3.086,      1.988,      0.576]	r
+Model   9	 -24194.28	[     0.029,      1.821,      0.505,      0.992]	c
+Current mean mutation rate:    0.21119
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -395.09
+Model:	[     9.406,      0.366,      4.390,      0.977]	rmmm
+
+Mean time: 	0.163908441861
+
+
+Iteration #5.
+Current population of models:
+N		logLL				model
+Model   0	   -395.09	[     9.406,      0.366,      4.390,      0.977]	rmmm
+Model   1	   -395.67	[     9.406,      0.366,      3.952,      0.977]	rmm
+Model   2	   -406.77	[     9.752,      0.366,      5.000,      0.977]	rmmm
+Model   3	   -493.12	[     9.406,      0.366,      4.390,      1.130]	c
+Model   4	   -646.43	[     9.406,      1.085,      4.498,      0.977]	c
+Model   5	   -667.97	[     3.140,      1.085,      3.693,      1.130]	cm
+Model   6	   -725.13	[     2.269,      0.870,      3.693,      1.130]	cm
+Model   7	  -1257.17	[    52.855,      2.808,      4.768,      3.152]	r
+Model   8	  -3615.14	[     1.557,      1.965,      1.334,      2.066]	r
+Model   9	 -10358.77	[    56.284,      3.086,      1.988,      0.977]	c
+Current mean mutation rate:    0.21015
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -395.09
+Model:	[     9.406,      0.366,      4.390,      0.977]	rmmm
+
+Mean time: 	0.180951220649
+
+
+Iteration #6.
+Current population of models:
+N		logLL				model
+Model   0	   -395.09	[     9.406,      0.366,      4.390,      0.977]	rmmm
+Model   1	   -395.67	[     9.406,      0.366,      3.952,      0.977]	rmm
+Model   2	   -399.89	[     9.406,      0.366,      3.693,      0.977]	c
+Model   3	   -528.35	[     9.406,      0.366,      3.952,      1.130]	c
+Model   4	   -580.93	[     4.433,      1.085,      3.693,      0.993]	cmm
+Model   5	   -636.34	[     9.752,      0.366,      5.000,      0.826]	rmmmm
+Model   6	   -645.37	[     9.406,      1.085,      4.390,      0.977]	c
+Model   7	   -752.82	[    52.855,      1.885,      4.768,      3.152]	rm
+Model   8	  -1868.06	[    40.240,      1.995,      2.147,      4.308]	r
+Model   9	 -18679.99	[     0.994,      8.679,      2.660,      1.090]	r
+Current mean mutation rate:    0.20911
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -395.09
+Model:	[     9.406,      0.366,      4.390,      0.977]	rmmm
+
+Mean time: 	0.193356305361
+
+
+Iteration #7.
+Current population of models:
+N		logLL				model
+Model   0	   -395.09	[     9.406,      0.366,      4.390,      0.977]	rmmm
+Model   1	   -395.33	[     9.406,      0.366,      3.693,      0.936]	cm
+Model   2	   -395.67	[     9.406,      0.366,      3.952,      0.977]	rmm
+Model   3	   -639.96	[     9.406,      1.085,      3.693,      0.993]	c
+Model   4	   -747.44	[    52.855,      1.851,      4.768,      3.152]	rmm
+Model   5	  -1355.76	[     9.752,      1.995,      5.000,      4.308]	c
+Model   6	  -1549.51	[     9.406,      1.995,      3.952,      4.308]	c
+Model   7	  -1555.74	[    40.240,      1.995,      3.082,      4.308]	rm
+Model   8	  -2336.80	[     0.544,      0.028,      3.790,      4.669]	r
+Model   9	  -2419.12	[     0.402,      0.827,      1.840,      3.366]	r
+Current mean mutation rate:    0.20808
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -395.09
+Model:	[     9.406,      0.366,      4.390,      0.977]	rmmm
+
+Mean time: 	0.209358612696
+
+
+Iteration #8.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -395.09	[     9.406,      0.366,      4.390,      0.977]	rmmm
+Model   2	   -395.33	[     9.406,      0.366,      3.693,      0.936]	cm
+Model   3	   -399.84	[     9.406,      0.366,      4.768,      0.977]	c
+Model   4	   -560.14	[    11.212,      1.085,      3.693,      1.125]	cm
+Model   5	  -1125.81	[    40.240,      1.995,      3.473,      3.196]	rmm
+Model   6	  -1324.64	[    52.855,      1.851,      3.952,      4.308]	c
+Model   7	  -1904.32	[     9.406,      1.851,      4.768,      0.977]	c
+Model   8	  -2336.80	[    11.809,      0.016,      3.444,      0.313]	r
+Model   9	  -9790.50	[     7.110,      2.204,      4.215,      0.158]	r
+Current mean mutation rate:    0.21224
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.21326816082
+
+
+Iteration #9.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -395.09	[     9.406,      0.366,      4.390,      0.977]	rmmm
+Model   2	   -395.09	[     9.406,      0.366,      4.390,      0.977]	c
+Model   3	   -398.61	[     6.778,      0.366,      4.390,      0.977]	rmmmm
+Model   4	   -514.75	[    11.212,      1.085,      3.693,      1.744]	cmm
+Model   5	  -1302.00	[    11.212,      1.995,      3.473,      3.196]	c
+Model   6	  -2335.41	[    11.809,      0.023,      3.444,      0.313]	rm
+Model   7	  -2336.80	[    11.809,      0.016,      4.768,      0.313]	c
+Model   8	  -2336.80	[    64.141,      0.083,      4.879,      4.125]	r
+Model   9	  -8979.86	[     4.032,      4.234,      1.127,      2.007]	r
+Current mean mutation rate:    0.21119
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.212446949699
+
+
+Iteration #10.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -395.09	[     9.406,      0.366,      4.390,      0.977]	rmmm
+Model   2	   -398.79	[    11.212,      0.366,      4.390,      0.977]	c
+Model   3	   -418.42	[     8.536,      0.366,      4.390,      0.914]	rmmmmm
+Model   4	   -488.58	[    15.611,      1.085,      3.693,      1.744]	cmmm
+Model   5	  -1696.68	[     9.406,      0.366,      3.444,      0.313]	c
+Model   6	  -2336.80	[    56.762,      0.083,      4.879,      4.125]	rm
+Model   7	  -2336.80	[    64.141,      0.083,      4.879,      4.125]	c
+Model   8	  -7474.41	[     2.792,      6.181,      3.831,      3.903]	r
+Model   9	 -21786.52	[     0.280,      2.805,      4.379,      0.708]	r
+Current mean mutation rate:    0.21015
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.213240186373
+
+
+Iteration #11.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.73	[    11.212,      0.366,      3.860,      0.977]	cm
+Model   2	   -395.09	[     9.406,      0.366,      4.390,      0.977]	rmmm
+Model   3	   -395.09	[     9.406,      0.366,      4.390,      0.977]	c
+Model   4	   -405.65	[     8.536,      0.366,      4.390,      1.024]	rmmmmmm
+Model   5	   -452.82	[    11.212,      0.366,      4.390,      0.906]	cm
+Model   6	  -1623.48	[    64.141,      1.085,      4.879,      4.125]	c
+Model   7	  -2220.56	[     1.262,      0.398,      0.316,      1.934]	r
+Model   8	  -2336.80	[     9.406,      0.083,      4.390,      4.125]	c
+Model   9	 -72524.22	[     0.096,     29.783,      3.637,      4.255]	r
+Current mean mutation rate:    0.20911
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.212078094482
+
+
+Iteration #12.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.73	[    11.212,      0.366,      3.860,      0.977]	cm
+Model   2	   -394.73	[    11.212,      0.366,      3.860,      0.977]	c
+Model   3	   -396.81	[     9.406,      0.366,      3.860,      0.977]	c
+Model   4	   -430.42	[     8.536,      0.438,      5.000,      1.024]	rmmmmmmm
+Model   5	   -537.98	[    11.212,      0.249,      4.390,      0.906]	cmm
+Model   6	  -1609.56	[    64.141,      1.085,      5.000,      4.125]	cm
+Model   7	  -2332.48	[    49.096,      0.486,      2.839,      4.637]	r
+Model   8	  -2335.44	[    64.141,      0.366,      3.860,      4.125]	c
+Model   9	  -2336.80	[     4.553,      0.085,      3.088,      3.905]	r
+Current mean mutation rate:    0.20808
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.210097517286
+
+
+Iteration #13.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -394.67	[    11.373,      0.366,      3.860,      0.977]	cm
+Model   3	   -394.73	[    11.212,      0.366,      3.860,      0.977]	cm
+Model   4	   -398.79	[    11.212,      0.366,      4.390,      0.977]	c
+Model   5	   -407.88	[     8.536,      0.438,      4.390,      1.024]	c
+Model   6	   -410.36	[    11.212,      0.366,      3.860,      1.027]	cm
+Model   7	  -2336.79	[    11.212,      0.249,      5.000,      4.125]	c
+Model   8	  -6985.99	[     0.538,      2.436,      4.007,      2.496]	r
+Model   9	 -11348.88	[     0.021,      2.507,      1.848,      2.403]	r
+Current mean mutation rate:    0.20705
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.209612147013
+
+
+Iteration #14.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -394.73	[    11.212,      0.366,      3.860,      0.977]	c
+Model   3	   -396.33	[     8.536,      0.366,      4.048,      0.977]	rmmmmm
+Model   4	   -396.56	[    10.244,      0.366,      4.390,      0.977]	cm
+Model   5	   -405.65	[     8.536,      0.366,      4.390,      1.024]	c
+Model   6	   -409.44	[    11.449,      0.366,      3.860,      1.027]	cmm
+Model   7	   -415.82	[    11.212,      0.366,      5.000,      0.977]	c
+Model   8	  -2296.72	[     2.064,      0.127,      3.512,      1.023]	r
+Model   9	  -2848.16	[     0.004,      0.769,      4.466,      2.318]	r
+Current mean mutation rate:    0.20603
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.235666647553
+
+
+Iteration #15.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -394.73	[    11.212,      0.366,      3.860,      0.977]	c
+Model   3	   -399.35	[     8.536,      0.366,      3.860,      0.977]	c
+Model   4	   -399.77	[     8.536,      0.366,      5.000,      0.977]	rmmmmm
+Model   5	   -409.44	[    11.449,      0.366,      3.860,      1.027]	c
+Model   6	   -419.10	[    11.449,      0.464,      3.860,      1.027]	cmmm
+Model   7	   -535.10	[     8.536,      0.563,      4.390,      0.977]	rmmmmm
+Model   8	  -3404.40	[     0.462,      1.141,      4.092,      2.110]	r
+Model   9	  -4913.33	[     0.076,      2.898,      0.772,      4.884]	r
+Current mean mutation rate:    0.20501
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.231630661908
+
+
+Iteration #16.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -394.62	[    12.400,      0.366,      3.860,      0.977]	c
+Model   3	   -394.73	[    11.212,      0.366,      3.860,      0.977]	c
+Model   4	   -395.01	[    11.449,      0.366,      5.000,      1.027]	cm
+Model   5	   -404.28	[     5.695,      0.563,      4.390,      1.081]	rmmmmmm
+Model   6	   -445.42	[     8.536,      0.563,      3.860,      1.027]	c
+Model   7	   -560.57	[     8.536,      0.795,      4.390,      0.977]	rmmmmmm
+Model   8	  -2852.19	[     0.028,      1.099,      2.656,      3.282]	r
+Model   9	 -20270.01	[     0.005,      1.891,      0.380,      1.249]	r
+Current mean mutation rate:    0.20400
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.232005847825
+
+
+Iteration #17.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -394.62	[    12.400,      0.366,      3.860,      0.977]	c
+Model   3	   -394.63	[    12.427,      0.366,      3.860,      0.977]	cm
+Model   4	   -397.05	[     8.536,      0.439,      3.860,      1.027]	cm
+Model   5	   -401.94	[    12.400,      0.366,      2.890,      0.938]	cmm
+Model   6	   -494.66	[     8.536,      0.795,      4.390,      1.081]	c
+Model   7	  -2327.89	[    11.212,      0.366,      2.656,      3.282]	c
+Model   8	 -11353.01	[     0.008,      0.688,      1.697,      0.656]	r
+Model   9	 -29183.17	[     2.398,     34.950,      2.779,      2.940]	r
+Current mean mutation rate:    0.20299
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.233161123175
+
+
+Iteration #18.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -394.62	[    12.400,      0.366,      3.860,      0.977]	c
+Model   3	   -404.36	[    12.400,      0.366,      3.860,      0.938]	c
+Model   4	   -439.74	[     8.536,      0.439,      4.390,      0.977]	c
+Model   5	   -450.24	[     8.536,      0.795,      2.625,      1.081]	cm
+Model   6	   -460.15	[    12.400,      0.460,      3.860,      0.977]	cm
+Model   7	   -463.09	[    12.400,      0.366,      2.890,      0.794]	cmmm
+Model   8	  -1983.20	[    12.091,      0.160,      1.519,      0.922]	r
+Model   9	  -4100.60	[     0.329,      2.686,      2.659,      4.974]	r
+Current mean mutation rate:    0.20199
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.229903876781
+
+
+Iteration #19.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -401.89	[    12.400,      0.366,      3.777,      0.938]	cm
+Model   3	   -427.93	[     8.536,      0.718,      2.625,      1.081]	cmm
+Model   4	   -428.45	[    12.400,      0.366,      2.433,      0.938]	cm
+Model   5	   -439.74	[     8.536,      0.439,      4.390,      0.977]	c
+Model   6	   -497.85	[    12.400,      0.795,      2.625,      0.938]	c
+Model   7	   -524.31	[    12.400,      0.460,      3.860,      0.922]	c
+Model   8	  -1786.98	[     2.021,      1.273,      3.984,      2.439]	r
+Model   9	  -2336.80	[     0.002,      0.068,      1.668,      1.426]	r
+Current mean mutation rate:    0.20099
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.240944169817
+
+
+Iteration #20.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -401.16	[     8.536,      0.366,      3.777,      0.977]	c
+Model   3	   -404.36	[    12.400,      0.366,      3.860,      0.938]	c
+Model   4	   -426.81	[    12.696,      0.718,      2.625,      1.081]	cmmm
+Model   5	   -457.95	[     8.536,      0.718,      2.625,      0.919]	cmmm
+Model   6	   -473.28	[     8.536,      0.460,      3.860,      0.922]	c
+Model   7	   -536.20	[    12.400,      0.566,      3.860,      0.977]	cmm
+Model   8	  -6558.95	[     0.048,      2.252,      0.238,      3.066]	r
+Model   9	 -21284.01	[     2.334,      9.888,      0.066,      1.519]	r
+Current mean mutation rate:    0.20000
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.237660158764
+
+
+Iteration #21.
+Current population of models:
+N		logLL				model
+Model   0	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   1	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   2	   -398.39	[    12.400,      0.566,      3.860,      1.240]	cmmm
+Model   3	   -401.87	[    12.400,      0.366,      4.390,      0.977]	c
+Model   4	   -404.36	[    12.400,      0.366,      3.860,      0.938]	c
+Model   5	   -416.42	[    11.027,      0.366,      3.860,      1.035]	cm
+Model   6	   -456.69	[     8.536,      0.718,      2.570,      0.919]	cmmmm
+Model   7	   -477.60	[    12.696,      0.718,      2.625,      0.919]	c
+Model   8	  -2336.80	[     0.297,      0.048,      0.904,      1.238]	r
+Model   9	 -22563.89	[     1.975,     20.455,      4.693,      2.816]	r
+Current mean mutation rate:    0.19901
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.38
+Model:	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+
+Mean time: 	0.234984325326
+
+
+Iteration #22.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   2	   -394.38	[     8.536,      0.366,      4.390,      0.977]	c
+Model   3	   -394.62	[    12.400,      0.366,      3.860,      0.977]	cm
+Model   4	   -415.42	[    12.400,      0.700,      3.860,      1.240]	cmmmm
+Model   5	   -423.85	[    12.696,      0.718,      2.625,      1.136]	cm
+Model   6	   -836.52	[     4.234,      0.819,      4.463,      1.879]	r
+Model   7	  -2336.80	[     0.297,      0.048,      0.904,      1.035]	c
+Model   8	  -2463.22	[     0.297,      0.366,      4.390,      0.977]	c
+Model   9	 -17037.91	[     0.841,      6.707,      0.192,      1.920]	r
+Current mean mutation rate:    0.20299
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.232502063115
+
+
+Iteration #23.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   2	   -394.62	[    12.400,      0.366,      3.860,      0.977]	c
+Model   3	   -402.66	[    12.696,      0.366,      4.390,      0.977]	c
+Model   4	   -566.23	[     8.536,      0.819,      4.463,      0.977]	c
+Model   5	   -699.87	[     5.803,      0.819,      4.463,      1.879]	rm
+Model   6	  -2221.87	[    42.081,      0.823,      1.747,      4.260]	r
+Model   7	  -2336.58	[     0.068,      0.018,      4.429,      0.209]	r
+Model   8	  -2431.32	[     0.314,      0.366,      4.390,      0.977]	cm
+Model   9	  -2462.63	[     0.297,      0.366,      4.390,      0.977]	cm
+Current mean mutation rate:    0.20199
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.231672258377
+
+
+Iteration #24.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   2	   -409.83	[     8.497,      0.366,      3.860,      1.001]	c
+Model   3	   -448.09	[     8.536,      0.819,      4.463,      1.195]	cm
+Model   4	   -559.45	[     8.536,      0.819,      4.390,      0.977]	c
+Model   5	   -566.23	[     8.536,      0.819,      4.463,      0.977]	c
+Model   6	   -753.80	[     5.803,      1.554,      4.463,      1.879]	rmm
+Model   7	  -2081.13	[    42.081,      1.092,      1.747,      4.260]	rm
+Model   8	  -2335.69	[     0.433,      0.091,      4.554,      0.937]	r
+Model   9	 -13914.79	[     3.844,      7.356,      1.024,      3.209]	r
+Current mean mutation rate:    0.20099
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.229160134609
+
+
+Iteration #25.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   2	   -399.08	[     8.497,      0.366,      4.912,      0.974]	cmm
+Model   3	   -549.25	[     8.497,      0.819,      4.463,      1.001]	c
+Model   4	   -592.81	[     8.536,      0.819,      4.463,      1.879]	c
+Model   5	   -699.87	[     5.803,      0.819,      4.463,      1.879]	c
+Model   6	   -741.20	[     5.803,      1.554,      4.548,      1.879]	rmmm
+Model   7	  -1769.18	[     4.123,      0.698,      3.988,      2.659]	r
+Model   8	  -2335.46	[     0.506,      0.091,      4.554,      0.937]	rm
+Model   9	  -2336.31	[     1.925,      0.443,      3.770,      4.839]	r
+Current mean mutation rate:    0.20000
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.226921055052
+
+
+Iteration #26.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   2	   -460.29	[     4.123,      0.366,      4.390,      0.977]	c
+Model   3	   -468.49	[     8.497,      0.819,      2.803,      1.001]	cm
+Model   4	   -546.11	[     8.497,      0.541,      4.912,      1.001]	cmm
+Model   5	   -593.78	[     8.497,      0.819,      4.463,      1.879]	c
+Model   6	   -646.09	[     8.497,      0.366,      4.912,      0.801]	cmmm
+Model   7	  -1636.54	[     5.803,      0.698,      4.463,      2.659]	c
+Model   8	  -2224.67	[     5.266,      0.721,      3.127,      3.969]	r
+Model   9	  -2336.80	[     7.341,      0.009,      3.321,      4.637]	r
+Current mean mutation rate:    0.19901
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.232953548431
+
+
+Iteration #27.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -394.38	[     8.536,      0.366,      4.390,      0.977]	rmmmm
+Model   3	   -475.49	[     8.497,      0.819,      3.360,      1.001]	cmm
+Model   4	   -476.20	[     8.497,      1.095,      5.000,      1.879]	cm
+Model   5	   -569.71	[     6.697,      0.366,      4.912,      0.801]	cmmmm
+Model   6	   -760.83	[     8.497,      0.819,      4.912,      0.801]	c
+Model   7	  -1852.63	[     8.497,      0.366,      4.390,      1.879]	c
+Model   8	  -2336.79	[     1.299,      0.327,      3.538,      4.756]	r
+Model   9	  -5406.45	[     0.001,      1.958,      1.405,      3.120]	r
+Current mean mutation rate:    0.19803
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.249607390371
+
+
+Iteration #28.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -522.75	[     8.497,      0.819,      2.046,      1.001]	cmmm
+Model   3	  -1330.28	[     1.299,      0.327,      3.538,      0.977]	c
+Model   4	  -1817.10	[     8.497,      0.366,      5.000,      1.879]	c
+Model   5	  -1822.01	[     8.497,      0.366,      4.912,      1.879]	c
+Model   6	  -2336.79	[     1.659,      0.327,      3.240,      4.756]	rm
+Model   7	  -2336.79	[     1.587,      0.327,      3.538,      4.756]	rm
+Model   8	  -2336.80	[     0.007,      0.038,      3.767,      3.941]	r
+Model   9	 -72911.47	[     0.014,      8.024,      3.041,      1.479]	r
+Current mean mutation rate:    0.19705
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.259772380193
+
+
+Iteration #29.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -394.40	[     8.497,      0.366,      5.000,      1.001]	cmm
+Model   3	  -1188.59	[     1.659,      0.327,      3.240,      1.001]	c
+Model   4	  -1822.01	[     8.497,      0.366,      4.912,      1.879]	c
+Model   5	  -2252.52	[     1.299,      0.327,      3.538,      1.879]	c
+Model   6	  -2335.43	[     1.659,      0.498,      3.240,      4.756]	rmm
+Model   7	  -2336.76	[     1.659,      0.327,      3.240,      4.430]	rmm
+Model   8	  -2447.80	[     0.042,      0.846,      1.586,      3.727]	r
+Model   9	 -22468.18	[     0.045,      5.468,      4.294,      3.282]	r
+Current mean mutation rate:    0.19608
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.258617370359
+
+
+Iteration #30.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -395.49	[     9.127,      0.366,      5.000,      1.001]	cm
+Model   3	  -1152.56	[     1.659,      0.327,      4.912,      1.001]	c
+Model   4	  -1597.94	[     8.497,      0.366,      4.090,      0.470]	cm
+Model   5	  -2028.24	[     1.299,      0.498,      3.240,      1.879]	c
+Model   6	  -2336.79	[     0.650,      0.024,      2.997,      0.406]	r
+Model   7	  -2370.36	[     0.003,      0.714,      4.406,      4.017]	r
+Model   8	  -2447.80	[     0.042,      0.846,      0.840,      3.727]	rm
+Model   9	  -7731.89	[     0.042,      0.846,      1.586,      1.001]	c
+Current mean mutation rate:    0.19511
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.276741892099
+
+
+Iteration #31.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -407.70	[     9.127,      0.498,      3.240,      1.001]	c
+Model   3	   -475.36	[     8.497,      0.366,      4.912,      0.887]	cm
+Model   4	  -1529.30	[     8.497,      0.366,      4.090,      0.492]	cmm
+Model   5	  -1921.27	[     8.497,      0.846,      4.912,      3.727]	c
+Model   6	  -1947.36	[     0.650,      0.327,      4.912,      1.001]	c
+Model   7	  -2260.16	[     1.605,      0.367,      3.586,      2.179]	r
+Model   8	  -2326.51	[     4.384,      0.269,      1.495,      2.324]	r
+Model   9	  -2370.36	[     0.003,      0.714,      5.000,      4.017]	rm
+Current mean mutation rate:    0.19415
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.307014255813
+
+
+Iteration #32.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   3	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   4	   -394.32	[     8.497,      0.368,      4.912,      1.001]	cm
+Model   5	   -556.86	[     8.497,      0.366,      4.912,      0.840]	cmm
+Model   6	   -923.23	[     8.497,      0.846,      4.912,      2.360]	cm
+Model   7	  -2326.51	[     4.384,      0.269,      1.495,      2.324]	c
+Model   8	  -2336.80	[     0.061,      0.045,      0.201,      3.297]	r
+Model   9	  -2336.80	[     0.244,      0.063,      0.104,      3.292]	r
+Current mean mutation rate:    0.19319
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.304329367245
+
+
+Iteration #33.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   3	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   4	   -426.58	[     8.497,      0.368,      5.000,      0.936]	cmm
+Model   5	   -488.35	[     8.497,      0.366,      4.049,      1.097]	cm
+Model   6	  -1133.41	[     7.138,      0.366,      3.286,      1.366]	cm
+Model   7	  -2181.56	[     8.497,      0.368,      4.912,      2.360]	c
+Model   8	  -2336.81	[     0.240,      0.320,      4.601,      4.061]	r
+Model   9	  -2337.50	[     0.005,      0.222,      2.389,      2.100]	r
+Current mean mutation rate:    0.19223
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.3065480096
+
+
+Iteration #34.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -394.40	[     8.497,      0.366,      5.000,      1.001]	cm
+Model   3	   -404.03	[     8.497,      0.366,      4.049,      1.001]	c
+Model   4	   -424.88	[     8.497,      0.366,      4.912,      1.080]	cm
+Model   5	   -601.16	[     8.497,      0.366,      4.912,      0.820]	cmm
+Model   6	  -1088.80	[     8.497,      0.368,      3.286,      1.366]	c
+Model   7	  -1133.41	[     7.138,      0.366,      3.286,      1.366]	c
+Model   8	  -3330.22	[     0.762,      2.326,      1.311,      4.670]	r
+Model   9	 -22033.57	[     0.702,      7.721,      2.715,      1.038]	r
+Current mean mutation rate:    0.19128
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.302737202909
+
+
+Iteration #35.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -398.66	[     8.497,      0.382,      4.912,      1.001]	cmm
+Model   3	   -404.03	[     8.497,      0.366,      4.049,      1.001]	c
+Model   4	   -414.59	[     8.497,      0.481,      4.049,      1.188]	cm
+Model   5	   -426.12	[     8.540,      0.366,      4.462,      1.060]	cm
+Model   6	   -455.43	[     7.138,      0.366,      3.286,      1.001]	c
+Model   7	  -2618.77	[     3.163,      1.529,      1.159,      1.063]	r
+Model   8	  -2678.84	[     0.250,      1.518,      0.750,      4.818]	r
+Model   9	  -8342.45	[     0.762,      2.326,      1.311,      1.001]	c
+Current mean mutation rate:    0.19034
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.299131876714
+
+
+Iteration #36.
+Current population of models:
+N		logLL				model
+Model   0	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   1	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   2	   -397.59	[     8.497,      0.429,      3.264,      1.001]	cm
+Model   3	   -447.03	[     8.497,      0.366,      4.049,      1.060]	c
+Model   4	   -462.70	[     8.184,      0.366,      5.000,      0.896]	cmm
+Model   5	  -2336.54	[     1.032,      0.170,      3.660,      2.056]	r
+Model   6	  -2562.60	[     3.163,      1.510,      1.159,      1.063]	rm
+Model   7	  -2690.07	[     0.250,      1.518,      3.286,      4.818]	c
+Model   8	  -3033.69	[     3.163,      1.518,      0.750,      1.063]	c
+Model   9	  -4895.74	[    25.467,      4.521,      1.867,      4.157]	r
+Current mean mutation rate:    0.18940
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.19
+Model:	[     8.497,      0.366,      4.912,      1.001]	cm
+
+Mean time: 	0.295773669293
+
+
+Iteration #37.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.17	[     8.431,      0.366,      4.912,      1.001]	cm
+Model   2	   -394.19	[     8.497,      0.366,      4.912,      1.001]	cm
+Model   3	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   4	   -403.72	[     4.962,      0.429,      4.023,      1.001]	cmm
+Model   5	   -538.68	[     8.497,      0.532,      4.912,      1.001]	cm
+Model   6	  -1295.37	[     8.497,      1.510,      3.264,      1.063]	c
+Model   7	  -2336.55	[     1.032,      0.170,      0.750,      2.056]	c
+Model   8	  -2336.80	[     7.894,      0.027,      2.144,      0.580]	r
+Model   9	 -34533.64	[     0.417,     10.717,      3.129,      2.269]	r
+Current mean mutation rate:    0.19319
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.292867984527
+
+
+Iteration #38.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.17	[     8.431,      0.366,      4.912,      1.001]	cm
+Model   2	   -394.19	[     8.497,      0.366,      4.912,      1.001]	c
+Model   3	   -394.33	[     8.431,      0.366,      5.000,      1.001]	cmm
+Model   4	   -395.64	[     5.502,      0.429,      4.360,      1.001]	cmmm
+Model   5	   -400.98	[     8.184,      0.557,      5.000,      1.215]	cm
+Model   6	   -403.08	[     8.497,      0.429,      4.023,      1.001]	c
+Model   7	  -2208.65	[     1.032,      0.170,      4.912,      1.001]	c
+Model   8	  -2336.80	[    49.072,      0.091,      2.038,      1.678]	r
+Model   9	 -14065.14	[     0.002,      1.720,      1.204,      1.451]	r
+Current mean mutation rate:    0.19223
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.296949058771
+
+
+Iteration #39.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.17	[     8.431,      0.366,      4.912,      1.001]	cm
+Model   2	   -394.33	[     8.431,      0.366,      5.000,      1.001]	cmm
+Model   3	   -394.33	[     8.431,      0.366,      5.000,      1.001]	c
+Model   4	   -598.78	[     8.497,      0.366,      4.912,      1.215]	c
+Model   5	  -2154.35	[     1.032,      0.170,      4.912,      0.938]	cm
+Model   6	  -2332.79	[     8.184,      0.091,      2.038,      1.001]	c
+Model   7	  -2336.80	[    65.083,      0.091,      2.038,      1.678]	rm
+Model   8	  -5744.02	[     0.022,      1.823,      2.119,      2.756]	r
+Model   9	  -6067.65	[     0.029,      2.570,      2.900,      3.739]	r
+Current mean mutation rate:    0.19128
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.29624149276
+
+
+Iteration #40.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -394.17	[     8.431,      0.366,      4.912,      1.001]	cm
+Model   4	   -397.50	[     9.878,      0.366,      5.000,      1.001]	cm
+Model   5	   -609.06	[     8.431,      0.366,      5.000,      1.224]	cm
+Model   6	   -645.67	[     8.431,      0.366,      4.912,      1.241]	cmm
+Model   7	  -1478.37	[     1.032,      0.366,      4.912,      1.001]	c
+Model   8	  -2191.09	[     0.534,      0.231,      2.961,      1.016]	r
+Model   9	  -2334.45	[     1.699,      0.045,      4.200,      0.535]	r
+Current mean mutation rate:    0.19034
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.295794691358
+
+
+Iteration #41.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	cm
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -395.36	[     7.410,      0.366,      4.912,      1.001]	cmm
+Model   5	   -530.87	[     7.974,      0.475,      4.912,      0.953]	cmmm
+Model   6	   -609.06	[     8.431,      0.366,      5.000,      1.224]	c
+Model   7	   -999.00	[     1.699,      0.366,      4.200,      1.001]	c
+Model   8	  -2338.74	[     0.010,      0.412,      0.151,      3.476]	r
+Model   9	  -2405.50	[     0.101,      1.019,      2.511,      4.913]	r
+Current mean mutation rate:    0.18940
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.295485463253
+
+
+Iteration #42.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -397.96	[     8.184,      0.366,      5.000,      1.030]	cmm
+Model   5	   -427.41	[     8.184,      0.421,      5.000,      1.001]	cm
+Model   6	   -491.10	[     8.184,      0.366,      5.000,      0.876]	cm
+Model   7	   -986.53	[     1.699,      0.366,      4.912,      1.001]	c
+Model   8	  -2336.80	[     1.240,      0.019,      4.352,      1.978]	r
+Model   9	  -2336.80	[     0.107,      0.005,      2.247,      2.023]	r
+Current mean mutation rate:    0.18846
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.297274112701
+
+
+Iteration #43.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -395.94	[     7.628,      0.366,      3.111,      0.876]	cmm
+Model   5	   -410.09	[     6.927,      0.421,      5.000,      1.001]	cmm
+Model   6	   -413.83	[     8.184,      0.332,      5.000,      1.001]	cm
+Model   7	   -986.53	[     1.699,      0.366,      4.912,      1.001]	c
+Model   8	  -1508.60	[    17.594,      0.196,      1.017,      0.856]	r
+Model   9	 -18085.95	[     1.419,     10.968,      4.439,      3.804]	r
+Current mean mutation rate:    0.18753
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.294407754474
+
+
+Iteration #44.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.40	[     7.628,      0.366,      5.000,      1.001]	c
+Model   3	   -396.48	[     6.927,      0.366,      5.000,      1.001]	c
+Model   4	   -564.37	[     8.184,      0.366,      5.000,      1.194]	cm
+Model   5	   -719.89	[     2.373,      0.366,      4.912,      1.001]	cm
+Model   6	   -985.34	[     1.699,      0.366,      5.000,      1.001]	c
+Model   7	  -1420.45	[     8.184,      0.489,      5.000,      0.542]	cmm
+Model   8	  -1792.65	[    10.335,      0.339,      4.934,      1.768]	r
+Model   9	  -2116.69	[     6.503,      1.180,      2.977,      4.881]	r
+Current mean mutation rate:    0.18661
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.291663107665
+
+
+Iteration #45.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	cm
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -394.40	[     7.628,      0.366,      5.000,      1.001]	c
+Model   5	   -394.99	[    10.790,      0.366,      4.581,      1.001]	cm
+Model   6	   -401.12	[     8.184,      0.388,      5.000,      1.001]	cm
+Model   7	  -2088.88	[     1.699,      0.366,      5.000,      1.768]	c
+Model   8	  -2336.80	[     0.024,      0.051,      0.627,      4.894]	r
+Model   9	 -35529.37	[     0.358,     12.315,      3.967,      3.414]	r
+Current mean mutation rate:    0.18569
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.289987467705
+
+
+Iteration #46.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.40	[     7.628,      0.366,      5.000,      1.001]	c
+Model   3	   -394.72	[     8.184,      0.388,      5.000,      1.047]	cmm
+Model   4	   -401.12	[     8.184,      0.388,      5.000,      1.001]	c
+Model   5	   -529.40	[     7.608,      0.366,      5.000,      0.844]	cm
+Model   6	  -2088.88	[     1.699,      0.366,      5.000,      1.768]	c
+Model   7	  -2336.80	[     0.022,      0.051,      0.627,      4.894]	rm
+Model   8	  -2926.98	[     1.154,      0.044,      0.789,      0.080]	r
+Model   9	  -7958.32	[     0.839,      2.911,      3.771,      0.319]	r
+Current mean mutation rate:    0.18477
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.289269501964
+
+
+Iteration #47.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.72	[     8.184,      0.388,      5.000,      1.047]	c
+Model   3	   -401.12	[     8.184,      0.388,      5.000,      1.001]	c
+Model   4	   -437.32	[     7.628,      0.440,      5.000,      1.001]	cm
+Model   5	   -568.10	[     8.184,      0.366,      5.000,      1.196]	cm
+Model   6	  -1035.48	[     8.184,      0.421,      5.000,      0.707]	cm
+Model   7	  -1762.60	[    16.079,      0.675,      1.033,      2.199]	r
+Model   8	  -2336.80	[     7.608,      0.044,      0.789,      0.844]	c
+Model   9	  -2933.36	[     0.081,      1.240,      0.222,      3.423]	r
+Current mean mutation rate:    0.18386
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.286858514864
+
+
+Iteration #48.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -425.14	[     7.628,      0.440,      5.000,      1.196]	c
+Model   4	   -910.69	[     8.184,      0.421,      4.376,      0.707]	cmm
+Model   5	   -913.97	[     6.508,      0.421,      5.000,      0.707]	cmm
+Model   6	   -925.59	[    16.079,      0.675,      5.000,      2.199]	c
+Model   7	  -1660.00	[    16.079,      0.675,      1.348,      2.199]	rm
+Model   8	  -2336.80	[    12.035,      0.021,      4.331,      2.529]	r
+Model   9	 -19233.35	[     0.539,      6.330,      4.276,      2.966]	r
+Current mean mutation rate:    0.18295
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.285563483238
+
+
+Iteration #49.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -397.09	[     7.628,      0.531,      5.000,      1.196]	cm
+Model   3	   -481.51	[     8.184,      0.366,      5.000,      1.136]	cm
+Model   4	  -1072.81	[     8.184,      0.675,      5.000,      2.199]	c
+Model   5	  -1551.16	[    16.079,      0.675,      1.716,      2.199]	rmm
+Model   6	  -1855.04	[    16.079,      0.421,      5.000,      2.199]	c
+Model   7	  -2336.80	[     8.184,      0.021,      4.376,      0.707]	c
+Model   8	  -2336.81	[     0.044,      0.248,      3.537,      3.799]	r
+Model   9	 -13457.46	[     7.608,      0.628,      3.552,      0.019]	r
+Current mean mutation rate:    0.18205
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.284171670091
+
+
+Iteration #50.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -415.05	[     7.628,      0.605,      5.000,      1.196]	cmm
+Model   3	   -453.09	[    10.811,      0.366,      5.000,      1.142]	cm
+Model   4	   -601.50	[     7.628,      0.675,      1.716,      1.196]	c
+Model   5	  -2104.98	[     8.184,      0.366,      5.000,      2.199]	c
+Model   6	  -2336.80	[     3.358,      0.035,      3.714,      1.969]	r
+Model   7	  -2336.80	[     0.044,      0.248,      3.537,      4.244]	rm
+Model   8	  -2382.08	[     0.044,      0.421,      5.000,      2.199]	c
+Model   9	  -3572.55	[     2.709,      2.836,      2.944,      2.358]	r
+Current mean mutation rate:    0.18115
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.284529621785
+
+
+Iteration #51.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -397.16	[     8.373,      0.518,      5.000,      1.196]	cmmm
+Model   3	   -397.87	[    10.811,      0.452,      5.000,      1.142]	cmm
+Model   4	   -489.56	[     8.184,      0.366,      5.000,      1.142]	c
+Model   5	   -905.66	[    17.489,      1.817,      4.664,      1.626]	r
+Model   6	  -1355.13	[     3.358,      0.605,      5.000,      1.969]	c
+Model   7	  -2104.00	[     8.184,      0.366,      5.000,      2.197]	cm
+Model   8	  -2947.91	[     0.044,      0.366,      5.000,      1.001]	c
+Model   9	 -55001.98	[     0.031,      3.961,      0.137,      0.414]	r
+Current mean mutation rate:    0.18025
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.283184024523
+
+
+Iteration #52.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -489.56	[     8.184,      0.366,      5.000,      1.142]	c
+Model   5	   -694.31	[    17.489,      1.817,      4.664,      2.136]	rm
+Model   6	   -879.31	[    13.911,      1.817,      4.664,      1.626]	rm
+Model   7	  -1137.01	[     5.159,      0.605,      5.000,      1.969]	cm
+Model   8	  -1737.16	[     0.429,      0.289,      4.348,      0.530]	r
+Model   9	  -2336.80	[    27.418,      0.035,      3.862,      3.216]	r
+Current mean mutation rate:    0.17936
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.281700355035
+
+
+Iteration #53.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -646.17	[    17.489,      1.817,      5.000,      2.136]	rmm
+Model   5	   -826.20	[    13.911,      1.817,      5.000,      1.626]	rmm
+Model   6	  -1019.73	[     7.003,      0.605,      5.000,      1.969]	cmm
+Model   7	  -2336.80	[     0.195,      0.019,      0.667,      1.972]	r
+Model   8	  -2336.81	[     0.281,      0.340,      2.543,      4.956]	r
+Model   9	  -5954.38	[     0.429,      1.817,      4.664,      2.136]	c
+Current mean mutation rate:    0.17848
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.280375112187
+
+
+Iteration #54.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	cm
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -396.13	[     7.003,      0.366,      5.000,      1.001]	c
+Model   5	   -645.46	[    17.777,      1.817,      5.000,      2.136]	rmmm
+Model   6	   -898.32	[     8.741,      0.439,      5.000,      0.772]	cm
+Model   7	  -1331.17	[    13.911,      0.366,      5.000,      1.626]	c
+Model   8	  -1394.64	[     6.069,      0.068,      1.875,      0.377]	r
+Model   9	  -2286.11	[     3.400,      0.222,      4.954,      0.039]	r
+Current mean mutation rate:    0.17759
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.278363662107
+
+
+Iteration #55.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	cm
+Model   3	   -622.45	[     7.202,      0.075,      1.556,      0.326]	rm
+Model   4	   -648.53	[     8.184,      0.366,      5.000,      0.800]	cm
+Model   5	   -723.34	[     8.184,      0.366,      5.000,      0.772]	c
+Model   6	  -1433.01	[     8.184,      0.366,      5.000,      1.626]	c
+Model   7	  -1545.84	[     8.184,      1.817,      5.000,      1.001]	c
+Model   8	  -2318.50	[    11.154,      0.336,      1.301,      2.649]	r
+Model   9	  -2336.80	[     0.263,      0.083,      4.435,      2.683]	r
+Current mean mutation rate:    0.17672
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.27668873469
+
+
+Iteration #56.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	cm
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   5	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   6	   -414.78	[     8.184,      0.331,      5.000,      1.001]	cmm
+Model   7	  -1320.41	[     8.184,      1.817,      5.000,      1.102]	cm
+Model   8	  -2336.80	[     1.784,      0.013,      1.313,      4.725]	r
+Model   9	  -2336.80	[     0.012,      0.035,      0.789,      4.358]	r
+Current mean mutation rate:    0.17584
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.278678602186
+
+
+Iteration #57.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	cm
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   5	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   6	   -396.76	[     8.184,      0.395,      4.483,      1.001]	cm
+Model   7	   -397.33	[    11.537,      0.331,      5.000,      1.001]	cmmm
+Model   8	  -2336.80	[     0.393,      0.029,      2.408,      3.093]	r
+Model   9	 -33005.56	[     1.121,     24.394,      2.791,      3.358]	r
+Current mean mutation rate:    0.17498
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.27749816846
+
+
+Iteration #58.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -395.36	[     9.067,      0.366,      5.000,      1.001]	cm
+Model   4	   -397.08	[     8.184,      0.366,      4.483,      1.001]	c
+Model   5	   -405.81	[     8.184,      0.395,      5.000,      1.001]	c
+Model   6	   -494.70	[     8.184,      0.366,      5.000,      0.874]	cm
+Model   7	   -737.81	[     8.184,      0.366,      5.000,      0.767]	cm
+Model   8	  -2336.80	[     0.160,      0.062,      3.928,      2.370]	r
+Model   9	  -2336.80	[     0.010,      0.002,      3.116,      2.621]	r
+Current mean mutation rate:    0.17411
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.287143647671
+
+
+Iteration #59.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -395.36	[     9.067,      0.366,      5.000,      1.001]	c
+Model   5	   -395.69	[     5.587,      0.395,      5.000,      1.001]	cm
+Model   6	   -405.66	[     4.853,      0.366,      5.000,      0.874]	cmm
+Model   7	   -447.50	[     9.685,      0.420,      5.000,      1.001]	cm
+Model   8	  -2349.31	[     0.323,      0.698,      1.109,      4.144]	r
+Model   9	  -3931.86	[     0.565,      1.277,      2.192,      1.820]	r
+Current mean mutation rate:    0.17325
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.285817126759
+
+
+Iteration #60.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	cm
+Model   3	   -394.77	[     9.685,      0.346,      5.000,      1.001]	cmm
+Model   4	   -395.69	[     5.587,      0.395,      5.000,      1.001]	c
+Model   5	   -447.50	[     9.685,      0.420,      5.000,      1.001]	c
+Model   6	   -855.45	[     9.685,      0.420,      5.000,      1.504]	cmm
+Model   7	  -2336.80	[     3.705,      0.009,      2.134,      4.463]	r
+Model   8	  -2372.37	[     0.323,      0.366,      1.109,      1.001]	c
+Model   9	 -15673.38	[     0.103,     30.062,      1.970,      0.036]	r
+Current mean mutation rate:    0.17240
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.287936479815
+
+
+Iteration #61.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -395.69	[     5.587,      0.395,      5.000,      1.001]	cm
+Model   3	   -396.93	[     9.685,      0.366,      5.000,      1.001]	c
+Model   4	   -401.85	[     9.685,      0.375,      5.000,      1.001]	cmmm
+Model   5	   -420.27	[     5.587,      0.478,      5.000,      1.001]	cm
+Model   6	   -427.05	[     8.184,      0.420,      5.000,      1.001]	c
+Model   7	  -1282.66	[     9.685,      0.346,      5.000,      1.504]	c
+Model   8	  -5921.01	[     0.008,      2.497,      4.051,      3.719]	r
+Model   9	 -37832.63	[     0.209,     11.323,      2.808,      3.532]	r
+Current mean mutation rate:    0.17155
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.289623771395
+
+
+Iteration #62.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -395.69	[     5.587,      0.395,      5.000,      1.001]	cmm
+Model   4	   -396.93	[     9.685,      0.366,      5.000,      1.001]	c
+Model   5	   -407.10	[     8.184,      0.338,      5.000,      1.001]	cm
+Model   6	   -428.51	[     5.587,      0.395,      5.000,      1.073]	cmm
+Model   7	  -2336.80	[     0.041,      0.018,      1.450,      3.465]	r
+Model   8	 -23875.17	[     8.366,     17.562,      1.948,      0.679]	r
+Model   9	 -38709.17	[     0.008,      2.497,      4.051,      1.001]	c
+Current mean mutation rate:    0.17070
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.293038103729
+
+
+Iteration #63.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -395.20	[     8.184,      0.338,      5.000,      0.969]	cmm
+Model   4	   -407.10	[     8.184,      0.338,      5.000,      1.001]	cmm
+Model   5	   -410.76	[     5.587,      0.366,      5.000,      1.001]	c
+Model   6	  -2336.80	[     1.026,      0.011,      1.172,      0.249]	r
+Model   7	  -2336.80	[     0.041,      0.028,      1.450,      4.113]	rm
+Model   8	  -2336.80	[     0.041,      0.018,      1.450,      1.001]	c
+Model   9	 -77631.65	[     0.103,     39.544,      3.304,      1.070]	r
+Current mean mutation rate:    0.16986
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.294157857161
+
+
+Iteration #64.
+Current population of models:
+N		logLL				model
+Model   0	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.61	[     9.136,      0.357,      4.798,      1.001]	cm
+Model   3	   -410.76	[     5.587,      0.366,      5.000,      1.001]	cm
+Model   4	   -841.94	[     8.184,      0.366,      5.000,      0.734]	cm
+Model   5	  -1493.34	[     1.026,      0.338,      5.000,      0.969]	c
+Model   6	  -1552.23	[     1.026,      0.338,      5.000,      1.001]	c
+Model   7	  -1876.29	[     0.701,      0.644,      0.203,      1.320]	r
+Model   8	  -2336.80	[     8.184,      0.011,      1.172,      0.249]	c
+Model   9	 -35940.23	[     0.756,     24.947,      1.583,      1.913]	r
+Current mean mutation rate:    0.16902
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.15
+Model:	[     8.184,      0.366,      5.000,      1.001]	c
+
+Mean time: 	0.292339119044
+
+
+Iteration #65.
+Current population of models:
+N		logLL				model
+Model   0	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   4	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   5	   -400.22	[     6.376,      0.366,      5.000,      1.001]	cmm
+Model   6	   -407.10	[     8.184,      0.338,      5.000,      1.001]	c
+Model   7	  -2334.25	[     1.225,      0.205,      1.824,      1.992]	r
+Model   8	  -2336.80	[     8.184,      0.013,      0.889,      0.249]	cm
+Model   9	  -7093.89	[     0.180,      1.282,      2.769,      1.456]	r
+Current mean mutation rate:    0.17240
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.01
+Model:	[     9.136,      0.357,      5.000,      1.001]	cmm
+
+Mean time: 	0.290677209399
+
+
+Iteration #66.
+Current population of models:
+N		logLL				model
+Model   0	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   1	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   2	   -395.80	[     9.504,      0.366,      4.938,      1.001]	cm
+Model   3	   -404.10	[     8.184,      0.366,      5.000,      0.962]	cm
+Model   4	   -601.05	[     8.184,      0.366,      5.000,      1.216]	cm
+Model   5	  -1052.98	[     8.184,      0.366,      0.889,      0.249]	c
+Model   6	  -1695.61	[     8.184,      0.205,      1.824,      1.001]	c
+Model   7	  -2059.27	[     8.184,      0.338,      5.000,      1.992]	c
+Model   8	  -2336.80	[     0.057,      0.027,      0.658,      2.165]	r
+Model   9	  -2489.83	[     0.068,      0.453,      2.670,      1.806]	r
+Current mean mutation rate:    0.17155
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.01
+Model:	[     9.136,      0.357,      5.000,      1.001]	cmm
+
+Mean time: 	0.28959594404
+
+
+Iteration #67.
+Current population of models:
+N		logLL				model
+Model   0	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   1	   -394.03	[     9.504,      0.357,      4.938,      1.001]	c
+Model   2	   -394.15	[     8.184,      0.366,      5.000,      1.001]	c
+Model   3	   -394.16	[     8.192,      0.366,      5.000,      1.001]	cm
+Model   4	   -394.16	[     8.184,      0.362,      5.000,      1.001]	cm
+Model   5	   -601.05	[     8.184,      0.366,      5.000,      1.216]	c
+Model   6	   -615.83	[     9.136,      0.357,      5.000,      1.216]	c
+Model   7	  -1826.19	[     8.184,      0.338,      5.000,      1.765]	cm
+Model   8	  -2336.80	[     0.228,      0.029,      4.365,      4.005]	r
+Model   9	  -2336.80	[    22.580,      0.033,      2.984,      4.363]	r
+Current mean mutation rate:    0.17070
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.01
+Model:	[     9.136,      0.357,      5.000,      1.001]	cmm
+
+Mean time: 	0.289464712143
+
+
+Iteration #68.
+Current population of models:
+N		logLL				model
+Model   0	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   1	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   2	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   3	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   4	   -394.02	[     9.386,      0.357,      4.938,      1.001]	cm
+Model   5	   -394.03	[     9.504,      0.357,      4.938,      1.001]	c
+Model   6	   -396.51	[     9.535,      0.366,      5.000,      1.001]	cmm
+Model   7	   -595.14	[     8.184,      0.368,      5.000,      1.216]	cm
+Model   8	  -2336.80	[     0.002,      0.062,      0.133,      2.212]	r
+Model   9	  -2336.80	[     0.027,      0.159,      2.124,      3.035]	r
+Current mean mutation rate:    0.16986
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.01
+Model:	[     9.136,      0.357,      5.000,      1.001]	cmm
+
+Mean time: 	0.288688973018
+
+
+Iteration #69.
+Current population of models:
+N		logLL				model
+Model   0	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   1	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   2	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   3	   -394.12	[     9.535,      0.357,      5.000,      1.001]	c
+Model   4	   -394.38	[     8.550,      0.357,      5.000,      1.001]	cm
+Model   5	   -394.70	[     9.535,      0.348,      5.000,      1.001]	cmmm
+Model   6	   -436.62	[     9.504,      0.357,      4.938,      1.090]	cm
+Model   7	   -639.57	[     8.184,      0.357,      5.000,      1.216]	c
+Model   8	  -2336.80	[     0.270,      0.014,      2.388,      0.482]	r
+Model   9	 -16733.78	[     0.117,      1.146,      2.672,      0.601]	r
+Current mean mutation rate:    0.16902
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.01
+Model:	[     9.136,      0.357,      5.000,      1.001]	cmm
+
+Mean time: 	0.28720176052
+
+
+Iteration #70.
+Current population of models:
+N		logLL				model
+Model   0	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   1	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   2	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   3	   -395.47	[     9.136,      0.348,      5.000,      1.001]	c
+Model   4	   -412.27	[     9.136,      0.357,      5.000,      1.058]	cmmm
+Model   5	   -422.71	[     8.184,      0.448,      5.000,      1.216]	cm
+Model   6	   -433.96	[     9.504,      0.357,      5.000,      1.090]	c
+Model   7	  -1895.58	[     9.457,      0.835,      1.466,      2.870]	r
+Model   8	  -2336.80	[     0.270,      0.014,      1.361,      0.482]	rm
+Model   9	  -2802.53	[     0.615,      1.048,      4.738,      2.316]	r
+Current mean mutation rate:    0.16818
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.01
+Model:	[     9.136,      0.357,      5.000,      1.001]	cmm
+
+Mean time: 	0.285814248853
+
+
+Iteration #71.
+Current population of models:
+N		logLL				model
+Model   0	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   1	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   2	   -395.47	[     9.136,      0.348,      5.000,      1.001]	c
+Model   3	   -396.00	[     9.136,      0.357,      5.000,      0.982]	cmmmm
+Model   4	   -397.54	[     9.612,      0.426,      5.000,      1.090]	cm
+Model   5	   -473.50	[     9.136,      0.448,      5.000,      1.001]	c
+Model   6	   -481.43	[     9.136,      0.298,      5.000,      1.001]	cmmm
+Model   7	  -2336.80	[     0.037,      0.052,      4.044,      1.975]	r
+Model   8	  -2336.80	[     9.457,      0.014,      1.361,      2.870]	c
+Model   9	  -2337.13	[     0.005,      0.196,      3.530,      1.999]	r
+Current mean mutation rate:    0.16735
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -394.01
+Model:	[     9.136,      0.357,      5.000,      1.001]	cmm
+
+Mean time: 	0.290072261471
+
+
+Iteration #72.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   2	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   3	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   4	   -397.54	[     9.612,      0.426,      5.000,      1.090]	c
+Model   5	   -411.08	[    11.644,      0.317,      5.000,      1.001]	cmmmm
+Model   6	   -438.74	[     9.136,      0.419,      5.000,      1.001]	cm
+Model   7	   -453.21	[     9.612,      0.426,      5.000,      1.001]	c
+Model   8	  -2755.87	[     0.015,      0.920,      4.981,      2.927]	r
+Model   9	-114917.40	[     0.011,     30.283,      3.299,      2.321]	r
+Current mean mutation rate:    0.17070
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.292946596403
+
+
+Iteration #73.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   2	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   3	   -394.61	[     8.397,      0.357,      5.000,      1.001]	cmmm
+Model   4	   -395.47	[     9.136,      0.348,      5.000,      1.001]	c
+Model   5	   -401.97	[     9.612,      0.593,      5.000,      1.382]	cm
+Model   6	   -438.74	[     9.136,      0.419,      5.000,      1.001]	c
+Model   7	   -878.62	[     0.281,      0.005,      4.898,      0.018]	r
+Model   8	   -982.57	[    10.697,      0.348,      5.000,      1.383]	cmm
+Model   9	  -2336.80	[    12.545,      0.015,      0.963,      1.114]	r
+Current mean mutation rate:    0.16986
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.291966228485
+
+
+Iteration #74.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   2	   -394.61	[     8.397,      0.357,      5.000,      1.001]	c
+Model   3	   -401.97	[     9.612,      0.593,      5.000,      1.382]	cmm
+Model   4	   -404.21	[     9.136,      0.593,      5.000,      1.382]	c
+Model   5	   -410.09	[     9.136,      0.357,      5.000,      1.054]	cmmm
+Model   6	   -730.93	[     9.136,      0.357,      5.000,      1.275]	cmmm
+Model   7	   -982.57	[    10.697,      0.348,      5.000,      1.383]	c
+Model   8	  -2336.80	[     0.004,      0.004,      0.505,      0.862]	r
+Model   9	 -24245.30	[     2.714,     14.780,      1.135,      3.078]	r
+Current mean mutation rate:    0.16902
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.292478608458
+
+
+Iteration #75.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   2	   -394.61	[     8.397,      0.357,      5.000,      1.001]	cm
+Model   3	   -398.79	[    10.697,      0.593,      5.000,      1.383]	c
+Model   4	   -406.45	[     9.136,      0.423,      5.000,      1.054]	cmmmm
+Model   5	   -656.16	[     9.612,      0.593,      5.000,      1.728]	cmmm
+Model   6	   -958.95	[     9.136,      0.357,      5.000,      1.382]	c
+Model   7	   -982.57	[    10.697,      0.348,      5.000,      1.383]	c
+Model   8	  -1033.99	[     1.157,      0.061,      3.726,      0.147]	r
+Model   9	  -2336.80	[     0.732,      0.076,      4.619,      3.974]	r
+Current mean mutation rate:    0.16818
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.291240106929
+
+
+Iteration #76.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmm
+Model   3	   -394.01	[     9.136,      0.357,      5.000,      1.001]	c
+Model   4	   -396.05	[    10.957,      0.357,      5.000,      1.001]	cmm
+Model   5	   -405.47	[    10.697,      0.593,      5.000,      1.284]	cm
+Model   6	   -406.45	[     9.136,      0.423,      5.000,      1.054]	c
+Model   7	   -982.57	[    10.697,      0.348,      5.000,      1.383]	cm
+Model   8	  -2222.68	[     1.746,      0.615,      2.751,      2.976]	r
+Model   9	  -3117.19	[     0.009,      0.736,      0.088,      1.938]	r
+Current mean mutation rate:    0.16735
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.289641413933
+
+
+Iteration #77.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.01	[     9.136,      0.357,      5.000,      1.001]	cmmm
+Model   4	   -423.94	[     9.136,      0.346,      5.000,      1.054]	cm
+Model   5	   -535.65	[     9.136,      0.357,      5.000,      1.168]	cmmm
+Model   6	   -647.06	[    10.697,      0.593,      5.000,      1.001]	c
+Model   7	   -714.51	[    10.697,      0.357,      5.000,      1.284]	c
+Model   8	  -2336.80	[     2.399,      0.006,      3.940,      0.118]	r
+Model   9	  -3123.26	[     0.034,      0.238,      2.137,      0.590]	r
+Current mean mutation rate:    0.16652
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.288432371767
+
+
+Iteration #78.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -395.24	[    10.697,      0.339,      5.000,      1.001]	cmm
+Model   4	   -398.01	[    10.697,      0.348,      5.000,      0.976]	cmm
+Model   5	   -522.26	[    10.697,      0.593,      5.000,      1.104]	cm
+Model   6	   -762.80	[    10.697,      0.348,      5.000,      1.284]	c
+Model   7	  -2296.99	[     0.508,      0.336,      0.300,      1.925]	r
+Model   8	  -2336.80	[     0.037,      0.028,      0.738,      1.968]	r
+Model   9	  -2336.80	[    10.697,      0.006,      5.000,      1.001]	c
+Current mean mutation rate:    0.16570
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.28816806674
+
+
+Iteration #79.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	   -404.25	[    10.697,      0.451,      4.714,      1.099]	cm
+Model   6	   -451.28	[    10.697,      0.348,      5.000,      0.908]	cm
+Model   7	   -762.80	[    10.697,      0.348,      5.000,      1.284]	cm
+Model   8	 -11477.41	[     0.493,      2.483,      1.178,      1.237]	r
+Model   9	 -61028.08	[     0.003,      5.507,      3.310,      1.512]	r
+Current mean mutation rate:    0.16488
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.291768683328
+
+
+Iteration #80.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	   -396.32	[    10.697,      0.348,      3.629,      0.908]	cmm
+Model   6	   -451.28	[    10.697,      0.348,      5.000,      0.908]	c
+Model   7	   -609.37	[    10.697,      0.348,      3.899,      1.149]	cm
+Model   8	 -13461.13	[     2.156,      9.677,      3.947,      3.838]	r
+Model   9	 -81961.25	[     0.232,     86.565,      4.327,      3.862]	r
+Current mean mutation rate:    0.16407
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.290298392133
+
+
+Iteration #81.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -396.32	[    10.697,      0.348,      3.629,      0.908]	c
+Model   4	   -411.99	[    10.697,      0.374,      3.629,      0.908]	cmmm
+Model   5	   -477.00	[    10.697,      0.432,      5.000,      1.001]	cmm
+Model   6	   -485.14	[     3.263,      0.030,      0.663,      0.138]	r
+Model   7	   -519.14	[    10.697,      0.398,      3.319,      1.149]	cmm
+Model   8	  -1641.01	[     6.440,      1.013,      0.526,      1.019]	r
+Model   9	 -17822.48	[    10.697,      9.677,      3.947,      1.001]	c
+Current mean mutation rate:    0.16326
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.288822291845
+
+
+Iteration #82.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -438.97	[    10.697,      0.030,      0.663,      0.138]	c
+Model   5	   -460.77	[    10.697,      0.398,      3.975,      1.149]	cmmm
+Model   6	   -466.59	[    10.697,      0.296,      5.000,      1.001]	cmmm
+Model   7	   -524.24	[    10.697,      0.466,      5.000,      1.001]	cm
+Model   8	  -2336.80	[     0.936,      0.029,      2.182,      3.950]	r
+Model   9	 -58288.88	[     0.013,      2.092,      4.692,      0.404]	r
+Current mean mutation rate:    0.16245
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.289780514581
+
+
+Iteration #83.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -394.65	[    10.697,      0.362,      4.373,      1.001]	cmmmm
+Model   4	   -397.40	[    10.697,      0.398,      3.975,      1.001]	c
+Model   5	   -466.59	[    10.697,      0.296,      5.000,      1.001]	c
+Model   6	   -524.24	[    10.697,      0.466,      5.000,      1.001]	c
+Model   7	   -815.33	[    10.697,      0.273,      5.000,      1.097]	cm
+Model   8	  -3113.77	[     0.844,      2.180,      4.942,      4.693]	r
+Model   9	  -4397.20	[     3.264,      3.653,      3.548,      2.301]	r
+Current mean mutation rate:    0.16165
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.288362402074
+
+
+Iteration #84.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cmm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -394.65	[    10.697,      0.362,      4.373,      1.001]	c
+Model   5	   -397.54	[    10.697,      0.362,      5.000,      1.001]	cmmmmm
+Model   6	   -431.15	[    10.697,      0.398,      5.000,      1.001]	c
+Model   7	  -2298.16	[     1.725,      1.025,      0.142,      1.976]	r
+Model   8	  -2336.80	[     1.015,      0.028,      2.950,      1.018]	r
+Model   9	  -2415.89	[     0.844,      1.612,      4.942,      6.525]	rm
+Current mean mutation rate:    0.16085
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.287293991377
+
+
+Iteration #85.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -395.70	[    14.701,      0.362,      4.373,      1.001]	cm
+Model   4	   -397.54	[    10.697,      0.362,      5.000,      1.001]	c
+Model   5	   -400.06	[    10.697,      0.348,      4.373,      1.001]	c
+Model   6	   -400.16	[    10.697,      0.454,      2.749,      1.001]	cmm
+Model   7	   -467.60	[    10.697,      0.362,      5.000,      0.916]	cmmmmmm
+Model   8	  -2346.58	[     0.764,      0.786,      3.596,      2.514]	r
+Model   9	 -40288.71	[     0.541,     21.655,      3.197,      4.603]	r
+Current mean mutation rate:    0.16006
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.286366095488
+
+
+Iteration #86.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -398.21	[    14.701,      0.348,      5.000,      1.001]	c
+Model   4	   -398.85	[    14.701,      0.362,      4.028,      0.967]	cmm
+Model   5	   -413.24	[    10.697,      0.348,      4.373,      0.915]	cm
+Model   6	   -504.22	[    10.697,      0.348,      2.749,      1.001]	c
+Model   7	   -568.28	[    10.697,      0.348,      5.000,      1.184]	cm
+Model   8	  -2329.31	[     5.768,      0.326,      2.236,      2.941]	r
+Model   9	 -12918.26	[     1.674,      7.345,      3.853,      1.639]	r
+Current mean mutation rate:    0.15927
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.285463717851
+
+
+Iteration #87.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -397.54	[    10.697,      0.362,      5.000,      1.001]	c
+Model   3	   -398.21	[    14.701,      0.348,      5.000,      1.001]	cm
+Model   4	   -417.84	[     5.768,      0.362,      4.028,      0.967]	c
+Model   5	   -433.22	[    10.697,      0.348,      3.537,      1.001]	cm
+Model   6	   -439.25	[    14.701,      0.312,      4.834,      1.030]	cmmm
+Model   7	   -504.22	[    10.697,      0.348,      2.749,      1.001]	c
+Model   8	  -2336.80	[     0.361,      0.006,      3.652,      1.160]	r
+Model   9	  -2336.80	[     0.018,      0.139,      2.481,      4.135]	r
+Current mean mutation rate:    0.15848
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.288453878981
+
+
+Iteration #88.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -404.83	[     6.781,      0.362,      4.028,      0.967]	cm
+Model   4	   -429.29	[     5.768,      0.348,      5.000,      1.001]	c
+Model   5	   -433.22	[    10.697,      0.348,      3.537,      1.001]	c
+Model   6	   -433.40	[    10.697,      0.502,      3.537,      1.001]	cmm
+Model   7	   -458.44	[    10.697,      0.371,      2.749,      1.001]	cm
+Model   8	  -5385.41	[     0.174,      2.117,      0.641,      3.159]	r
+Model   9	 -11867.45	[     0.041,      3.690,      2.794,      3.421]	r
+Current mean mutation rate:    0.15770
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.287417870098
+
+
+Iteration #89.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -396.76	[    10.697,      0.336,      5.000,      1.001]	cmm
+Model   3	   -402.82	[    10.697,      0.514,      2.749,      1.001]	cmm
+Model   4	   -433.22	[    10.697,      0.348,      3.537,      1.001]	c
+Model   5	   -463.83	[    10.697,      0.423,      5.000,      1.001]	cm
+Model   6	   -504.22	[    10.697,      0.348,      2.749,      1.001]	c
+Model   7	  -2336.80	[     0.015,      0.032,      0.896,      4.750]	r
+Model   8	  -3043.53	[     6.781,      2.117,      0.641,      3.159]	c
+Model   9	  -3373.28	[     0.500,      0.655,      3.306,      0.185]	r
+Current mean mutation rate:    0.15692
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.287000760927
+
+
+Iteration #90.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -404.16	[    10.697,      0.514,      2.430,      1.001]	cmmm
+Model   5	   -408.50	[    10.697,      0.423,      2.749,      1.001]	c
+Model   6	   -504.02	[    10.697,      0.356,      5.000,      0.885]	cmmm
+Model   7	   -627.07	[    10.697,      0.514,      2.749,      1.353]	cmmm
+Model   8	  -2336.80	[     0.869,      0.015,      4.281,      3.884]	r
+Model   9	  -4705.77	[     9.640,      3.200,      0.238,      4.045]	r
+Current mean mutation rate:    0.15614
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.28822107937
+
+
+Iteration #91.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -396.17	[    10.697,      0.423,      3.271,      1.001]	cm
+Model   4	   -408.50	[    10.697,      0.423,      2.749,      1.001]	c
+Model   5	   -430.09	[    10.697,      0.397,      5.000,      1.001]	cm
+Model   6	   -523.22	[    10.697,      0.348,      5.000,      1.156]	cm
+Model   7	  -2336.80	[     0.869,      0.015,      2.749,      3.884]	c
+Model   8	  -2336.80	[     0.159,      0.117,      1.019,      4.849]	r
+Model   9	 -29018.66	[    20.487,     15.708,      2.086,      1.406]	r
+Current mean mutation rate:    0.15537
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.288615724092
+
+
+Iteration #92.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -396.30	[    10.253,      0.423,      3.271,      1.001]	cmm
+Model   3	   -396.39	[    10.697,      0.423,      3.399,      1.001]	cmm
+Model   4	   -408.50	[    10.697,      0.423,      2.749,      1.001]	c
+Model   5	   -428.01	[    10.697,      0.527,      3.271,      1.218]	cmm
+Model   6	   -463.83	[    10.697,      0.423,      5.000,      1.001]	c
+Model   7	  -2105.63	[     4.326,      1.341,      0.806,      2.237]	r
+Model   8	  -2331.92	[     1.325,      0.489,      1.019,      3.849]	r
+Model   9	  -2336.80	[     0.869,      0.015,      2.749,      1.001]	c
+Current mean mutation rate:    0.15461
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.287590004028
+
+
+Iteration #93.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -396.39	[    10.697,      0.423,      3.399,      1.001]	c
+Model   3	   -407.14	[    10.697,      0.602,      3.271,      1.218]	cmmm
+Model   4	   -422.89	[    10.697,      0.537,      3.271,      1.218]	cmmm
+Model   5	   -504.22	[    10.697,      0.348,      2.749,      1.001]	c
+Model   6	   -550.05	[    10.697,      0.276,      5.000,      1.001]	cm
+Model   7	  -1694.59	[    10.697,      0.527,      3.271,      2.237]	c
+Model   8	  -2337.29	[     0.014,      0.476,      3.238,      4.671]	r
+Model   9	  -5238.02	[     1.142,      3.342,      1.704,      0.175]	r
+Current mean mutation rate:    0.15384
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.287330351378
+
+
+Iteration #94.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -416.39	[    10.697,      0.409,      2.749,      1.001]	cm
+Model   3	   -428.01	[    10.697,      0.527,      3.271,      1.218]	c
+Model   4	   -560.10	[    10.697,      0.423,      3.271,      1.218]	c
+Model   5	   -634.02	[    10.697,      0.527,      3.271,      1.444]	cm
+Model   6	   -836.93	[    10.697,      0.348,      3.271,      1.218]	c
+Model   7	  -1823.12	[     3.906,      1.403,      3.289,      3.705]	r
+Model   8	  -2337.01	[     0.014,      0.476,      3.238,      5.085]	rm
+Model   9	  -5212.38	[     3.745,      2.147,      1.253,      0.806]	r
+Current mean mutation rate:    0.15308
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.288330410918
+
+
+Iteration #95.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -406.43	[    10.697,      0.375,      5.000,      1.001]	cm
+Model   3	   -428.01	[    10.697,      0.527,      3.271,      1.218]	c
+Model   4	   -453.66	[    10.697,      0.527,      3.271,      1.261]	cmm
+Model   5	   -638.99	[    10.697,      0.527,      3.238,      1.444]	c
+Model   6	   -963.63	[    31.056,      0.262,      2.529,      1.025]	r
+Model   7	  -1251.98	[    10.697,      1.403,      3.289,      1.001]	c
+Model   8	  -1359.52	[     3.906,      1.403,      3.289,      2.522]	rm
+Model   9	  -6550.30	[     0.829,     10.657,      4.305,      0.115]	r
+Current mean mutation rate:    0.15233
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.288556787157
+
+
+Iteration #96.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -401.54	[     9.700,      0.375,      5.000,      1.001]	cmm
+Model   3	   -405.77	[    10.697,      0.375,      4.975,      1.001]	cmm
+Model   4	   -406.43	[    10.697,      0.375,      5.000,      1.001]	c
+Model   5	   -410.93	[    10.697,      0.661,      3.271,      1.261]	cmmm
+Model   6	   -426.81	[    10.697,      0.527,      3.271,      1.001]	c
+Model   7	   -638.99	[    10.697,      0.527,      3.238,      1.444]	c
+Model   8	  -2336.80	[     2.295,      0.170,      1.799,      3.468]	r
+Model   9	  -2336.80	[     0.033,      0.044,      1.951,      2.925]	r
+Current mean mutation rate:    0.15158
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.290105899986
+
+
+Iteration #97.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.47	[     9.700,      0.348,      5.000,      1.001]	c
+Model   4	   -394.52	[    10.697,      0.375,      4.148,      1.001]	cmmm
+Model   5	   -404.37	[    10.697,      0.326,      5.000,      1.001]	cm
+Model   6	   -405.77	[    10.697,      0.375,      4.975,      1.001]	c
+Model   7	   -415.42	[    10.697,      0.348,      5.000,      0.943]	cm
+Model   8	 -13517.64	[     0.466,      3.027,      1.001,      1.372]	r
+Model   9	 -21496.27	[    10.599,     16.345,      4.078,      1.020]	r
+Current mean mutation rate:    0.15083
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.289848426376
+
+
+Iteration #98.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.52	[    10.697,      0.375,      4.148,      1.001]	c
+Model   4	   -400.02	[    10.697,      0.348,      5.000,      0.970]	cmm
+Model   5	   -405.77	[    10.697,      0.375,      4.975,      1.001]	c
+Model   6	   -424.15	[    10.697,      0.444,      3.995,      1.001]	cmm
+Model   7	   -547.98	[    10.697,      0.484,      5.000,      1.001]	cm
+Model   8	  -2336.80	[     0.562,      0.002,      0.905,      3.379]	r
+Model   9	 -42467.84	[     0.029,      1.668,      2.264,      0.073]	r
+Current mean mutation rate:    0.15008
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.295772993565
+
+
+Iteration #99.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -395.32	[    10.697,      0.348,      4.148,      0.970]	c
+Model   4	   -406.18	[    10.697,      0.444,      3.585,      1.001]	cmmm
+Model   5	   -493.25	[    10.697,      0.444,      5.000,      1.001]	c
+Model   6	   -602.10	[    10.697,      0.317,      5.000,      1.130]	cm
+Model   7	   -810.42	[    10.697,      0.403,      5.000,      0.807]	cmmm
+Model   8	  -2102.06	[    35.495,      0.673,      1.529,      3.092]	r
+Model   9	  -3395.32	[     2.455,      2.622,      0.392,      4.601]	r
+Current mean mutation rate:    0.14934
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.29578565843
+
+
+Iteration #100.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -437.35	[    10.697,      0.403,      5.000,      1.001]	c
+Model   3	   -482.04	[    10.697,      0.444,      5.000,      1.010]	cm
+Model   4	   -493.25	[    10.697,      0.444,      5.000,      1.001]	c
+Model   5	   -529.28	[    10.697,      0.403,      3.288,      0.807]	cmmmm
+Model   6	   -602.10	[    10.697,      0.317,      5.000,      1.130]	cmm
+Model   7	  -2329.21	[    35.495,      0.348,      1.529,      3.092]	c
+Model   8	  -2999.88	[     0.002,      0.373,      3.960,      1.038]	r
+Model   9	  -5482.50	[     0.986,      1.922,      1.057,      1.128]	r
+Current mean mutation rate:    0.14860
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.309959839372
+
+
+Iteration #101.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.37	[    10.697,      0.348,      5.000,      1.010]	c
+Model   4	   -415.64	[    12.924,      0.348,      5.000,      0.959]	cmm
+Model   5	   -423.02	[    10.697,      0.317,      5.000,      1.010]	c
+Model   6	   -517.20	[    10.697,      0.403,      3.288,      0.815]	cmmmmm
+Model   7	  -2328.11	[    35.495,      0.348,      1.860,      3.092]	cm
+Model   8	  -2336.49	[     4.839,      0.219,      4.139,      2.825]	r
+Model   9	  -3188.65	[     2.140,      3.079,      4.656,      4.542]	r
+Current mean mutation rate:    0.14787
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.309925151103
+
+
+Iteration #102.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -394.23	[    12.924,      0.348,      5.000,      1.010]	c
+Model   3	   -461.01	[     4.839,      0.348,      5.000,      1.001]	c
+Model   4	   -471.95	[     7.622,      0.403,      3.288,      0.815]	cmmmmmm
+Model   5	  -2068.99	[    28.847,      0.348,      1.860,      1.881]	cmm
+Model   6	  -2303.58	[    10.697,      0.348,      5.000,      2.825]	c
+Model   7	  -2328.10	[    35.495,      0.348,      1.862,      3.092]	cmm
+Model   8	  -2336.80	[     0.240,      0.002,      2.116,      3.256]	r
+Model   9	 -18186.19	[     0.115,      3.814,      3.635,      2.489]	r
+Current mean mutation rate:    0.14714
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.318841216656
+
+
+Iteration #103.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -395.61	[    12.924,      0.348,      5.000,      1.001]	c
+Model   3	   -399.96	[     7.622,      0.326,      3.288,      0.815]	cmmmmmmm
+Model   4	   -424.10	[     7.622,      0.403,      2.722,      0.815]	cmmmmmmm
+Model   5	   -449.10	[    10.697,      0.412,      5.000,      1.001]	cmm
+Model   6	   -483.59	[     7.622,      0.348,      3.288,      1.001]	c
+Model   7	  -2318.17	[    35.495,      0.348,      5.000,      3.092]	c
+Model   8	  -6598.59	[     2.307,      4.642,      4.923,      1.231]	r
+Model   9	 -14939.71	[     0.260,      2.639,      4.597,      1.633]	r
+Current mean mutation rate:    0.14641
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.317431234178
+
+
+Iteration #104.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -395.25	[     6.263,      0.326,      3.288,      0.815]	cmmmmmmmm
+Model   3	   -408.32	[    10.697,      0.412,      5.000,      1.054]	cmmm
+Model   4	   -417.61	[     6.925,      0.403,      2.722,      0.815]	cmmmmmmmm
+Model   5	   -423.85	[    35.495,      0.348,      5.000,      1.001]	c
+Model   6	   -480.63	[     7.622,      0.412,      3.288,      0.815]	c
+Model   7	   -661.73	[     7.622,      0.403,      4.923,      0.815]	c
+Model   8	  -2336.80	[     0.482,      0.107,      4.787,      3.771]	r
+Model   9	-136750.04	[     0.006,     37.460,      1.345,      1.566]	r
+Current mean mutation rate:    0.14569
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.316958060804
+
+
+Iteration #105.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -400.25	[     6.925,      0.403,      5.000,      1.001]	c
+Model   3	   -419.41	[    10.697,      0.412,      5.000,      1.187]	cmmmm
+Model   4	   -425.78	[     7.622,      0.412,      2.673,      0.815]	cm
+Model   5	   -449.40	[     7.622,      0.403,      5.000,      0.944]	cm
+Model   6	   -452.50	[     6.925,      0.403,      2.722,      1.001]	c
+Model   7	  -2266.52	[     1.886,      0.157,      3.701,      1.128]	r
+Model   8	  -2336.80	[     6.925,      0.107,      2.722,      3.771]	c
+Model   9	 -12660.55	[     0.063,      1.410,      0.601,      1.177]	r
+Current mean mutation rate:    0.14497
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.315673939536
+
+
+Iteration #106.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -403.23	[    14.812,      0.412,      5.000,      1.187]	cmmmmm
+Model   4	   -506.63	[    10.697,      0.403,      5.000,      0.944]	c
+Model   5	   -573.66	[    10.697,      0.348,      5.000,      1.187]	c
+Model   6	  -2195.02	[     6.925,      0.157,      3.701,      1.128]	c
+Model   7	  -2336.80	[     6.925,      0.107,      2.722,      2.024]	cm
+Model   8	  -2336.80	[    27.623,      0.080,      0.272,      1.743]	r
+Model   9	  -2336.80	[     1.238,      0.071,      0.604,      4.811]	r
+Current mean mutation rate:    0.14425
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.314717670282
+
+
+Iteration #107.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.61	[    18.828,      0.412,      5.000,      1.150]	cmmmmmm
+Model   4	   -396.56	[    10.697,      0.403,      2.891,      0.944]	cm
+Model   5	   -401.23	[    14.812,      0.415,      5.000,      1.187]	cmmmmmm
+Model   6	   -449.10	[    10.697,      0.412,      5.000,      1.001]	c
+Model   7	   -530.30	[    14.812,      0.348,      5.000,      1.187]	c
+Model   8	  -2329.31	[     6.384,      0.484,      0.875,      3.886]	r
+Model   9	  -2336.80	[     0.195,      0.029,      4.390,      0.541]	r
+Current mean mutation rate:    0.14354
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.313464864678
+
+
+Iteration #108.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.31	[    18.828,      0.412,      5.000,      1.155]	cmmmmmmm
+Model   4	   -415.99	[    10.697,      0.412,      5.000,      1.181]	cm
+Model   5	   -449.10	[    10.697,      0.412,      5.000,      1.001]	c
+Model   6	   -455.03	[    10.697,      0.348,      5.000,      0.905]	cmm
+Model   7	   -506.63	[    10.697,      0.403,      5.000,      0.944]	c
+Model   8	  -2336.66	[     0.437,      0.413,      0.017,      4.689]	r
+Model   9	  -3140.52	[     5.609,      0.576,      0.932,      0.176]	r
+Current mean mutation rate:    0.14283
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.312131602114
+
+
+Iteration #109.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -394.31	[    18.828,      0.412,      5.000,      1.155]	c
+Model   5	   -395.92	[    10.697,      0.412,      3.543,      1.001]	cm
+Model   6	   -417.47	[    10.697,      0.412,      4.383,      1.001]	cm
+Model   7	   -422.37	[    10.697,      0.348,      4.404,      0.905]	cmmm
+Model   8	  -5052.51	[     5.670,      3.595,      2.153,      2.353]	r
+Model   9	 -23204.06	[     0.078,      1.658,      1.167,      0.777]	r
+Current mean mutation rate:    0.14213
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.310838344935
+
+
+Iteration #110.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cmm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -396.00	[    10.697,      0.348,      4.404,      0.954]	cmmmm
+Model   5	   -432.83	[    10.697,      0.348,      3.543,      1.001]	c
+Model   6	   -437.75	[    10.697,      0.412,      3.543,      1.113]	cmm
+Model   7	   -455.03	[    10.697,      0.348,      5.000,      0.905]	c
+Model   8	  -2353.91	[     0.005,      0.264,      2.804,      1.657]	r
+Model   9	 -23966.66	[     0.013,      5.994,      0.116,      3.525]	r
+Current mean mutation rate:    0.14143
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.31149127015
+
+
+Iteration #111.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -399.19	[    12.800,      0.412,      4.263,      1.113]	cmmm
+Model   5	   -455.03	[    10.697,      0.348,      5.000,      0.905]	c
+Model   6	   -497.54	[    10.697,      0.412,      3.543,      0.859]	cmmm
+Model   7	   -907.05	[    10.697,      0.264,      2.804,      1.001]	c
+Model   8	  -2336.80	[     2.037,      0.118,      4.532,      2.194]	r
+Model   9	  -2336.80	[     0.007,      0.042,      3.435,      2.159]	r
+Current mean mutation rate:    0.14073
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.31238101225
+
+
+Iteration #112.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cmm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   6	   -598.53	[    12.049,      0.348,      5.000,      1.212]	cmm
+Model   7	   -904.02	[    10.697,      0.348,      5.000,      1.348]	cmm
+Model   8	  -2314.58	[    17.863,      0.229,      0.755,      1.806]	r
+Model   9	  -2337.12	[     0.198,      0.392,      4.779,      3.755]	r
+Current mean mutation rate:    0.14003
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.311165345343
+
+
+Iteration #113.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	   -393.93	[    10.926,      0.348,      5.000,      1.001]	cmmm
+Model   6	   -500.25	[    11.502,      0.270,      5.000,      0.760]	cm
+Model   7	   -815.67	[    10.697,      0.348,      5.000,      1.308]	cmm
+Model   8	  -3883.91	[    53.800,      3.208,      0.683,      4.361]	r
+Model   9	 -92075.58	[     0.037,     22.852,      2.640,      1.618]	r
+Current mean mutation rate:    0.13934
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.31016211717
+
+
+Iteration #114.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -426.86	[    10.697,      0.348,      5.000,      1.076]	cm
+Model   4	   -431.89	[     9.276,      0.348,      5.000,      0.911]	cm
+Model   5	   -815.67	[    10.697,      0.348,      5.000,      1.308]	c
+Model   6	  -2333.23	[     1.438,      0.050,      3.713,      0.561]	r
+Model   7	  -2336.75	[     2.564,      0.363,      3.098,      4.904]	r
+Model   8	  -2583.29	[    47.665,      2.246,      0.911,      4.361]	rm
+Model   9	  -3883.91	[    53.800,      3.208,      0.683,      4.361]	c
+Current mean mutation rate:    0.13865
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.308955418653
+
+
+Iteration #115.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -395.16	[     9.276,      0.348,      5.000,      1.001]	c
+Model   5	   -407.40	[    10.697,      0.348,      5.000,      1.048]	cm
+Model   6	   -648.03	[    10.095,      0.348,      5.000,      1.222]	cm
+Model   7	  -2336.70	[    10.697,      0.363,      3.098,      4.904]	c
+Model   8	  -2336.80	[     1.855,      0.040,      4.401,      4.972]	r
+Model   9	  -3348.23	[     0.142,      0.821,      0.111,      0.967]	r
+Current mean mutation rate:    0.13797
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.308184900854
+
+
+Iteration #116.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cmm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	   -407.40	[    10.697,      0.348,      5.000,      1.048]	c
+Model   6	   -421.44	[    10.697,      0.390,      5.000,      1.001]	cm
+Model   7	   -504.64	[    10.697,      0.348,      5.000,      0.873]	cm
+Model   8	  -1882.23	[    17.606,      1.142,      2.377,      3.927]	r
+Model   9	 -21747.06	[     0.247,      2.576,      1.316,      0.721]	r
+Current mean mutation rate:    0.13729
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.306990520429
+
+
+Iteration #117.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -407.40	[    10.697,      0.348,      5.000,      1.048]	c
+Model   4	   -449.58	[    12.485,      0.351,      3.090,      1.001]	cm
+Model   5	  -1763.13	[    17.606,      1.142,      2.377,      3.618]	rm
+Model   6	  -1855.85	[    17.606,      1.142,      2.377,      3.853]	rm
+Model   7	  -2335.97	[    10.697,      0.348,      2.377,      3.927]	c
+Model   8	 -15252.40	[     0.177,      1.071,      3.853,      0.397]	r
+Model   9	 -71992.90	[     0.062,     15.369,      4.895,      0.588]	r
+Current mean mutation rate:    0.13661
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.306117869225
+
+
+Iteration #118.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -488.15	[    10.697,      0.348,      5.000,      0.883]	cm
+Model   3	   -650.95	[    10.697,      1.142,      5.000,      1.048]	c
+Model   4	  -1854.14	[    18.153,      1.142,      2.377,      3.853]	rmm
+Model   5	  -2334.90	[    17.606,      0.348,      5.000,      3.853]	c
+Model   6	  -2335.58	[    17.606,      0.351,      2.377,      3.853]	c
+Model   7	  -2336.62	[     0.817,      0.040,      3.147,      0.552]	r
+Model   8	 -15252.28	[     0.177,      1.071,      2.331,      0.397]	rm
+Model   9	 -30755.38	[     0.066,      5.203,      4.485,      2.322]	r
+Current mean mutation rate:    0.13593
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.305278235674
+
+
+Iteration #119.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cmm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	  -1265.60	[     1.195,      0.821,      3.423,      0.551]	r
+Model   5	  -1854.14	[    18.153,      1.142,      2.377,      3.853]	c
+Model   6	  -2334.85	[    21.188,      0.348,      5.000,      3.853]	cm
+Model   7	  -2335.10	[    10.697,      0.348,      5.000,      3.853]	c
+Model   8	  -2335.58	[    18.070,      0.351,      2.377,      3.853]	cm
+Model   9	 -19821.78	[     0.521,      7.718,      2.695,      3.883]	r
+Current mean mutation rate:    0.13526
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.304147986341
+
+
+Iteration #120.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.99	[    10.697,      0.348,      5.000,      1.005]	cmmm
+Model   4	   -491.96	[     1.195,      0.348,      5.000,      0.551]	c
+Model   5	  -1811.53	[    18.153,      1.142,      2.620,      3.853]	cm
+Model   6	  -2333.63	[    13.491,      0.054,      2.921,      0.649]	r
+Model   7	  -2335.10	[    10.697,      0.348,      5.000,      3.853]	c
+Model   8	  -2335.10	[    10.697,      0.348,      5.000,      3.853]	c
+Model   9	  -2336.80	[     1.706,      0.276,      3.477,      4.338]	r
+Current mean mutation rate:    0.13459
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303060764172
+
+
+Iteration #121.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -396.41	[    10.697,      0.280,      5.000,      0.855]	cmm
+Model   4	   -431.09	[    10.697,      0.398,      5.000,      1.001]	cm
+Model   5	   -452.47	[    10.697,      0.306,      5.000,      0.841]	cmm
+Model   6	  -1687.00	[    10.697,      0.348,      5.000,      0.551]	c
+Model   7	  -1687.00	[    10.697,      0.348,      5.000,      0.551]	c
+Model   8	  -2336.80	[     1.376,      0.080,      1.070,      1.845]	r
+Model   9	  -2336.80	[     0.170,      0.049,      2.767,      2.993]	r
+Current mean mutation rate:    0.13393
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302209082658
+
+
+Iteration #122.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.04	[    10.697,      0.345,      5.000,      1.001]	cmm
+Model   4	   -431.09	[    10.697,      0.398,      5.000,      1.001]	c
+Model   5	   -434.11	[    10.697,      0.306,      5.000,      0.855]	c
+Model   6	   -649.71	[    10.202,      0.465,      3.843,      0.824]	cmm
+Model   7	  -1672.22	[    13.717,      0.348,      5.000,      0.578]	cm
+Model   8	  -2336.80	[    17.438,      0.033,      3.250,      3.701]	r
+Model   9	  -2482.69	[     0.159,      0.764,      1.938,      3.026]	r
+Current mean mutation rate:    0.13327
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.30149561359
+
+
+Iteration #123.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.04	[    10.697,      0.345,      5.000,      1.001]	c
+Model   4	   -410.03	[    12.636,      0.398,      4.249,      1.001]	cm
+Model   5	   -415.40	[    10.697,      0.306,      4.577,      0.855]	cm
+Model   6	   -610.09	[    10.202,      0.465,      3.612,      0.824]	cmmm
+Model   7	  -1672.22	[    13.717,      0.348,      5.000,      0.578]	c
+Model   8	  -2123.83	[    22.781,      1.960,      1.831,      1.811]	r
+Model   9	  -2340.51	[     0.019,      0.426,      4.787,      3.308]	r
+
+Time to normalize models with optmal_sfs_scaling:
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.04	[    10.697,      0.345,      5.000,      1.001]	c
+Model   4	   -410.03	[    12.636,      0.398,      4.249,      1.001]	cm
+Model   5	   -415.40	[    10.697,      0.306,      4.577,      0.855]	cm
+Model   6	   -610.09	[    10.202,      0.465,      3.612,      0.824]	cmmm
+Model   7	  -1672.22	[    13.717,      0.348,      5.000,      0.578]	c
+Model   8	  -2123.83	[    22.781,      1.960,      1.831,      1.811]	r
+Model   9	  -2340.51	[     0.019,      0.426,      4.787,      3.308]	r
+Current mean mutation rate:    0.13261
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301487224579
+
+
+Iteration #124.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.04	[    10.697,      0.345,      5.000,      1.001]	c
+Model   4	   -398.03	[    12.636,      0.348,      4.249,      1.001]	c
+Model   5	   -398.21	[     9.303,      0.398,      4.249,      1.001]	cmm
+Model   6	   -531.41	[    10.697,      0.306,      4.577,      1.047]	cmm
+Model   7	   -550.51	[     7.572,      0.465,      3.612,      0.824]	cmmmm
+Model   8	  -2336.80	[     1.276,      0.007,      0.657,      2.194]	r
+Model   9	 -75197.51	[     0.064,     21.866,      1.686,      2.885]	r
+Current mean mutation rate:    0.13196
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303708572236
+
+
+Iteration #125.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -395.05	[    12.636,      0.348,      4.471,      1.001]	cm
+Model   4	   -402.40	[     7.572,      0.398,      3.612,      1.001]	c
+Model   5	   -405.20	[    10.697,      0.325,      5.000,      1.001]	cmm
+Model   6	   -433.37	[    10.697,      0.345,      3.612,      1.001]	c
+Model   7	   -484.12	[    12.636,      0.348,      3.121,      1.027]	cm
+Model   8	  -1384.78	[     7.141,      0.820,      3.974,      0.451]	r
+Model   9	  -9064.73	[     0.070,      1.778,      1.436,      1.903]	r
+Current mean mutation rate:    0.13130
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303846222209
+
+
+Iteration #126.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cmm
+Model   3	   -465.19	[     7.572,      0.345,      3.612,      1.001]	c
+Model   4	   -497.94	[    10.697,      0.348,      3.121,      1.027]	c
+Model   5	   -584.48	[    10.110,      0.348,      5.000,      1.188]	cmm
+Model   6	   -644.12	[    10.697,      0.348,      4.614,      1.207]	cm
+Model   7	  -1578.47	[     7.141,      0.348,      3.974,      0.451]	c
+Model   8	  -3001.34	[     0.211,      1.390,      2.554,      3.641]	r
+Model   9	 -28056.85	[     0.432,     12.497,      0.366,      2.833]	r
+Current mean mutation rate:    0.13066
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302901634946
+
+
+Iteration #127.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -399.81	[    10.110,      0.348,      5.000,      1.027]	c
+Model   4	   -473.17	[    10.697,      0.348,      3.376,      1.027]	cm
+Model   5	   -482.45	[    10.697,      0.348,      5.000,      0.886]	cmmm
+Model   6	   -584.48	[    10.110,      0.348,      5.000,      1.188]	cmmm
+Model   7	  -1094.24	[    10.697,      1.390,      2.554,      1.207]	c
+Model   8	  -2336.80	[     0.092,      0.010,      3.474,      4.660]	r
+Model   9	  -2336.80	[     0.072,      0.136,      3.275,      4.584]	r
+Current mean mutation rate:    0.13001
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303723034009
+
+
+Iteration #128.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -396.65	[    10.697,      0.297,      5.000,      0.886]	cmmmm
+Model   5	   -482.45	[    10.697,      0.348,      5.000,      0.886]	c
+Model   6	   -567.70	[    10.697,      0.384,      5.000,      0.886]	cmmmm
+Model   7	   -584.48	[    10.110,      0.348,      5.000,      1.188]	c
+Model   8	  -2306.51	[    11.931,      0.569,      4.447,      4.336]	r
+Model   9	  -2333.44	[     0.240,      0.164,      1.962,      1.171]	r
+Current mean mutation rate:    0.12937
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302673117931
+
+
+Iteration #129.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.00	[    11.157,      0.348,      5.000,      1.001]	cmm
+Model   4	   -453.85	[    10.687,      0.384,      5.000,      0.958]	cmmmmm
+Model   5	   -482.45	[    10.697,      0.348,      5.000,      0.886]	c
+Model   6	   -574.98	[    10.697,      0.348,      5.000,      1.188]	c
+Model   7	   -653.28	[    10.697,      0.348,      5.000,      0.807]	cm
+Model   8	  -2336.80	[     7.050,      0.022,      2.544,      2.610]	r
+Model   9	  -2336.81	[     0.006,      0.186,      4.158,      3.048]	r
+Current mean mutation rate:    0.12873
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.30444413105
+
+
+Iteration #130.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -394.00	[    11.157,      0.348,      5.000,      1.001]	c
+Model   5	   -400.02	[    10.697,      0.366,      5.000,      1.001]	cm
+Model   6	   -449.03	[    11.157,      0.409,      5.000,      1.001]	cmmm
+Model   7	   -493.77	[    10.697,      0.301,      5.000,      1.031]	cm
+Model   8	  -3659.40	[     2.107,      1.778,      0.735,      1.470]	r
+Model   9	  -4902.42	[     4.005,      3.453,      0.968,      3.593]	r
+Current mean mutation rate:    0.12809
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303410539121
+
+
+Iteration #131.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.00	[    11.157,      0.348,      5.000,      1.001]	c
+Model   4	   -394.83	[    10.697,      0.366,      4.236,      1.001]	cmm
+Model   5	   -451.02	[    10.697,      0.301,      5.000,      1.001]	c
+Model   6	   -492.17	[    10.833,      0.301,      5.000,      1.031]	cmm
+Model   7	   -742.47	[    10.257,      0.315,      5.000,      0.736]	cmm
+Model   8	  -2165.99	[     6.528,      0.608,      3.469,      3.305]	r
+Model   9	 -21440.50	[     6.635,     16.063,      2.383,      4.205]	r
+Current mean mutation rate:    0.12746
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.30240749058
+
+
+Iteration #132.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -394.80	[    12.231,      0.348,      5.000,      1.001]	cmm
+Model   3	   -394.83	[    10.697,      0.366,      4.236,      1.001]	c
+Model   4	   -451.02	[    10.697,      0.301,      5.000,      1.001]	c
+Model   5	   -469.54	[    13.340,      0.301,      5.000,      1.031]	cmmm
+Model   6	   -588.64	[    13.166,      0.292,      5.000,      1.073]	cm
+Model   7	  -2084.67	[    10.833,      0.608,      5.000,      3.305]	c
+Model   8	  -2336.80	[     3.966,      0.201,      3.056,      3.776]	r
+Model   9	  -2336.80	[     0.215,      0.050,      0.812,      4.624]	r
+Current mean mutation rate:    0.12683
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301719286549
+
+
+Iteration #133.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -398.79	[    10.697,      0.333,      5.000,      1.001]	cm
+Model   4	   -406.96	[    10.697,      0.348,      5.000,      0.956]	cmm
+Model   5	   -451.02	[    10.697,      0.301,      5.000,      1.001]	c
+Model   6	   -456.20	[    15.671,      0.301,      5.000,      1.031]	cmmmm
+Model   7	   -620.59	[    10.697,      0.292,      5.000,      1.073]	c
+Model   8	  -1641.08	[    12.901,      1.477,      3.792,      4.349]	r
+Model   9	  -5545.19	[     1.885,      3.615,      4.921,      2.347]	r
+Current mean mutation rate:    0.12620
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.300730136589
+
+
+Iteration #134.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -453.44	[    10.697,      0.301,      5.000,      0.832]	cm
+Model   4	   -469.36	[    10.697,      0.348,      5.000,      0.895]	cm
+Model   5	   -481.73	[    10.697,      0.292,      5.000,      1.001]	c
+Model   6	  -1474.86	[    12.901,      1.477,      5.000,      4.349]	c
+Model   7	  -1623.07	[    14.653,      1.477,      3.792,      4.349]	rm
+Model   8	  -2336.82	[     0.023,      0.031,      0.226,      0.374]	r
+Model   9	  -3882.88	[     0.114,      0.325,      1.356,      0.532]	r
+Current mean mutation rate:    0.12558
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.299828995677
+
+
+Iteration #135.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.27	[    11.623,      0.348,      5.000,      1.001]	cmm
+Model   4	   -395.13	[    12.528,      0.348,      5.000,      1.001]	cm
+Model   5	   -453.44	[    10.697,      0.301,      5.000,      0.832]	c
+Model   6	  -2336.36	[    14.653,      0.348,      5.000,      4.349]	c
+Model   7	  -2336.82	[     0.023,      0.031,      0.170,      0.374]	rm
+Model   8	  -2336.86	[     0.055,      0.250,      1.911,      2.950]	r
+Model   9	  -9676.74	[     0.005,      2.930,      1.748,      3.144]	r
+Current mean mutation rate:    0.12496
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.300106528902
+
+
+Iteration #136.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -431.24	[    12.097,      0.348,      5.000,      1.092]	cmm
+Model   3	   -589.32	[    10.697,      0.348,      5.000,      0.832]	c
+Model   4	  -2335.93	[    13.586,      0.348,      5.000,      4.103]	cm
+Model   5	  -2336.34	[    19.995,      0.348,      5.000,      4.349]	cm
+Model   6	  -2336.72	[     0.708,      0.022,      1.857,      0.325]	r
+Model   7	  -2474.83	[     0.055,      0.250,      1.911,      1.001]	c
+Model   8	  -2889.27	[     0.023,      0.348,      0.170,      1.001]	c
+Model   9	 -16496.33	[     0.101,      2.287,      1.279,      1.549]	r
+Current mean mutation rate:    0.12434
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.299890452537
+
+
+Iteration #137.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	  -2336.40	[    10.697,      0.348,      5.000,      4.349]	c
+Model   6	  -2336.51	[    10.697,      0.022,      1.857,      0.325]	c
+Model   7	  -2336.81	[     0.002,      0.235,      4.028,      3.670]	r
+Model   8	  -2408.82	[     0.055,      0.218,      1.911,      1.001]	cm
+Model   9	  -2555.28	[     0.116,      0.755,      2.125,      2.748]	r
+Current mean mutation rate:    0.12373
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.305722758067
+
+
+Iteration #138.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	   -394.33	[    10.697,      0.348,      5.000,      0.993]	cmm
+Model   6	   -394.50	[    10.697,      0.353,      5.000,      1.001]	cm
+Model   7	   -454.04	[    10.697,      0.416,      5.000,      1.001]	cm
+Model   8	  -2336.80	[     0.025,      0.121,      0.208,      2.904]	r
+Model   9	  -2336.81	[     0.126,      0.311,      1.261,      4.480]	r
+Current mean mutation rate:    0.12312
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.304815859454
+
+
+Iteration #139.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -394.33	[    10.697,      0.348,      5.000,      0.993]	c
+Model   5	   -394.50	[    10.697,      0.353,      5.000,      1.001]	c
+Model   6	   -417.17	[    10.697,      0.317,      5.000,      1.001]	cm
+Model   7	   -471.74	[    10.697,      0.348,      5.000,      1.119]	cm
+Model   8	  -2336.80	[    28.258,      0.036,      4.083,      1.775]	r
+Model   9	  -3759.15	[     0.151,      1.934,      4.609,      4.001]	r
+Current mean mutation rate:    0.12251
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.304023073075
+
+
+Iteration #140.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.33	[    10.697,      0.348,      5.000,      0.993]	c
+Model   4	   -398.78	[    13.243,      0.353,      5.000,      1.001]	cm
+Model   5	   -414.83	[    11.088,      0.317,      5.000,      1.001]	cmm
+Model   6	   -517.52	[    11.118,      0.449,      5.000,      0.993]	cm
+Model   7	  -2336.80	[    10.697,      0.036,      5.000,      1.775]	c
+Model   8	  -3781.31	[     1.138,      2.160,      0.560,      3.095]	r
+Model   9	  -6984.57	[     0.051,      3.010,      3.917,      3.950]	r
+Current mean mutation rate:    0.12191
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303383249632
+
+
+Iteration #141.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -414.83	[    11.088,      0.317,      5.000,      1.001]	cmmm
+Model   4	   -489.33	[    10.697,      0.286,      5.000,      0.993]	cm
+Model   5	  -1745.53	[    10.697,      0.348,      5.000,      1.775]	c
+Model   6	  -1745.53	[    10.697,      0.348,      5.000,      1.775]	c
+Model   7	  -2336.80	[    10.697,      0.034,      5.000,      1.320]	cm
+Model   8	  -2336.80	[     0.285,      0.022,      4.047,      2.888]	r
+Model   9	  -2396.95	[     0.021,      0.342,      3.895,      1.707]	r
+Current mean mutation rate:    0.12130
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303597115137
+
+
+Iteration #142.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.98	[    11.088,      0.348,      5.000,      1.001]	c
+Model   4	   -399.22	[    10.697,      0.348,      5.000,      0.972]	cm
+Model   5	   -427.56	[    10.697,      0.284,      5.000,      0.943]	cmm
+Model   6	   -436.18	[    10.697,      0.402,      5.000,      1.001]	cm
+Model   7	   -502.78	[    10.697,      0.286,      5.000,      1.001]	c
+Model   8	  -2336.43	[     1.087,      0.326,      0.335,      3.539]	r
+Model   9	  -2336.79	[     0.017,      0.008,      1.503,      0.103]	r
+Current mean mutation rate:    0.12071
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302904946937
+
+
+Iteration #143.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -399.22	[    10.697,      0.348,      5.000,      0.972]	c
+Model   4	   -400.85	[     9.721,      0.335,      5.000,      1.001]	cm
+Model   5	   -427.56	[    10.697,      0.284,      5.000,      0.943]	c
+Model   6	   -441.01	[    10.697,      0.406,      5.000,      1.001]	cmm
+Model   7	   -445.23	[    12.162,      0.440,      3.716,      0.959]	cm
+Model   8	  -2331.15	[     0.126,      0.124,      2.217,      0.438]	r
+Model   9	 -47181.82	[     0.004,     11.562,      2.313,      4.126]	r
+Current mean mutation rate:    0.12011
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303629396702
+
+
+Iteration #144.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -396.67	[     9.854,      0.348,      5.000,      0.972]	cm
+Model   4	   -464.75	[    10.697,      0.284,      5.000,      0.972]	c
+Model   5	   -538.80	[    10.697,      0.284,      5.000,      1.015]	cm
+Model   6	  -1117.46	[    12.004,      1.129,      4.359,      3.025]	r
+Model   7	  -2250.88	[    12.162,      0.124,      2.217,      0.959]	c
+Model   8	  -2313.36	[     0.126,      0.112,      2.217,      0.438]	rm
+Model   9	 -24829.70	[     0.400,      7.358,      2.269,      2.894]	r
+Current mean mutation rate:    0.11952
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302741620639
+
+
+Iteration #145.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -403.12	[    12.000,      0.322,      5.000,      1.001]	cmm
+Model   3	   -413.80	[    10.697,      0.112,      5.000,      0.438]	c
+Model   4	   -435.70	[    10.697,      0.382,      5.000,      0.972]	cm
+Model   5	   -464.75	[    10.697,      0.284,      5.000,      0.972]	c
+Model   6	  -2260.53	[    10.697,      0.124,      2.217,      0.972]	c
+Model   7	  -2313.35	[     0.126,      0.112,      1.577,      0.438]	rmm
+Model   8	  -4153.36	[     0.229,      0.350,      2.000,      0.228]	r
+Model   9	  -8752.68	[     4.036,      7.041,      3.188,      3.649]	r
+Current mean mutation rate:    0.11893
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301853343743
+
+
+Iteration #146.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -394.18	[    12.000,      0.322,      5.000,      0.972]	c
+Model   3	   -394.44	[    12.000,      0.347,      5.000,      1.001]	cmmm
+Model   4	   -403.12	[    12.000,      0.322,      5.000,      1.001]	cmmm
+Model   5	   -408.49	[    10.697,      0.322,      5.000,      1.001]	c
+Model   6	   -711.65	[    12.000,      0.322,      2.000,      1.001]	c
+Model   7	  -2254.80	[    10.697,      0.124,      2.501,      0.972]	cm
+Model   8	  -2336.80	[     9.509,      0.055,      1.513,      1.800]	r
+Model   9	  -2336.80	[    27.700,      0.006,      2.614,      1.445]	r
+Current mean mutation rate:    0.11834
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301651455261
+
+
+Iteration #147.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -394.44	[    12.000,      0.347,      5.000,      1.001]	c
+Model   3	   -397.99	[    14.172,      0.322,      5.000,      1.001]	cmmmm
+Model   4	   -399.94	[    13.159,      0.322,      5.000,      1.001]	cm
+Model   5	   -403.12	[    12.000,      0.322,      5.000,      1.001]	c
+Model   6	   -408.49	[    10.697,      0.322,      5.000,      1.001]	c
+Model   7	   -523.71	[    10.697,      0.324,      5.000,      1.102]	cmm
+Model   8	  -4878.82	[     0.116,      0.547,      4.627,      0.800]	r
+Model   9	 -23230.80	[     0.112,      8.952,      0.103,      0.721]	r
+Current mean mutation rate:    0.11775
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.300838070428
+
+
+Iteration #148.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -394.12	[    10.697,      0.348,      5.000,      0.995]	cm
+Model   5	   -394.95	[    17.045,      0.322,      5.000,      1.001]	cmmmmm
+Model   6	   -403.12	[    12.000,      0.322,      5.000,      1.001]	c
+Model   7	   -523.71	[    10.697,      0.324,      5.000,      1.102]	c
+Model   8	  -2335.87	[     0.519,      0.339,      2.269,      2.913]	r
+Model   9	  -2346.30	[     0.017,      0.536,      2.234,      3.676]	r
+Current mean mutation rate:    0.11717
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.30028582414
+
+
+Iteration #149.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.95	[    17.045,      0.322,      5.000,      1.001]	cmmmmmm
+Model   4	   -395.27	[    12.649,      0.348,      5.000,      1.001]	cmm
+Model   5	   -408.49	[    10.697,      0.322,      5.000,      1.001]	c
+Model   6	   -426.46	[    12.000,      0.401,      4.629,      1.001]	cm
+Model   7	   -508.49	[    12.000,      0.324,      5.000,      1.102]	c
+Model   8	  -2632.23	[     0.005,      1.334,      4.360,      4.693]	r
+Model   9	  -3589.09	[     2.145,      1.593,      0.104,      1.740]	r
+Current mean mutation rate:    0.11659
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.30170105151
+
+
+Iteration #150.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.43	[    11.829,      0.348,      5.000,      1.001]	cm
+Model   4	   -395.27	[    12.649,      0.348,      5.000,      1.001]	c
+Model   5	   -446.71	[    12.000,      0.401,      5.000,      1.001]	c
+Model   6	   -477.98	[    13.965,      0.430,      4.632,      1.001]	cm
+Model   7	   -777.14	[    11.476,      0.341,      5.000,      1.278]	cm
+Model   8	  -2336.80	[     2.922,      0.006,      3.830,      1.245]	r
+Model   9	 -24130.19	[    38.121,     15.766,      3.979,      3.558]	r
+Current mean mutation rate:    0.11602
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301369005128
+
+
+Iteration #151.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -395.27	[    12.649,      0.348,      5.000,      1.001]	c
+Model   3	   -397.07	[    13.965,      0.348,      5.000,      1.001]	c
+Model   4	   -454.72	[    11.286,      0.430,      4.632,      1.001]	cmm
+Model   5	   -466.68	[    10.697,      0.425,      5.000,      1.001]	cm
+Model   6	   -790.93	[    10.697,      0.341,      5.000,      1.278]	c
+Model   7	  -2336.80	[     2.922,      0.006,      4.794,      1.245]	rm
+Model   8	  -2336.80	[     0.019,      0.083,      0.971,      2.009]	r
+Model   9	  -2336.80	[     0.019,      0.066,      2.074,      1.106]	r
+Current mean mutation rate:    0.11545
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302027507545
+
+
+Iteration #152.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.95	[    11.001,      0.348,      5.000,      1.001]	cmm
+Model   4	   -394.34	[    11.286,      0.351,      4.632,      1.001]	cmmm
+Model   5	   -394.59	[    12.649,      0.345,      5.000,      1.001]	cm
+Model   6	   -473.79	[    10.697,      0.430,      5.000,      1.001]	c
+Model   7	   -790.93	[    10.697,      0.341,      5.000,      1.278]	c
+Model   8	 -18350.81	[     0.038,      1.058,      3.215,      0.673]	r
+Model   9	 -19854.25	[     0.076,      5.991,      1.091,      3.876]	r
+Current mean mutation rate:    0.11487
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301381185457
+
+
+Iteration #153.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	   -394.34	[    11.286,      0.351,      4.632,      1.001]	c
+Model   6	   -535.06	[    10.697,      0.421,      4.316,      1.278]	cm
+Model   7	   -733.43	[    12.649,      0.345,      5.000,      1.278]	c
+Model   8	  -2336.80	[     5.190,      0.014,      0.535,      1.353]	r
+Model   9	  -2363.73	[     0.466,      0.825,      1.324,      4.068]	r
+Current mean mutation rate:    0.11431
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.300780963898
+
+
+Iteration #154.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -395.47	[    12.814,      0.348,      5.000,      1.001]	cm
+Model   4	   -426.28	[    11.286,      0.421,      4.316,      1.001]	c
+Model   5	   -506.86	[    10.697,      0.348,      5.000,      1.145]	cmm
+Model   6	   -545.67	[    10.697,      0.335,      4.807,      1.132]	cmm
+Model   7	   -751.64	[    10.697,      0.348,      5.000,      1.278]	c
+Model   8	  -2336.80	[     1.738,      0.022,      1.996,      4.678]	r
+Model   9	  -7064.84	[     0.387,      2.003,      2.376,      2.121]	r
+Current mean mutation rate:    0.11374
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301238886821
+
+
+Iteration #155.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.94	[    10.423,      0.348,      5.000,      1.001]	cmm
+Model   4	   -396.35	[    10.697,      0.421,      5.000,      1.145]	c
+Model   5	   -406.92	[    10.697,      0.375,      5.000,      1.001]	cm
+Model   6	   -485.27	[    12.804,      0.348,      5.000,      1.145]	cmmm
+Model   7	   -506.86	[    10.697,      0.348,      5.000,      1.145]	c
+Model   8	  -2383.45	[     0.019,      0.717,      2.185,      3.787]	r
+Model   9	  -3733.07	[     0.002,      1.395,      0.456,      3.022]	r
+Current mean mutation rate:    0.11318
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301467499156
+
+
+Iteration #156.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.741,      0.348,      5.000,      1.001]	cm
+Model   4	   -394.42	[    11.818,      0.348,      5.000,      1.001]	cmm
+Model   5	   -431.38	[    10.697,      0.450,      5.000,      1.069]	cm
+Model   6	   -485.27	[    12.804,      0.348,      5.000,      1.145]	c
+Model   7	  -2336.80	[     5.296,      0.066,      2.742,      4.264]	r
+Model   8	  -2336.96	[     0.019,      0.348,      5.000,      3.787]	c
+Model   9	  -6275.74	[     0.351,      7.309,      2.560,      0.043]	r
+Current mean mutation rate:    0.11262
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.30148016652
+
+
+Iteration #157.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.741,      0.348,      5.000,      1.001]	c
+Model   4	   -419.76	[    11.744,      0.348,      4.138,      0.901]	cm
+Model   5	   -485.27	[    12.804,      0.348,      5.000,      1.145]	c
+Model   6	  -2336.80	[     1.164,      0.024,      0.837,      2.736]	r
+Model   7	  -2336.80	[     5.296,      0.064,      2.742,      4.264]	rm
+Model   8	  -2336.96	[     0.021,      0.348,      5.000,      3.787]	cm
+Model   9	  -3641.08	[     0.751,      2.008,      1.464,      3.420]	r
+Current mean mutation rate:    0.11207
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302648473836
+
+
+Iteration #158.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.741,      0.348,      5.000,      1.001]	c
+Model   3	   -416.80	[    13.009,      0.348,      4.551,      0.935]	cm
+Model   4	   -478.84	[    10.766,      0.433,      5.000,      1.001]	cmm
+Model   5	  -2334.74	[    10.697,      0.348,      5.000,      3.787]	c
+Model   6	  -2336.51	[     5.296,      0.348,      2.742,      4.264]	c
+Model   7	  -2336.80	[     0.971,      0.024,      0.837,      2.736]	rm
+Model   8	  -2336.80	[     0.018,      0.144,      2.303,      4.204]	r
+Model   9	  -2892.25	[     0.329,      1.402,      1.454,      3.741]	r
+Current mean mutation rate:    0.11151
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302740989625
+
+
+Iteration #159.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.741,      0.348,      5.000,      1.001]	c
+Model   3	   -395.72	[    13.009,      0.348,      5.000,      1.001]	c
+Model   4	   -436.12	[    10.697,      0.402,      5.000,      1.001]	cm
+Model   5	   -436.93	[    10.766,      0.433,      4.377,      1.001]	cmmm
+Model   6	   -544.81	[     9.392,      0.348,      5.000,      1.157]	cmm
+Model   7	  -2316.14	[     0.971,      0.433,      5.000,      2.736]	c
+Model   8	  -2336.80	[     0.005,      0.002,      1.760,      0.777]	r
+Model   9	  -2384.51	[     0.241,      0.633,      2.685,      3.041]	r
+Current mean mutation rate:    0.11096
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303916963731
+
+
+Iteration #160.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.741,      0.348,      5.000,      1.001]	c
+Model   4	   -393.93	[    10.471,      0.348,      5.000,      1.001]	cm
+Model   5	   -398.26	[    10.766,      0.350,      4.377,      1.001]	cmmmm
+Model   6	   -478.84	[    10.766,      0.433,      5.000,      1.001]	c
+Model   7	   -485.43	[     0.293,      0.085,      0.603,      0.168]	r
+Model   8	   -597.87	[    13.009,      0.378,      5.000,      1.289]	cm
+Model   9	 -35894.64	[     1.115,     29.316,      4.622,      4.344]	r
+Current mean mutation rate:    0.11041
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303076261356
+
+
+Iteration #161.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.741,      0.348,      5.000,      1.001]	c
+Model   4	   -395.72	[    13.009,      0.348,      5.000,      1.001]	c
+Model   5	   -396.18	[     0.374,      0.085,      0.603,      0.168]	rm
+Model   6	   -445.97	[    10.697,      0.348,      5.000,      0.912]	cmm
+Model   7	   -490.50	[    10.741,      0.441,      5.000,      1.001]	cm
+Model   8	  -2168.48	[     9.523,      0.385,      0.563,      1.934]	r
+Model   9	  -8175.76	[     1.297,      5.213,      2.725,      0.381]	r
+Current mean mutation rate:    0.10987
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302243536967
+
+
+Iteration #162.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.741,      0.348,      5.000,      1.001]	c
+Model   4	   -394.19	[    11.509,      0.348,      5.000,      1.001]	cm
+Model   5	  -2044.66	[     9.523,      0.385,      0.563,      1.709]	rm
+Model   6	  -2061.08	[     0.374,      0.348,      0.603,      0.912]	c
+Model   7	  -2159.96	[     9.523,      0.385,      0.632,      1.934]	rm
+Model   8	  -2336.80	[     0.253,      0.006,      0.311,      0.742]	r
+Model   9	  -2336.80	[    50.076,      0.002,      2.203,      1.363]	r
+Current mean mutation rate:    0.10933
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303642143564
+
+
+Iteration #163.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.19	[    11.509,      0.348,      5.000,      1.001]	c
+Model   4	   -394.52	[    11.937,      0.348,      5.000,      1.001]	cm
+Model   5	   -464.02	[    10.697,      0.348,      5.000,      1.113]	cm
+Model   6	   -539.77	[    11.509,      0.348,      5.000,      1.173]	cmm
+Model   7	  -2061.08	[     0.374,      0.348,      0.603,      0.912]	c
+Model   8	  -2336.80	[     0.133,      0.119,      0.695,      2.901]	r
+Model   9	  -2336.80	[     0.019,      0.228,      1.451,      3.852]	r
+Current mean mutation rate:    0.10879
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303044537342
+
+
+Iteration #164.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -469.30	[    10.697,      0.348,      5.000,      0.895]	cmm
+Model   5	   -484.68	[    10.697,      0.348,      5.000,      1.129]	cm
+Model   6	   -539.77	[    11.509,      0.348,      5.000,      1.173]	c
+Model   7	   -731.64	[    11.937,      0.348,      5.000,      0.790]	cmm
+Model   8	  -2336.80	[     0.033,      0.011,      1.243,      1.795]	r
+Model   9	  -2336.80	[     0.501,      0.016,      3.119,      1.414]	r
+Current mean mutation rate:    0.10825
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302918106677
+
+
+Iteration #165.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   5	   -477.76	[    10.697,      0.348,      5.000,      0.889]	cm
+Model   6	   -550.54	[    10.697,      0.348,      5.000,      1.173]	c
+Model   7	   -555.57	[    10.697,      0.348,      5.000,      1.176]	cmmm
+Model   8	  -3049.88	[     0.666,      0.895,      3.279,      0.111]	r
+Model   9	 -14867.38	[     1.238,      8.074,      0.659,      4.291]	r
+Current mean mutation rate:    0.10771
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302103615093
+
+
+Iteration #166.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -394.88	[    10.697,      0.348,      5.000,      0.988]	cm
+Model   4	   -555.57	[    10.697,      0.348,      5.000,      1.176]	c
+Model   5	   -609.47	[    10.697,      0.348,      5.000,      1.207]	cm
+Model   6	  -1840.38	[     1.190,      0.863,      4.904,      1.552]	r
+Model   7	  -1905.07	[     0.666,      0.348,      3.279,      1.001]	c
+Model   8	  -3007.29	[     0.666,      0.895,      2.750,      0.111]	rm
+Model   9	 -14346.40	[     3.535,      5.950,      0.969,      0.991]	r
+Current mean mutation rate:    0.10718
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301346790223
+
+
+Iteration #167.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -401.84	[    10.697,      0.348,      5.000,      1.037]	cmm
+Model   4	   -452.70	[    10.697,      0.348,      5.000,      1.103]	cm
+Model   5	  -2065.89	[     0.666,      0.348,      5.000,      1.176]	c
+Model   6	  -2662.15	[     0.751,      0.895,      2.750,      0.111]	rmm
+Model   7	  -3219.00	[     0.072,      0.717,      4.374,      1.745]	r
+Model   8	  -3583.49	[     0.257,      0.775,      2.579,      1.427]	r
+Model   9	  -4615.40	[    10.697,      0.348,      2.750,      0.111]	c
+Current mean mutation rate:    0.10665
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.301646691102
+
+
+Iteration #168.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -401.84	[    10.697,      0.348,      5.000,      1.037]	c
+Model   4	   -408.10	[     8.605,      0.348,      5.000,      0.931]	cm
+Model   5	   -408.68	[    10.697,      0.375,      3.904,      1.037]	cmmm
+Model   6	  -1034.84	[     0.666,      0.348,      5.000,      0.111]	c
+Model   7	  -1914.06	[     0.865,      0.348,      5.000,      1.176]	cm
+Model   8	  -2336.80	[     0.113,      0.003,      3.460,      0.994]	r
+Model   9	  -2336.80	[     0.049,      0.053,      3.005,      1.031]	r
+Current mean mutation rate:    0.10613
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303728228457
+
+
+Iteration #169.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cmm
+Model   3	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   4	   -394.77	[    10.697,      0.375,      5.000,      1.037]	c
+Model   5	   -448.32	[    10.697,      0.348,      5.000,      1.099]	cm
+Model   6	   -672.47	[     8.605,      0.348,      5.000,      1.217]	cmm
+Model   7	  -1706.60	[     9.612,      2.590,      3.846,      4.292]	r
+Model   8	  -1946.08	[     0.666,      0.348,      5.000,      1.037]	c
+Model   9	  -2351.87	[     0.013,      0.615,      1.161,      3.937]	r
+Current mean mutation rate:    0.10560
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.304137589639
+
+
+Iteration #170.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   3	   -410.83	[    10.697,      0.375,      3.846,      1.037]	c
+Model   4	   -417.51	[    10.697,      0.386,      5.000,      1.001]	cmm
+Model   5	   -425.10	[    10.697,      0.348,      4.852,      1.067]	cmmm
+Model   6	   -632.80	[     8.605,      0.369,      4.405,      1.217]	cmmm
+Model   7	  -1946.08	[     0.666,      0.348,      5.000,      1.037]	c
+Model   8	  -2330.43	[     1.184,      0.494,      2.523,      3.745]	r
+Model   9	 -35202.09	[     0.104,      2.701,      0.951,      0.313]	r
+Current mean mutation rate:    0.10508
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303609993569
+
+
+Iteration #171.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.91	[    10.827,      0.348,      5.000,      1.001]	cm
+Model   3	   -394.77	[    10.697,      0.375,      5.000,      1.037]	c
+Model   4	   -401.84	[    10.697,      0.348,      5.000,      1.037]	c
+Model   5	   -417.51	[    10.697,      0.386,      5.000,      1.001]	c
+Model   6	   -417.95	[    11.877,      0.348,      4.852,      1.067]	cmmmm
+Model   7	   -439.76	[    10.697,      0.348,      5.000,      1.090]	cmm
+Model   8	  -2336.80	[     5.873,      0.009,      0.076,      1.310]	r
+Model   9	 -16516.12	[    12.174,      7.220,      1.852,      1.659]	r
+Current mean mutation rate:    0.10456
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.303177374636
+
+
+Iteration #172.
+Current population of models:
+N		logLL				model
+Model   0	   -393.90	[    10.697,      0.348,      5.000,      1.001]	cm
+Model   1	   -393.90	[    10.697,      0.348,      5.000,      1.001]	c
+Model   2	   -393.91	[    10.827,      0.348,      5.000,      1.001]	c
+Model   3	   -398.27	[    11.877,      0.348,      5.000,      1.037]	c
+Model   4	   -401.84	[    10.697,      0.348,      5.000,      1.037]	cm
+Model   5	   -401.84	[    10.697,      0.348,      5.000,      1.037]	c
+Model   6	   -469.74	[    10.697,      0.348,      5.000,      0.894]	cm
+Model   7	   -932.53	[    10.827,      0.427,      5.000,      0.783]	cmm
+Model   8	 -42204.60	[     0.019,      1.206,      3.156,      0.327]	r
+Model   9	-114866.70	[     0.022,     41.757,      1.576,      1.593]	r
+Current mean mutation rate:    0.10405
+Current mean number of params to change: 1
+
+--Best model by log likelihood--
+Log likelihood:	   -393.90
+Model:	[    10.697,      0.348,      5.000,      1.001]	cm
+
+Mean time: 	0.302944953414
+
+Try to improve best model (optimize_powell)
+
+--Calculate CLAIC of the current best model--
+Log likelihood:	   -393.90
+with CLAIC score:		    787.80 (eps=1.0e-14)
+Model:	[    10.688,      0.347,      5.000,      1.000]	cm
+BEST:
+	   -393.90	[    10.688,      0.347,      5.000,      1.000]	cm

@@ -1,0 +1,9 @@
+Output directory: results/gadma/out_3
+Input file: simulated_data/03.fs
+Use moments or dadi: moments
+Theta0: 2.0
+Initial structure: 3
+Number of processes: 10
+Number of repeats: 50
+Silence: True
+min_N: 1e-3

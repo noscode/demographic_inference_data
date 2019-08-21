@@ -1,0 +1,8 @@
+Output directory: results/gadma/out_10_custom
+Input file: simulated_data/10.fs
+Use moments or dadi: moments
+Custom filename: demographic_model.py
+Parameter identifiers: n,n,t,t
+Number of processes: 10
+Number of repeats: 50
+Silence: True

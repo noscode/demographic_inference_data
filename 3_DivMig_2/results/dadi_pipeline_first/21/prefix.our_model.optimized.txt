@@ -1,0 +1,4 @@
+Model	Replicate	log-likelihood	AIC	chi-squared	theta	optimized_params( )
+Model	Replicate	log-likelihood	AIC	chi-squared	theta	optimized_params( )
+our_model	Round_1_Replicate_1	-11635.94	23287.88	900.59	20246.17	1.3351,0.3103,0.5695,0.4934,0.9186,10.461,0.0341,0.1381
+our_model	Round_1_Replicate_2	-11798.89	23613.78	1248.1	18376.92	1.6975,0.6045,0.8702,0.8156,1.3866,4.7925,0.1511,0.0598

@@ -1,0 +1,475 @@
+
+
+============================================================================
+Model our_model
+============================================================================
+	Beginning Optimizations for Round 1:
+		Round 1 Replicate 1 of 10:
+			Optimized parameters =  [ 1.31100966  0.10221222  4.19764017  2.4276494   0.0500189 ]
+			Likelihood =  -1358.96
+			AIC =  2727.92
+			Theta =  19505.71
+			Chi-Squared =  95.04
+
+			Replicate time: 0:00:53.406797 (H:M:S)
+
+		Round 1 Replicate 2 of 10:
+			Optimized parameters =  [ 0.94288475  0.11722194  5.61546096  1.39427889  0.05588125]
+			Likelihood =  -1341.03
+			AIC =  2692.06
+			Theta =  20043.68
+			Chi-Squared =  60.91
+
+			Replicate time: 0:00:54.655711 (H:M:S)
+
+		Round 1 Replicate 3 of 10:
+			Optimized parameters =  [  5.15309258   0.53958899   0.55350698   1.54468001  30.        ]
+			Likelihood =  -2075.93
+			AIC =  4161.86
+			Theta =  3715.17
+			Chi-Squared =  1473.63
+
+			Replicate time: 0:01:48.305557 (H:M:S)
+
+		Round 1 Replicate 4 of 10:
+			Optimized parameters =  [  5.49265541   0.66102151   0.50611899   1.24398379  30.        ]
+			Likelihood =  -2159.05
+			AIC =  4328.1
+			Theta =  3420.4
+			Chi-Squared =  1632.73
+
+			Replicate time: 0:01:42.369078 (H:M:S)
+
+		Round 1 Replicate 5 of 10:
+			Optimized parameters =  [ 0.91231073  0.1395294   5.39586525  0.54514535  0.06238019]
+			Likelihood =  -1438.8
+			AIC =  2887.6
+			Theta =  19900.18
+			Chi-Squared =  255.44
+
+			Replicate time: 0:00:53.035004 (H:M:S)
+
+		Round 1 Replicate 6 of 10:
+			Optimized parameters =  [ 0.95965925  0.15407835  5.56950093  0.59151217  0.06974376]
+			Likelihood =  -1501.24
+			AIC =  3012.48
+			Theta =  19716.29
+			Chi-Squared =  379.5
+
+			Replicate time: 0:00:53.382147 (H:M:S)
+
+		Round 1 Replicate 7 of 10:
+			Optimized parameters =  [ 1.00551264  0.08336805  4.79495542  3.52175092  0.04211159]
+			Likelihood =  -1329.26
+			AIC =  2668.52
+			Theta =  20100.04
+			Chi-Squared =  37.0
+
+			Replicate time: 0:00:55.381029 (H:M:S)
+
+		Round 1 Replicate 8 of 10:
+			Optimized parameters =  [  4.28475866   0.35292423   0.69998561   2.41177539  30.        ]
+			Likelihood =  -1996.96
+			AIC =  4003.92
+			Theta =  4601.17
+			Chi-Squared =  1313.84
+
+			Replicate time: 0:02:25.273829 (H:M:S)
+
+		Round 1 Replicate 9 of 10:
+			Optimized parameters =  [  2.78979902   0.34025543   0.99490615   2.41261795  30.        ]
+			Likelihood =  -2161.3
+			AIC =  4332.6
+			Theta =  6705.26
+			Chi-Squared =  1635.81
+
+			Replicate time: 0:02:32.816270 (H:M:S)
+
+		Round 1 Replicate 10 of 10:
+			Optimized parameters =  [  1.80922974   0.12026535   1.7480125    7.19753883  29.99999215]
+			Likelihood =  -1979.89
+			AIC =  3969.78
+			Theta =  11161.16
+			Chi-Squared =  1271.14
+
+			Replicate time: 0:06:16.087773 (H:M:S)
+
+	Best so far: Round_1_Replicate_7, ll = -1329.26
+
+
+	Beginning Optimizations for Round 2:
+		Round 2 Replicate 1 of 10:
+			Optimized parameters =  [ 0.9641277   0.10436164  5.25635405  2.06729465  0.05107401]
+			Likelihood =  -1314.65
+			AIC =  2639.3
+			Theta =  20056.17
+			Chi-Squared =  7.47
+
+			Replicate time: 0:00:55.077500 (H:M:S)
+
+		Round 2 Replicate 2 of 10:
+			Optimized parameters =  [  0.30378944   0.0405884   10.26545552  20.04877589   0.85629876]
+			Likelihood =  -2221.08
+			AIC =  4452.16
+			Theta =  58094.01
+			Chi-Squared =  1736.98
+
+			Replicate time: 0:01:01.302952 (H:M:S)
+
+		Round 2 Replicate 3 of 10:
+			Optimized parameters =  [ 1.24278709  0.04002433  2.22940381  7.9660418   0.01783921]
+			Likelihood =  -1598.66
+			AIC =  3207.32
+			Theta =  20158.85
+			Chi-Squared =  611.66
+
+			Replicate time: 0:00:55.624841 (H:M:S)
+
+		Round 2 Replicate 4 of 10:
+			Optimized parameters =  [ 1.13520575  0.05847156  3.56291113  4.35054878  0.02596828]
+			Likelihood =  -1449.05
+			AIC =  2908.1
+			Theta =  20092.85
+			Chi-Squared =  287.65
+
+			Replicate time: 0:00:56.002013 (H:M:S)
+
+		Round 2 Replicate 5 of 10:
+			Optimized parameters =  [ 1.1829167   0.05616424  3.59463074  3.17402068  0.02370673]
+			Likelihood =  -1489.78
+			AIC =  2989.56
+			Theta =  20108.59
+			Chi-Squared =  380.39
+
+			Replicate time: 0:00:53.078697 (H:M:S)
+
+		Round 2 Replicate 6 of 10:
+			Optimized parameters =  [ 0.44426216  0.04037802  7.09729631  4.21889248  0.01683072]
+			Likelihood =  -1859.88
+			AIC =  3729.76
+			Theta =  21301.9
+			Chi-Squared =  1157.15
+
+			Replicate time: 0:00:57.040866 (H:M:S)
+
+		Round 2 Replicate 7 of 10:
+			Optimized parameters =  [ 0.99027812  0.02608406  0.01516751  9.91483105  0.01098908]
+			Likelihood =  -1781.4
+			AIC =  3572.8
+			Theta =  20400.1
+			Chi-Squared =  1040.65
+
+			Replicate time: 0:00:55.611622 (H:M:S)
+
+		Round 2 Replicate 8 of 10:
+			Optimized parameters =  [ 1.52717758  0.17530399  3.73827382  0.04438349  0.0690787 ]
+			Likelihood =  -1818.86
+			AIC =  3647.72
+			Theta =  18569.98
+			Chi-Squared =  1022.59
+
+			Replicate time: 0:00:52.971578 (H:M:S)
+
+		Round 2 Replicate 9 of 10:
+			Optimized parameters =  [ 1.06897329  0.02798521  0.01000003  8.87489721  0.01172717]
+			Likelihood =  -1757.3
+			AIC =  3524.6
+			Theta =  20341.42
+			Chi-Squared =  982.34
+
+			Replicate time: 0:00:55.782394 (H:M:S)
+
+		Round 2 Replicate 10 of 10:
+			Optimized parameters =  [  0.46764496   0.06481286   6.20501194  11.77471959   1.08952999]
+			Likelihood =  -2225.2
+			AIC =  4460.4
+			Theta =  37652.47
+			Chi-Squared =  1769.92
+
+			Replicate time: 0:01:00.645519 (H:M:S)
+
+	Best so far: Round_2_Replicate_1, ll = -1314.65
+
+
+	Beginning Optimizations for Round 3:
+		Round 3 Replicate 1 of 10:
+			Optimized parameters =  [ 0.97515807  0.03349518  1.61256066  7.64684194  0.01438033]
+			Likelihood =  -1680.41
+			AIC =  3370.82
+			Theta =  20379.11
+			Chi-Squared =  803.6
+
+			Replicate time: 0:00:54.847752 (H:M:S)
+
+		Round 3 Replicate 2 of 10:
+			Optimized parameters =  [ 1.04390266  0.08655502  4.76261415  3.39759623  0.04363301]
+			Likelihood =  -1324.1
+			AIC =  2658.2
+			Theta =  20014.37
+			Chi-Squared =  26.49
+
+			Replicate time: 0:00:56.312833 (H:M:S)
+
+		Round 3 Replicate 3 of 10:
+			Optimized parameters =  [ 1.05345446  0.07200686  4.2386478   3.01997891  0.03229093]
+			Likelihood =  -1377.53
+			AIC =  2765.06
+			Theta =  20090.86
+			Chi-Squared =  136.69
+
+			Replicate time: 0:00:55.758621 (H:M:S)
+
+		Round 3 Replicate 4 of 10:
+			Optimized parameters =  [ 0.97588525  0.06836287  4.28560846  3.38519922  0.03085105]
+			Likelihood =  -1391.74
+			AIC =  2793.48
+			Theta =  20207.77
+			Chi-Squared =  165.7
+
+			Replicate time: 0:00:56.315144 (H:M:S)
+
+		Round 3 Replicate 5 of 10:
+			Optimized parameters =  [ 1.77731427  0.04721599  2.58731692  6.44366192  0.02130856]
+			Likelihood =  -1571.1
+			AIC =  3152.2
+			Theta =  19877.32
+			Chi-Squared =  550.57
+
+			Replicate time: 0:00:52.367667 (H:M:S)
+
+		Round 3 Replicate 6 of 10:
+			Optimized parameters =  [ 1.00854494  0.07791392  4.13029189  3.44248407  0.03656678]
+			Likelihood =  -1352.08
+			AIC =  2714.16
+			Theta =  20068.28
+			Chi-Squared =  82.04
+
+			Replicate time: 0:00:54.139552 (H:M:S)
+
+		Round 3 Replicate 7 of 10:
+			Optimized parameters =  [ 0.88903766  0.07600648  4.86327101  3.745961    0.03691812]
+			Likelihood =  -1361.5
+			AIC =  2733.0
+			Theta =  20320.04
+			Chi-Squared =  101.96
+
+			Replicate time: 0:00:53.193946 (H:M:S)
+
+		Round 3 Replicate 8 of 10:
+			Optimized parameters =  [ 1.00339362  0.09679906  4.97337547  2.44509136  0.04737673]
+			Likelihood =  -1312.22
+			AIC =  2634.44
+			Theta =  20017.26
+			Chi-Squared =  2.59
+
+			Replicate time: 0:00:55.692448 (H:M:S)
+
+		Round 3 Replicate 9 of 10:
+			Optimized parameters =  [ 0.9214598   0.06512142  4.71981333  5.08999799  0.03272611]
+			Likelihood =  -1400.66
+			AIC =  2811.32
+			Theta =  20340.48
+			Chi-Squared =  183.43
+
+			Replicate time: 0:00:54.853696 (H:M:S)
+
+		Round 3 Replicate 10 of 10:
+			Optimized parameters =  [ 0.91748502  0.10308262  5.59272892  2.06640179  0.05070471]
+			Likelihood =  -1320.14
+			AIC =  2650.28
+			Theta =  20188.88
+			Chi-Squared =  18.51
+
+			Replicate time: 0:00:51.864182 (H:M:S)
+
+	Best so far: Round_3_Replicate_8, ll = -1312.22
+
+
+	Beginning Optimizations for Round 4:
+		Round 4 Replicate 1 of 20:
+			Optimized parameters =  [ 0.99032886  0.08148358  4.81557562  3.32445588  0.03993526]
+			Likelihood =  -1333.39
+			AIC =  2676.78
+			Theta =  20137.4
+			Chi-Squared =  45.66
+
+			Replicate time: 0:00:53.742857 (H:M:S)
+
+		Round 4 Replicate 2 of 20:
+			Optimized parameters =  [ 0.99447481  0.08190225  4.80785911  3.48203431  0.04044043]
+			Likelihood =  -1332.61
+			AIC =  2675.22
+			Theta =  20123.09
+			Chi-Squared =  43.85
+
+			Replicate time: 0:00:54.538961 (H:M:S)
+
+		Round 4 Replicate 3 of 20:
+			Optimized parameters =  [ 1.00412881  0.09452013  4.89871053  2.71675265  0.04674848]
+			Likelihood =  -1313.0
+			AIC =  2636.0
+			Theta =  20022.41
+			Chi-Squared =  4.15
+
+			Replicate time: 0:00:57.184387 (H:M:S)
+
+		Round 4 Replicate 4 of 20:
+			Optimized parameters =  [ 0.97161283  0.07079157  4.58307359  4.59929871  0.03553518]
+			Likelihood =  -1370.8
+			AIC =  2751.6
+			Theta =  20218.16
+			Chi-Squared =  121.34
+
+			Replicate time: 0:00:55.363275 (H:M:S)
+
+		Round 4 Replicate 5 of 20:
+			Optimized parameters =  [ 0.99844147  0.10085516  5.01574388  2.45318868  0.05038949]
+			Likelihood =  -1310.98
+			AIC =  2631.96
+			Theta =  19997.69
+			Chi-Squared =  0.1
+
+			Replicate time: 0:00:57.128511 (H:M:S)
+
+		Round 4 Replicate 6 of 20:
+			Optimized parameters =  [ 1.0008594   0.09813098  4.99177444  2.61446472  0.04918516]
+			Likelihood =  -1311.17
+			AIC =  2632.34
+			Theta =  20011.83
+			Chi-Squared =  0.48
+
+			Replicate time: 0:00:56.091355 (H:M:S)
+
+		Round 4 Replicate 7 of 20:
+			Optimized parameters =  [ 1.01017515  0.09939056  4.98434357  2.56566957  0.04981771]
+			Likelihood =  -1311.08
+			AIC =  2632.16
+			Theta =  19986.55
+			Chi-Squared =  0.3
+
+			Replicate time: 0:00:56.748676 (H:M:S)
+
+		Round 4 Replicate 8 of 20:
+			Optimized parameters =  [ 1.02848503  0.08612085  4.85232411  3.39279581  0.04409514]
+			Likelihood =  -1325.45
+			AIC =  2660.9
+			Theta =  20056.11
+			Chi-Squared =  29.3
+
+			Replicate time: 0:00:51.202396 (H:M:S)
+
+		Round 4 Replicate 9 of 20:
+			Optimized parameters =  [ 1.00880254  0.09327435  5.04582377  2.45424205  0.04526014]
+			Likelihood =  -1315.66
+			AIC =  2641.32
+			Theta =  20048.44
+			Chi-Squared =  9.55
+
+			Replicate time: 0:00:55.014005 (H:M:S)
+
+		Round 4 Replicate 10 of 20:
+			Optimized parameters =  [ 0.95264241  0.11947305  5.17200812  2.44947359  0.06729865]
+			Likelihood =  -1352.64
+			AIC =  2715.28
+			Theta =  19976.01
+			Chi-Squared =  82.29
+
+			Replicate time: 0:00:57.825616 (H:M:S)
+
+		Round 4 Replicate 11 of 20:
+			Optimized parameters =  [ 1.02446976  0.09928417  4.97420676  2.2095849   0.04788686]
+			Likelihood =  -1313.53
+			AIC =  2637.06
+			Theta =  19967.23
+			Chi-Squared =  5.21
+
+			Replicate time: 0:00:54.108572 (H:M:S)
+
+		Round 4 Replicate 12 of 20:
+			Optimized parameters =  [ 1.00311459  0.10122738  4.97730479  2.45503748  0.05055208]
+			Likelihood =  -1311.05
+			AIC =  2632.1
+			Theta =  19981.95
+			Chi-Squared =  0.23
+
+			Replicate time: 0:00:56.095465 (H:M:S)
+
+		Round 4 Replicate 13 of 20:
+			Optimized parameters =  [ 1.0015699   0.10152546  4.98045106  2.4707549   0.05111527]
+			Likelihood =  -1311.23
+			AIC =  2632.46
+			Theta =  19984.81
+			Chi-Squared =  0.59
+
+			Replicate time: 0:00:55.114856 (H:M:S)
+
+		Round 4 Replicate 14 of 20:
+			Optimized parameters =  [ 0.97081829  0.11388407  5.15474199  1.93213188  0.05687963]
+			Likelihood =  -1322.79
+			AIC =  2655.58
+			Theta =  19961.86
+			Chi-Squared =  23.5
+
+			Replicate time: 0:00:54.154056 (H:M:S)
+
+		Round 4 Replicate 15 of 20:
+			Optimized parameters =  [ 0.9913896   0.10427678  5.15644911  2.40597237  0.05280089]
+			Likelihood =  -1312.48
+			AIC =  2634.96
+			Theta =  19999.97
+			Chi-Squared =  3.1
+
+			Replicate time: 0:00:56.101815 (H:M:S)
+
+		Round 4 Replicate 16 of 20:
+			Optimized parameters =  [ 1.001517    0.09722918  4.98263078  2.66998545  0.04877655]
+			Likelihood =  -1311.45
+			AIC =  2632.9
+			Theta =  20016.55
+			Chi-Squared =  1.04
+
+			Replicate time: 0:00:56.210413 (H:M:S)
+
+		Round 4 Replicate 17 of 20:
+			Optimized parameters =  [ 1.02487113  0.08884336  4.51188587  3.13090525  0.04377221]
+			Likelihood =  -1321.28
+			AIC =  2652.56
+			Theta =  19992.51
+			Chi-Squared =  20.58
+
+			Replicate time: 0:00:53.099919 (H:M:S)
+
+		Round 4 Replicate 18 of 20:
+			Optimized parameters =  [ 0.96263949  0.0807944   5.3069475   3.09107165  0.03876763]
+			Likelihood =  -1341.17
+			AIC =  2692.34
+			Theta =  20225.24
+			Chi-Squared =  61.83
+
+			Replicate time: 0:00:54.189090 (H:M:S)
+
+		Round 4 Replicate 19 of 20:
+			Optimized parameters =  [ 0.99846584  0.10676816  5.03340286  2.27374123  0.05391906]
+			Likelihood =  -1313.77
+			AIC =  2637.54
+			Theta =  19955.48
+			Chi-Squared =  5.65
+
+			Replicate time: 0:00:56.637525 (H:M:S)
+
+		Round 4 Replicate 20 of 20:
+			Optimized parameters =  [ 0.99864736  0.10010865  5.02400381  2.41726323  0.0496416 ]
+			Likelihood =  -1311.07
+			AIC =  2632.14
+			Theta =  20004.17
+			Chi-Squared =  0.28
+
+			Replicate time: 0:00:57.043818 (H:M:S)
+
+	Best so far: Round_4_Replicate_5, ll = -1310.98
+
+
+
+our_model Analysis Time for Model: 0:56:10.798053 (H:M:S)
+
+============================================================================

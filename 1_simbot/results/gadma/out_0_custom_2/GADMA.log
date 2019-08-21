@@ -1,0 +1,2453 @@
+--Successful arguments' parsing--
+
+You can find all parameters of this run in:		/mnt/ssd1/enoskova/simulations/1_simbot/results/gadma/out_0_custom_2/params
+
+All output is saved (without warnings and errors) in:	/mnt/ssd1/enoskova/simulations/1_simbot/results/gadma/out_0_custom_2/GADMA.log
+
+--Start pipeline--
+
+Run genetic algorithm number 1
+Run genetic algorithm number 3
+Run genetic algorithm number 5
+Run genetic algorithm number 7
+Run genetic algorithm number 9
+Run genetic algorithm number 11
+Run genetic algorithm number 13
+Run genetic algorithm number 15
+Run genetic algorithm number 17
+Run genetic algorithm number 19
+
+[000:01:00]
+All best logLL models:
+GA number	logLL				model
+Model  17	    -88.66	[     0.033,      1.030,      0.017,      0.047]	cm
+Model  11	    -88.82	[     0.036,      1.064,      0.019,      0.046]	cmm
+Model   5	    -97.71	[     0.144,      1.255,      0.106,      0.028]	cm
+Model  19	   -102.71	[     0.164,      5.153,      0.122,      0.021]	cm
+Model   9	   -106.39	[     0.181,      2.578,      0.153,      0.020]	c
+Model   3	   -131.81	[     0.165,      1.693,      0.187,      0.017]	cm
+Model   1	   -167.07	[     0.043,     47.611,      0.126,      0.002]	cmm
+Model  15	   -393.69	[    47.400,      0.089,      0.010,      0.242]	cmm
+Model  13	   -393.73	[     0.001,      0.092,  3.226e-06,      0.244]	cm
+Model   7	   -394.43	[     0.005,      0.119,  6.568e-11,      0.281]	cmmm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.66
+Model:	[     0.033,      1.030,      0.017,      0.047]	cm
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 7
+Run genetic algorithm number 8
+Finish genetic algorithm number 13
+Run genetic algorithm number 14
+Finish genetic algorithm number 17
+Run genetic algorithm number 18
+
+[000:02:04]
+All best logLL models:
+GA number	logLL				model
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model  11	    -88.74	[     0.039,      1.050,      0.021,      0.046]	cm
+Model   3	    -91.65	[     0.110,      1.197,      0.070,      0.035]	cm
+Model   9	    -94.53	[     0.138,      1.478,      0.094,      0.030]	cm
+Model   5	    -95.54	[     0.144,      1.441,      0.100,      0.029]	cm
+Model  19	    -98.33	[     0.159,      1.815,      0.117,      0.025]	c
+Model  15	   -120.02	[     0.177,      1.356,      0.177,      0.019]	cmm
+Model   1	   -165.38	[     0.057,    100.000,      0.150,      0.003]	c
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  14	   -395.20	[     0.135,      0.041,      0.302,  2.488e-07]	cmmm
+Model   8	   -399.47	[     0.861,      0.188,  3.604e-07,      0.333]	rm
+Model  18	   -530.30	[     0.310,      0.222,      0.488,  1.389e-04]	r
+
+--Best model by log likelihood--
+Log likelihood:	    -88.61
+Model:	[     0.026,      1.022,      0.013,      0.048]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 11
+Run genetic algorithm number 12
+Finish genetic algorithm number 5
+Run genetic algorithm number 6
+
+[000:03:10]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.59	[     0.011,      1.002,      0.005,      0.050]	cm
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  12	    -89.33	[     0.015,      0.978,      0.008,      0.050]	cm
+Model   8	    -89.78	[     0.073,      1.174,      0.041,      0.040]	cm
+Model   3	    -91.09	[     0.101,      1.147,      0.062,      0.037]	cm
+Model  15	    -92.04	[     0.115,      1.342,      0.073,      0.033]	c
+Model  19	    -92.27	[     0.112,      1.361,      0.069,      0.035]	cm
+Model  14	    -94.13	[     0.135,      1.514,      0.090,      0.030]	cm
+Model   6	   -123.94	[     0.183,    100.000,      0.202,      0.013]	cmmm
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  18	   -393.86	[     2.589,      0.099,      0.131,      0.264]	cm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.59
+Model:	[     0.011,      1.002,      0.005,      0.050]	cm
+Finish genetic algorithm number 9
+Run genetic algorithm number 10
+
+You can find its picture and python code in output directory
+
+[000:04:16]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	cm
+Model  12	    -88.57	[     0.014,      1.004,      0.007,      0.050]	c
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model   8	    -89.55	[     0.073,      1.146,      0.042,      0.040]	cm
+Model  15	    -90.61	[     0.097,      1.198,      0.059,      0.037]	c
+Model   3	    -90.66	[     0.097,      1.153,      0.059,      0.037]	c
+Model  14	    -90.86	[     0.097,      1.282,      0.058,      0.036]	c
+Model  19	    -91.36	[     0.108,      1.228,      0.067,      0.035]	c
+Model  10	    -97.25	[     0.151,      1.339,      0.107,      0.028]	cm
+Model   6	    -99.04	[     0.161,      2.080,      0.119,      0.024]	cm
+Model  18	   -168.14	[     0.048,      1.230,      0.132,      0.003]	cmm
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	cm
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 1
+Run genetic algorithm number 2
+Finish genetic algorithm number 8
+Run genetic algorithm number 21
+Finish genetic algorithm number 12
+Run genetic algorithm number 23
+
+[000:05:20]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model   3	    -89.72	[     0.079,      1.154,      0.045,      0.040]	cmm
+Model  14	    -89.91	[     0.082,      1.172,      0.048,      0.039]	cm
+Model  15	    -90.30	[     0.091,      1.209,      0.054,      0.038]	cm
+Model  19	    -90.91	[     0.101,      1.239,      0.062,      0.036]	cmmmmm
+Model   6	    -93.87	[     0.126,      1.564,      0.082,      0.030]	cmmm
+Model  10	    -96.02	[     0.146,      1.408,      0.103,      0.028]	c
+Model  18	   -165.80	[     0.062,      3.685,      0.159,      0.003]	cm
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model   2	   -393.67	[     0.001,      0.088,  1.156e-07,      0.239]	cmmm
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  21	   -412.15	[     0.552,      0.275,  9.046e-11,      0.358]	cmm
+Model  23	   -611.31	[     0.212,      0.294,      0.001,      0.189]	cm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 14
+Run genetic algorithm number 25
+Finish genetic algorithm number 2
+Run genetic algorithm number 27
+
+[000:06:24]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model   3	    -89.62	[     0.077,      1.137,      0.044,      0.040]	cm
+Model  15	    -89.81	[     0.081,      1.138,      0.047,      0.039]	cm
+Model  19	    -90.56	[     0.094,      1.200,      0.057,      0.037]	cmmmm
+Model  27	    -90.76	[     0.069,      1.205,      0.039,      0.039]	cmm
+Model  10	    -95.39	[     0.144,      1.491,      0.099,      0.028]	c
+Model  18	   -164.89	[     0.062,    100.000,      0.159,      0.003]	cmmmm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  25	   -393.61	[     1.322,      0.085,  5.666e-06,      0.234]	c
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  23	   -394.00	[     0.055,      0.104,      0.001,      0.260]	cmm
+Model  21	   -394.06	[     3.087,      0.114,      0.403,      0.306]	cmmmmmm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+Finish genetic algorithm number 6
+Run genetic algorithm number 29
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 18
+Run genetic algorithm number 31
+
+[000:07:28]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -89.31	[     0.067,      1.089,      0.038,      0.042]	c
+Model   3	    -89.49	[     0.073,      1.128,      0.041,      0.041]	cm
+Model  15	    -89.75	[     0.079,      1.148,      0.046,      0.039]	cmm
+Model  19	    -89.96	[     0.085,      1.136,      0.050,      0.039]	cmm
+Model  10	    -92.20	[     0.117,      1.321,      0.074,      0.033]	cm
+Model  29	   -105.69	[     0.183,      7.036,      0.145,      0.018]	cmm
+Model  23	   -114.49	[     0.176,     87.557,      0.166,      0.015]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  25	   -393.47	[     0.186,      0.077,      0.002,      0.219]	cmm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  21	   -393.57	[     2.544,      0.092,      0.496,      0.269]	cm
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  31	   -393.91	[     1.223,      0.100,  5.972e-10,      0.257]	cmmm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:08:33]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model   3	    -89.31	[     0.068,      1.111,      0.038,      0.041]	cmmmm
+Model  15	    -89.53	[     0.074,      1.120,      0.043,      0.040]	cmmm
+Model  19	    -89.81	[     0.081,      1.123,      0.047,      0.040]	cm
+Model  10	    -90.69	[     0.093,      1.244,      0.055,      0.036]	cm
+Model  31	    -94.47	[     0.117,      1.088,      0.074,      0.037]	cm
+Model  29	    -97.15	[     0.150,      2.009,      0.105,      0.026]	cmm
+Model  23	   -104.38	[     0.181,      3.848,      0.142,      0.020]	cmm
+Model  25	   -106.71	[     0.182,      4.698,      0.154,      0.018]	cmmmmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.18	[     0.060,      9.231,      0.155,      0.003]	c
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+Finish genetic algorithm number 27
+Run genetic algorithm number 28
+
+You can find its picture and python code in output directory
+
+[000:09:40]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model   3	    -89.23	[     0.065,      1.088,      0.036,      0.042]	c
+Model  15	    -89.48	[     0.073,      1.128,      0.041,      0.041]	cmm
+Model  19	    -89.61	[     0.077,      1.133,      0.044,      0.040]	cm
+Model  10	    -90.38	[     0.092,      1.213,      0.055,      0.037]	cm
+Model  31	    -91.25	[     0.103,      1.198,      0.065,      0.035]	cmmmm
+Model  25	    -96.11	[     0.135,      1.612,      0.088,      0.028]	cmmmm
+Model  29	    -96.32	[     0.150,      1.545,      0.105,      0.028]	cmm
+Model  23	   -103.65	[     0.178,      3.277,      0.138,      0.020]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.09	[     0.060,     33.548,      0.155,      0.003]	cmmmmm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  28	   -394.13	[    30.699,      0.105,  7.250e-05,      0.265]	cmmmm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:10:44]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model   3	    -89.17	[     0.063,      1.088,      0.035,      0.042]	cmm
+Model  15	    -89.26	[     0.066,      1.100,      0.037,      0.042]	cm
+Model  19	    -89.40	[     0.071,      1.102,      0.040,      0.041]	cmm
+Model  10	    -90.16	[     0.088,      1.181,      0.052,      0.038]	cm
+Model  31	    -91.07	[     0.103,      1.249,      0.064,      0.035]	cmm
+Model  25	    -91.26	[     0.103,      1.271,      0.063,      0.036]	cmm
+Model  29	    -95.31	[     0.143,      1.567,      0.099,      0.028]	cm
+Model  23	    -99.77	[     0.145,      2.835,      0.102,      0.025]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  28	   -393.86	[     0.001,      0.098,  8.918e-06,      0.253]	cm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 21
+Run genetic algorithm number 22
+Finish genetic algorithm number 3
+Run genetic algorithm number 4
+Finish genetic algorithm number 31
+Run genetic algorithm number 32
+
+[000:11:50]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  15	    -89.22	[     0.065,      1.098,      0.036,      0.042]	cm
+Model  19	    -89.38	[     0.070,      1.104,      0.040,      0.041]	cmmm
+Model  10	    -89.68	[     0.078,      1.128,      0.045,      0.040]	cmmmm
+Model  25	    -90.50	[     0.091,      1.222,      0.055,      0.037]	c
+Model  29	    -92.59	[     0.120,      1.297,      0.079,      0.033]	cm
+Model  28	    -93.64	[     0.033,      1.144,      0.016,      0.049]	c
+Model  23	    -95.59	[     0.143,      1.553,      0.100,      0.028]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model   4	   -176.23	[     0.208,      3.343,      0.256,      0.013]	cmm
+Model  22	   -323.69	[     0.058,      0.111,      0.183,      0.004]	rmm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  32	   -396.33	[    32.496,      0.162,      0.034,      0.333]	cmm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 19
+Run genetic algorithm number 20
+
+[000:13:00]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	cmmm
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  28	    -88.85	[     0.031,      1.049,      0.016,      0.047]	cm
+Model  15	    -89.17	[     0.063,      1.083,      0.035,      0.043]	cmm
+Model  10	    -89.51	[     0.074,      1.133,      0.042,      0.041]	cm
+Model  29	    -90.78	[     0.098,      1.254,      0.059,      0.036]	cmm
+Model  23	    -92.96	[     0.121,      1.401,      0.078,      0.031]	cmmm
+Model   4	    -99.69	[     0.160,      2.645,      0.118,      0.023]	cmm
+Model  32	   -102.10	[     0.172,      1.809,      0.133,      0.023]	cmm
+Model  20	   -112.64	[     0.201,    100.000,      0.170,      0.016]	cm
+Model  22	   -160.68	[     0.096,     11.799,      0.196,      0.005]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+Finish genetic algorithm number 25
+Run genetic algorithm number 26
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 15
+Run genetic algorithm number 16
+Finish genetic algorithm number 28
+Run genetic algorithm number 33
+
+[000:14:17]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  10	    -89.22	[     0.065,      1.099,      0.036,      0.042]	cm
+Model  29	    -90.11	[     0.088,      1.146,      0.052,      0.038]	cm
+Model  23	    -91.59	[     0.110,      1.301,      0.069,      0.034]	cm
+Model   4	    -96.67	[     0.151,      1.703,      0.105,      0.027]	cm
+Model  22	    -99.74	[     0.161,      2.580,      0.117,      0.023]	cmm
+Model  32	   -100.36	[     0.167,      2.368,      0.126,      0.023]	c
+Model  20	   -107.88	[     0.181,     18.897,      0.154,      0.017]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.95	[     0.188,      0.002,      0.135,      0.013]	cm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -394.80	[   100.000,      0.122,  2.388e-05,      0.288]	cmmm
+Model  33	   -440.64	[     0.330,      1.734,      0.330,  9.204e-10]	c
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:15:30]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  10	    -89.13	[     0.061,      1.090,      0.034,      0.043]	c
+Model  29	    -90.02	[     0.085,      1.157,      0.050,      0.039]	cm
+Model  23	    -90.42	[     0.094,      1.194,      0.056,      0.037]	cm
+Model   4	    -92.99	[     0.123,      1.444,      0.078,      0.032]	cm
+Model  32	    -96.55	[     0.150,      1.522,      0.107,      0.027]	cmmm
+Model  22	    -99.49	[     0.161,      2.413,      0.118,      0.023]	cm
+Model  33	   -104.72	[     0.159,      7.490,      0.114,      0.021]	cm
+Model  20	   -104.98	[     0.179,      9.435,      0.136,      0.019]	cmmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	cm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -394.53	[     0.001,      0.122,  6.579e-06,      0.284]	c
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 16
+Run genetic algorithm number 35
+
+[000:16:36]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	cmmmmmmm
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  29	    -89.84	[     0.083,      1.140,      0.048,      0.039]	c
+Model  23	    -90.30	[     0.091,      1.194,      0.054,      0.037]	cmm
+Model   4	    -92.42	[     0.121,      1.318,      0.077,      0.033]	cmm
+Model  32	    -92.79	[     0.123,      1.396,      0.078,      0.032]	c
+Model  22	    -94.14	[     0.135,      1.447,      0.091,      0.030]	cmmmm
+Model  20	    -95.15	[     0.138,      1.529,      0.089,      0.030]	cmm
+Model  33	    -99.55	[     0.159,      2.185,      0.114,      0.026]	cm
+Model  35	   -100.53	[     0.162,      2.976,      0.115,      0.023]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -394.50	[     0.001,      0.122,  1.462e-05,      0.284]	cm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 10
+Run genetic algorithm number 37
+Finish genetic algorithm number 26
+Run genetic algorithm number 39
+
+[000:17:38]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  39	    -88.66	[     0.010,      0.994,      0.005,      0.051]	c
+Model  29	    -89.74	[     0.080,      1.128,      0.046,      0.040]	c
+Model  23	    -90.25	[     0.091,      1.168,      0.054,      0.038]	c
+Model  32	    -90.84	[     0.100,      1.184,      0.060,      0.037]	cmmm
+Model  22	    -90.99	[     0.103,      1.201,      0.063,      0.036]	cm
+Model   4	    -91.42	[     0.101,      1.250,      0.063,      0.035]	cmmmmmmm
+Model  37	    -93.23	[     0.124,      1.357,      0.082,      0.031]	cmmmm
+Model  20	    -94.12	[     0.134,      1.480,      0.090,      0.030]	c
+Model  33	    -94.19	[     0.129,      1.597,      0.083,      0.030]	cm
+Model  35	    -98.82	[     0.161,      2.088,      0.117,      0.024]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:18:43]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	c
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  29	    -89.56	[     0.075,      1.137,      0.043,      0.040]	cmmm
+Model  23	    -89.96	[     0.085,      1.143,      0.050,      0.039]	c
+Model  32	    -90.39	[     0.094,      1.183,      0.056,      0.038]	c
+Model   4	    -90.41	[     0.092,      1.195,      0.055,      0.038]	cm
+Model  22	    -90.82	[     0.100,      1.227,      0.061,      0.036]	cmm
+Model  37	    -91.33	[     0.105,      1.237,      0.065,      0.035]	cm
+Model  33	    -93.14	[     0.126,      1.296,      0.084,      0.032]	cm
+Model  35	    -93.74	[     0.128,      1.495,      0.085,      0.030]	cm
+Model  20	    -94.06	[     0.134,      1.450,      0.090,      0.030]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+Finish genetic algorithm number 39
+Run genetic algorithm number 40
+
+You can find its picture and python code in output directory
+
+[000:19:48]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  29	    -89.35	[     0.069,      1.108,      0.039,      0.041]	c
+Model   4	    -89.66	[     0.078,      1.128,      0.045,      0.040]	cmm
+Model  23	    -89.79	[     0.081,      1.122,      0.047,      0.040]	cm
+Model  35	    -89.95	[     0.077,      1.187,      0.045,      0.039]	cm
+Model  32	    -90.06	[     0.087,      1.151,      0.051,      0.039]	cm
+Model  22	    -90.54	[     0.095,      1.231,      0.057,      0.037]	cmm
+Model  37	    -91.22	[     0.105,      1.278,      0.065,      0.035]	cm
+Model  33	    -91.48	[     0.108,      1.239,      0.068,      0.035]	c
+Model  20	    -91.97	[     0.116,      1.300,      0.073,      0.034]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,     78.517,      0.157,      0.003]	cm
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 37
+Run genetic algorithm number 38
+
+[000:20:57]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	cm
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  29	    -89.33	[     0.069,      1.104,      0.039,      0.041]	cm
+Model  23	    -89.55	[     0.074,      1.126,      0.043,      0.040]	cmmm
+Model   4	    -89.58	[     0.076,      1.122,      0.044,      0.040]	c
+Model  35	    -89.65	[     0.077,      1.148,      0.044,      0.040]	cm
+Model  22	    -90.34	[     0.092,      1.195,      0.055,      0.037]	cm
+Model  33	    -90.82	[     0.100,      1.229,      0.061,      0.036]	cm
+Model  20	    -91.08	[     0.101,      1.237,      0.062,      0.035]	c
+Model  38	    -91.48	[     0.106,      1.334,      0.064,      0.035]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 40
+Run genetic algorithm number 41
+Finish genetic algorithm number 32
+Run genetic algorithm number 43
+
+[000:22:04]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  29	    -89.26	[     0.066,      1.094,      0.037,      0.042]	c
+Model  23	    -89.44	[     0.072,      1.105,      0.041,      0.041]	c
+Model   4	    -89.50	[     0.074,      1.115,      0.042,      0.041]	c
+Model  22	    -90.23	[     0.090,      1.143,      0.054,      0.038]	cm
+Model  20	    -90.37	[     0.092,      1.157,      0.056,      0.038]	cm
+Model  33	    -90.78	[     0.100,      1.219,      0.061,      0.036]	cm
+Model  38	    -91.27	[     0.106,      1.274,      0.065,      0.035]	cmm
+Model  43	    -94.93	[     0.044,      0.843,      0.026,      0.047]	cm
+Model  41	   -146.39	[     0.152,      7.088,      0.222,      0.009]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+Finish genetic algorithm number 35
+Run genetic algorithm number 36
+
+You can find its picture and python code in output directory
+
+[000:23:10]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	c
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  43	    -89.12	[     0.034,      1.044,      0.018,      0.046]	cm
+Model  29	    -89.24	[     0.066,      1.098,      0.037,      0.042]	cmm
+Model  23	    -89.34	[     0.069,      1.106,      0.039,      0.041]	cmmmmmmmm
+Model  22	    -89.96	[     0.085,      1.145,      0.050,      0.039]	c
+Model  20	    -90.21	[     0.089,      1.186,      0.053,      0.038]	cm
+Model  33	    -90.76	[     0.100,      1.206,      0.061,      0.036]	c
+Model  38	    -91.27	[     0.106,      1.274,      0.065,      0.035]	cmm
+Model  41	   -105.49	[     0.173,      2.486,      0.147,      0.020]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  36	   -393.39	[     0.746,      0.071,      0.058,      0.208]	cm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 4
+Run genetic algorithm number 45
+Finish genetic algorithm number 38
+Run genetic algorithm number 47
+Finish genetic algorithm number 29
+Run genetic algorithm number 30
+Finish genetic algorithm number 43
+Run genetic algorithm number 44
+
+[000:24:22]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  23	    -89.21	[     0.065,      1.092,      0.036,      0.042]	c
+Model  47	    -89.21	[     0.063,      1.065,      0.035,      0.043]	cmmmm
+Model  22	    -89.62	[     0.077,      1.114,      0.044,      0.040]	c
+Model  36	    -89.86	[     0.065,      1.196,      0.036,      0.041]	c
+Model  20	    -89.94	[     0.084,      1.149,      0.048,      0.039]	cmm
+Model  33	    -90.14	[     0.087,      1.154,      0.052,      0.038]	cm
+Model  41	    -97.47	[     0.151,      2.015,      0.107,      0.025]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.87	[     0.008,      2.249,      0.037,  3.927e-04]	cm
+Model  45	   -294.57	[     0.016,     57.158,      0.071,  1.802e-04]	c
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+Model  44	   -585.48	[     0.314,     11.651,      0.200,  6.898e-09]	rm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:25:28]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  23	    -89.11	[     0.061,      1.083,      0.034,      0.043]	cm
+Model  47	    -89.19	[     0.063,      1.089,      0.035,      0.043]	cm
+Model  36	    -89.41	[     0.065,      1.149,      0.036,      0.041]	cmm
+Model  22	    -89.44	[     0.071,      1.129,      0.040,      0.041]	cmmm
+Model  33	    -89.61	[     0.077,      1.130,      0.044,      0.040]	cm
+Model  20	    -89.77	[     0.081,      1.142,      0.047,      0.039]	cm
+Model  41	    -97.10	[     0.151,      1.923,      0.108,      0.026]	cm
+Model  44	   -102.84	[     0.174,      2.792,      0.138,      0.021]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  3.998e-04]	cmm
+Model  45	   -168.96	[     0.009,      1.610,      0.041,  4.410e-04]	c
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:26:33]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  23	    -89.05	[     0.058,      1.078,      0.032,      0.043]	c
+Model  47	    -89.06	[     0.058,      1.088,      0.032,      0.043]	cm
+Model  36	    -89.12	[     0.059,      1.099,      0.033,      0.043]	cmm
+Model  22	    -89.18	[     0.063,      1.099,      0.035,      0.042]	cmm
+Model  33	    -89.47	[     0.073,      1.112,      0.041,      0.041]	cm
+Model  20	    -89.62	[     0.077,      1.121,      0.044,      0.040]	c
+Model  41	    -96.65	[     0.150,      1.687,      0.107,      0.026]	cm
+Model  44	    -97.00	[     0.142,      2.114,      0.097,      0.026]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	cmmmm
+Model  45	   -167.99	[     0.009,    100.000,      0.041,  4.428e-04]	cmmmmmmm
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 30
+Run genetic algorithm number 49
+Finish genetic algorithm number 47
+Run genetic algorithm number 48
+
+[000:27:39]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  36	    -88.99	[     0.056,      1.064,      0.030,      0.044]	cm
+Model  23	    -89.00	[     0.056,      1.079,      0.031,      0.043]	cm
+Model  22	    -89.12	[     0.061,      1.086,      0.034,      0.043]	c
+Model  33	    -89.40	[     0.070,      1.099,      0.040,      0.041]	cmm
+Model  20	    -89.41	[     0.071,      1.098,      0.040,      0.041]	cm
+Model  41	    -92.59	[     0.116,      1.160,      0.076,      0.034]	cmmm
+Model  44	    -93.53	[     0.127,      1.253,      0.085,      0.032]	cmmmmmmmmmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	cm
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+Model  49	   -394.11	[     1.854,      0.108,  1.745e-13,      0.268]	cmmm
+Model  48	   -423.42	[     0.298,      0.298,  1.576e-08,      0.377]	rmmmm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 23
+Run genetic algorithm number 24
+Finish genetic algorithm number 33
+Run genetic algorithm number 34
+Finish genetic algorithm number 45
+Run genetic algorithm number 46
+
+[000:28:47]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  22	    -89.04	[     0.058,      1.078,      0.032,      0.043]	c
+Model  20	    -89.31	[     0.068,      1.103,      0.038,      0.042]	c
+Model  49	    -89.78	[     0.058,      1.174,      0.031,      0.042]	cmmmm
+Model  44	    -91.44	[     0.106,      1.263,      0.066,      0.034]	cmmmm
+Model  41	    -91.76	[     0.113,      1.292,      0.071,      0.034]	cm
+Model  48	   -116.92	[     0.194,      4.062,      0.186,      0.016]	cmmmmmm
+Model  34	   -147.26	[     0.146,     12.403,      0.159,      0.013]	cmmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+Model  24	   -394.73	[     0.129,      0.120,      0.133,      0.161]	cmm
+Model  46	   -399.81	[     0.569,      0.062,      2.345,      0.148]	cm
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+Finish genetic algorithm number 36
+
+You can find its picture and python code in output directory
+
+[000:29:55]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  22	    -88.99	[     0.055,      1.077,      0.030,      0.043]	c
+Model  49	    -89.23	[     0.061,      1.055,      0.034,      0.043]	cmm
+Model  20	    -89.30	[     0.068,      1.099,      0.038,      0.042]	cmmm
+Model  41	    -90.78	[     0.100,      1.232,      0.060,      0.036]	cm
+Model  44	    -90.94	[     0.101,      1.234,      0.062,      0.036]	cmm
+Model  24	   -103.12	[     0.141,      1.067,      0.091,      0.036]	cmmm
+Model  48	   -103.15	[     0.176,      1.902,      0.138,      0.022]	cm
+Model  34	   -103.55	[     0.174,      3.810,      0.137,      0.020]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.21	[     2.047,      0.056,  1.883e-06,      0.179]	c
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 20
+
+[000:31:00]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	cmm
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  49	    -89.11	[     0.061,      1.087,      0.034,      0.043]	cm
+Model  41	    -90.55	[     0.096,      1.189,      0.058,      0.037]	cmm
+Model  44	    -90.72	[     0.099,      1.223,      0.060,      0.036]	cmmmm
+Model  24	    -94.68	[     0.139,      1.491,      0.095,      0.029]	cm
+Model  48	    -98.44	[     0.160,      1.853,      0.116,      0.025]	cm
+Model  34	   -102.77	[     0.174,      3.842,      0.133,      0.021]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	cmm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 22
+Finish genetic algorithm number 46
+Finish genetic algorithm number 44
+
+[000:32:11]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  49	    -89.11	[     0.061,      1.087,      0.034,      0.043]	cm
+Model  41	    -90.47	[     0.095,      1.182,      0.057,      0.037]	cm
+Model  48	    -91.29	[     0.107,      1.260,      0.066,      0.035]	cm
+Model  24	    -93.39	[     0.124,      1.468,      0.081,      0.031]	cmmmm
+Model  34	    -99.08	[     0.162,      2.299,      0.117,      0.024]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 49
+Run genetic algorithm number 50
+
+[000:33:20]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  41	    -90.27	[     0.091,      1.162,      0.054,      0.038]	cmm
+Model  48	    -90.43	[     0.089,      1.231,      0.052,      0.038]	cmm
+Model  24	    -91.67	[     0.105,      1.371,      0.064,      0.034]	c
+Model  34	    -93.52	[     0.120,      1.589,      0.075,      0.032]	cmmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model  50	   -393.20	[     0.049,     69.742,      0.165,  4.613e-09]	cm
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:34:28]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  41	    -90.09	[     0.088,      1.154,      0.052,      0.038]	cmmmmm
+Model  48	    -90.10	[     0.087,      1.184,      0.051,      0.038]	cmm
+Model  24	    -91.09	[     0.105,      1.238,      0.064,      0.036]	cm
+Model  34	    -92.20	[     0.115,      1.376,      0.073,      0.033]	c
+Model  50	   -106.72	[     0.179,     39.218,      0.144,      0.018]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:35:34]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  41	    -89.64	[     0.077,      1.139,      0.044,      0.040]	cmm
+Model  48	    -89.65	[     0.077,      1.141,      0.044,      0.040]	cm
+Model  24	    -90.93	[     0.099,      1.248,      0.060,      0.036]	cm
+Model  34	    -91.58	[     0.111,      1.244,      0.069,      0.035]	cm
+Model  50	   -104.67	[     0.177,      6.250,      0.137,      0.019]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:36:44]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  41	    -89.51	[     0.074,      1.123,      0.042,      0.041]	cmmm
+Model  48	    -89.62	[     0.077,      1.130,      0.044,      0.040]	cmm
+Model  24	    -89.88	[     0.083,      1.167,      0.048,      0.039]	cm
+Model  34	    -90.89	[     0.100,      1.161,      0.061,      0.037]	c
+Model  50	   -102.96	[     0.177,      3.323,      0.135,      0.021]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:37:50]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  41	    -89.42	[     0.071,      1.113,      0.041,      0.041]	cm
+Model  48	    -89.51	[     0.073,      1.126,      0.041,      0.041]	cm
+Model  24	    -89.52	[     0.073,      1.088,      0.042,      0.041]	cmmmm
+Model  34	    -90.78	[     0.100,      1.192,      0.061,      0.036]	cm
+Model  50	    -98.19	[     0.150,      1.960,      0.110,      0.025]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:39:00]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  48	    -89.10	[     0.061,      1.082,      0.034,      0.043]	cmmmm
+Model  24	    -89.35	[     0.068,      1.108,      0.039,      0.041]	cmmmmmmm
+Model  41	    -89.37	[     0.070,      1.104,      0.040,      0.041]	c
+Model  34	    -90.62	[     0.095,      1.226,      0.056,      0.037]	cm
+Model  50	    -94.23	[     0.134,      1.475,      0.089,      0.029]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:40:08]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  48	    -89.03	[     0.057,      1.076,      0.031,      0.043]	cmm
+Model  41	    -89.28	[     0.067,      1.099,      0.038,      0.042]	cmmmmmmm
+Model  24	    -89.30	[     0.067,      1.102,      0.038,      0.042]	cmmm
+Model  34	    -90.17	[     0.088,      1.161,      0.052,      0.038]	cm
+Model  50	    -92.68	[     0.121,      1.388,      0.078,      0.032]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 24
+
+[000:41:18]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  48	    -89.02	[     0.057,      1.074,      0.031,      0.043]	cm
+Model  41	    -89.17	[     0.063,      1.082,      0.035,      0.043]	cmmmmm
+Model  34	    -89.97	[     0.085,      1.144,      0.050,      0.039]	cmm
+Model  50	    -92.53	[     0.121,      1.337,      0.078,      0.032]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 48
+Finish genetic algorithm number 41
+Run genetic algorithm number 42
+
+[000:42:26]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  34	    -89.63	[     0.076,      1.121,      0.044,      0.040]	c
+Model  50	    -91.40	[     0.105,      1.314,      0.065,      0.035]	cmmmmmmmmmmmmmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  42	   -210.76	[     0.096,      0.471,      0.065,      0.071]	c
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:43:36]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  34	    -89.58	[     0.076,      1.118,      0.044,      0.040]	cm
+Model  42	    -90.67	[     0.094,      1.101,      0.057,      0.038]	c
+Model  50	    -91.01	[     0.103,      1.242,      0.063,      0.036]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:44:47]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  50	    -90.16	[     0.089,      1.137,      0.053,      0.038]	cmm
+Model  42	    -90.43	[     0.094,      1.193,      0.056,      0.037]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+Finish genetic algorithm number 34
+
+You can find its picture and python code in output directory
+
+[000:45:58]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  50	    -89.60	[     0.074,      1.149,      0.042,      0.040]	c
+Model  42	    -90.12	[     0.069,      1.177,      0.038,      0.042]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:47:08]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  50	    -89.37	[     0.068,      1.117,      0.039,      0.041]	c
+Model  42	    -89.40	[     0.068,      1.107,      0.039,      0.041]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:48:17]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  42	    -89.32	[     0.068,      1.095,      0.038,      0.042]	cmmm
+Model  50	    -89.32	[     0.068,      1.107,      0.039,      0.041]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:49:24]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  50	    -89.23	[     0.064,      1.116,      0.036,      0.042]	cmmm
+Model  42	    -89.31	[     0.068,      1.095,      0.038,      0.042]	cm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 42
+
+[000:50:30]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  42	    -88.68	[     0.006,      0.990,      0.003,      0.051]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  50	    -89.11	[     0.061,      1.083,      0.034,      0.043]	cmm
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:51:37]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  42	    -88.68	[     0.006,      0.990,      0.003,      0.051]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  50	    -89.03	[     0.057,      1.073,      0.032,      0.043]	c
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+[000:52:43]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  50	    -88.66	[     0.010,      0.990,      0.005,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  42	    -88.68	[     0.006,      0.990,      0.003,      0.051]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+Finish genetic algorithm number 50
+
+[000:52:50]
+All best logLL models:
+GA number	logLL				model
+Model   1	    -88.56	[     0.011,      1.004,      0.005,      0.050]	f
+Model  12	    -88.56	[     0.012,      1.004,      0.006,      0.050]	f
+Model  39	    -88.58	[     0.010,      0.987,      0.005,      0.050]	f
+Model  44	    -88.59	[     0.014,      1.003,      0.007,      0.050]	f
+Model  28	    -88.60	[     0.024,      1.025,      0.012,      0.048]	f
+Model  17	    -88.61	[     0.026,      1.022,      0.013,      0.048]	f
+Model   5	    -88.61	[     0.009,      0.989,      0.004,      0.051]	f
+Model   4	    -88.62	[     0.014,      1.005,      0.007,      0.050]	f
+Model  43	    -88.62	[     0.027,      1.023,      0.014,      0.048]	f
+Model  37	    -88.62	[     0.015,      1.003,      0.008,      0.050]	f
+Model  25	    -88.62	[     0.021,      1.012,      0.011,      0.049]	f
+Model   3	    -88.63	[     0.013,      0.997,      0.007,      0.050]	f
+Model  29	    -88.63	[     0.007,      0.995,      0.004,      0.051]	f
+Model  31	    -88.63	[     0.012,      1.000,      0.006,      0.050]	f
+Model  34	    -88.63	[     0.011,      0.995,      0.005,      0.050]	f
+Model  38	    -88.63	[     0.012,      1.001,      0.006,      0.050]	f
+Model  35	    -88.63	[     0.021,      1.013,      0.011,      0.049]	f
+Model   8	    -88.63	[     0.013,      0.996,      0.007,      0.050]	f
+Model  19	    -88.64	[     0.013,      1.004,      0.007,      0.050]	f
+Model  14	    -88.64	[     0.025,      1.017,      0.013,      0.048]	f
+Model  33	    -88.64	[     0.017,      1.004,      0.009,      0.049]	f
+Model   6	    -88.64	[     0.026,      1.024,      0.013,      0.048]	f
+Model  24	    -88.64	[     0.023,      1.016,      0.012,      0.049]	f
+Model  11	    -88.65	[     0.027,      1.023,      0.014,      0.048]	f
+Model  10	    -88.65	[     0.017,      1.004,      0.008,      0.050]	f
+Model  20	    -88.65	[     0.018,      1.006,      0.009,      0.049]	f
+Model   9	    -88.65	[     0.009,      0.990,      0.005,      0.051]	f
+Model  49	    -88.65	[     0.010,      0.997,      0.005,      0.050]	f
+Model  27	    -88.65	[     0.020,      1.007,      0.010,      0.049]	f
+Model  47	    -88.66	[     0.016,      1.003,      0.008,      0.050]	f
+Model  32	    -88.66	[     0.006,      0.991,      0.003,      0.051]	f
+Model  50	    -88.66	[     0.010,      0.990,      0.005,      0.051]	f
+Model  23	    -88.66	[     0.010,      0.992,      0.005,      0.051]	f
+Model  15	    -88.66	[     0.011,      0.994,      0.005,      0.050]	f
+Model  48	    -88.67	[     0.012,      0.996,      0.006,      0.050]	f
+Model  42	    -88.68	[     0.006,      0.990,      0.003,      0.051]	f
+Model  41	    -88.68	[     0.013,      0.992,      0.006,      0.050]	f
+Model  22	    -88.69	[     0.014,      0.996,      0.007,      0.050]	f
+Model  36	    -88.76	[     0.034,      1.029,      0.018,      0.047]	f
+Model  18	   -164.88	[     0.062,    100.000,      0.159,      0.003]	f
+Model  40	   -164.94	[     0.062,    100.000,      0.157,      0.003]	f
+Model  21	   -165.05	[     0.060,     81.164,      0.155,      0.003]	f
+Model  30	   -167.64	[     0.008,    100.000,      0.037,  4.032e-04]	f
+Model  45	   -167.86	[     0.009,    100.000,      0.041,  4.491e-04]	f
+Model  16	   -392.94	[     0.188,      0.002,      0.136,      0.013]	f
+Model  46	   -393.18	[    26.112,      0.054,  8.480e-05,      0.174]	f
+Model   2	   -393.50	[     0.001,      0.074,  2.542e-06,      0.215]	f
+Model   7	   -393.52	[     0.003,      0.060,  1.184e-10,      0.188]	f
+Model  13	   -393.73	[     0.002,      0.070,  4.275e-06,      0.209]	f
+Model  26	   -393.81	[     0.001,      0.051,  1.463e-05,      0.169]	f
+
+--Best model by log likelihood--
+Log likelihood:	    -88.56
+Model:	[     0.011,      1.004,      0.005,      0.050]	f
+
+You can find its picture and python code in output directory
+
+--Finish pipeline--
+
+Thank you for using GADMA!

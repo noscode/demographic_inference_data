@@ -1,0 +1,7 @@
+Output directory: results/gadma/out_10
+Input file: simulated_data/10.fs
+Use moments or dadi: moments
+Initial structure: 3
+Number of processes: 10
+Number of repeats: 50
+Silence: True

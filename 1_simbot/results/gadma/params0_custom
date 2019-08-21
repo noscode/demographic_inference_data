@@ -1,0 +1,13 @@
+Output directory: results/gadma/out_0_custom_2
+Input file: simulated_data/00.fs
+Use moments or dadi: moments
+Theta0: 2.0
+Custom filename: demographic_model.py
+Parameter identifiers: n,n,t,t
+Number of processes: 10
+Number of repeats: 50
+#Silence: True
+min_N: 1e-3
+Name of local optimization: optimize_log
+#Mean mutation rate: 0.5
+#Const for mutation rate: 1.8
