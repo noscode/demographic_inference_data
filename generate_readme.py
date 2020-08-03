@@ -126,8 +126,11 @@ def generate_model_info(dirname, working_dir=None):
         s += f'<img src="{working_dir}/fs_plot.png" height="200" />\n\n'
     if sim_info.n_pop >= 3:
         s += "Simulated allele frequency spectrum (projections):\n\n"
-        s += f'<img src="{working_dir}/fs_plot_projections.png" '\
-             'height="200" />\n\n'
+        s += f'<img src="{working_dir}/fs_plot_projections.png" '
+        if not sim_info.n_pop in [4, 5]:
+            s += 'height="200" />\n\n'
+        else:
+            s += '/>\n\n'
 
     # Parameters
     s += "\n### Optimal parameter values\n\n"

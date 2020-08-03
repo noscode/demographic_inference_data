@@ -190,7 +190,7 @@ Schematic model plot:
 
 Simulated allele frequency spectrum (projections):
 
-<img src="4_DivMig_11_Sim/fs_plot_projections.png" height="200" />
+<img src="4_DivMig_11_Sim/fs_plot_projections.png" />
 
 
 ### Optimal parameter values
