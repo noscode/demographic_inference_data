@@ -52,6 +52,7 @@ information about data:
 | --- | --- |
 | `n_pop` | Number of populations |
 | `par_labels` | Labels of model parameters |
+| `max_ll` | Maximum log composite likelihood |
 | `popt` | Optimal values parameters |
 | `Nanc` | Size of ancestral population |
 | `lower_bound` | Lower bound for parameters |

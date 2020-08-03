@@ -32,7 +32,7 @@ if __name__ == "__main__":
     print('Optimal value of theta: {0}'.format(theta))
 
     theta0 = 4 * mu * L
-    Nanc = theta / theta0
+    Nanc = int(theta / theta0)
     print('Size of the ancestral population: {0}'.format(Nanc))
 
     # Draw model
