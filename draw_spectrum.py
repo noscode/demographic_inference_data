@@ -2,15 +2,14 @@ import os
 import pylab
 import moments
 import itertools
+from generate_readme import load_module
 
-
-def draw_spectrum(data, out_filename, projections=True):
-    pop_ids = [f"Pop {i+1}" for i in range(data.ndim)]
+def draw_spectrum(data, pop_ids, out_filename, projections=True):
     if data.ndim == 1:
         moments.Plotting.plot_1d_fs(data, fig_num=None, show=True, ax=None,
                                     out=out_filename, markersize=2, lw=1)
         pylab.savefig(out_filename)
-        pylab.clf()
+        pylab.close('all')
     elif data.ndim == 2:
         moments.Plotting.plot_single_2d_sfs(data, vmin=1.0, vmax=None,
                                             ax=None, pop_ids=pop_ids,
@@ -18,11 +17,12 @@ def draw_spectrum(data, out_filename, projections=True):
                                             cmap=pylab.cm.hsv,
                                             out=out_filename, show=True)
         pylab.savefig(out_filename)
-        pylab.clf()
+        pylab.close('all')
     elif data.ndim == 3 and not projections:
         moments.Plotting.plot_3d_spectrum(data, fignum=None, vmin=1.0,
                                           vmax=None, pop_ids=pop_ids,
                                           out=out_filename, show=False)
+        pylab.close('all')
     else:
         npop = data.ndim
         data.mask[data == 0] = True
@@ -61,19 +61,22 @@ def draw_spectrum(data, out_filename, projections=True):
             cptr += 1
         f.tight_layout()
         f.savefig(out_filename)
+        pylab.close('all')
 
 dirnames = ["1_Bot_4_Sim", "2_DivMig_5_Sim", "3_DivMig_8_Sim",
-            "4_DivMig_11_Sim"]
+            "4_DivMig_11_Sim", "2_YRI_CEU_6_Gut", "3_YRI_CEU_CHB_13_Gut"]
 
 for dirname in dirnames:
     npop = int(dirname[0])
+    pop_ids = load_module(dirname, "main_script.py").pop_labels
+
     if npop <= 3:
         filename = os.path.join(dirname, "fs_data.fs")
         data = moments.Spectrum.from_file(filename)
         out = os.path.join(dirname, "fs_plot.png")
-        draw_spectrum(data, out, projections=False)
+        draw_spectrum(data, pop_ids, out, projections=False)
     if npop >= 3:
         filename = os.path.join(dirname, "fs_data.fs")
         data = moments.Spectrum.from_file(filename)
         out = os.path.join(dirname, "fs_plot_projections.png")
-        draw_spectrum(data, out, projections=True)
+        draw_spectrum(data, pop_ids,  out, projections=True)

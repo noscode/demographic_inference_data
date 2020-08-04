@@ -14,7 +14,9 @@ benchmark and so on.
 
 Right now everything is for the python package
 [moments](https://bitbucket.org/simongravel/moments/src/master).
+"""
 
+INFO = """
 ## Structure of data folders
 
 ### Name of folder
@@ -79,12 +81,14 @@ simongravel/moments/src/master/doc/manual/manual.pdf) section `5.2 Units`.
 
 def load_module(dirname, filename):
     save_dir = os.path.abspath(".")
-    sys.path.append(dirname)
+    os.chdir(os.path.abspath(dirname))
+    sys.path.append(".")#dirname)
     module = importlib.import_module(
         os.path.join(dirname, filename).replace('/', '.').rstrip('.py'))
     if "demographic_model" in sys.modules:
         del sys.modules["demographic_model"]
     sys.path = sys.path[:-1]
+    os.chdir(save_dir)
     return module
 
 def generate_model_info(dirname, working_dir=None):
@@ -102,9 +106,11 @@ def generate_model_info(dirname, working_dir=None):
 
     # Fast info
     s += "\n| Number of populations | Number of parameters "\
-         "| Size of spectrum |\n| --- | --- | --- |\n"
+         "| Max log likelihood | Size of spectrum |\n"\
+         "| --- | --- | --- | --- |\n"
     sp_size = "x".join([str(x) for x in sim_info.ns])
-    s += f"| {sim_info.n_pop} | {len(sim_info.par_labels)} | {sp_size} |\n\n"
+    s += f"| {sim_info.n_pop} | {len(sim_info.par_labels)} | "\
+         f"{sim_info.max_ll:.3f} | {sp_size} |\n\n"
 
     # Description
     s += "\n### Model Description\n\n"
@@ -113,8 +119,9 @@ def generate_model_info(dirname, working_dir=None):
                                                          sim_info.popt)}
     split_ind = model_description.rfind("\n\n")
     descr = re.sub("(&!\n)\n(&!\n)", "", model_description[:split_ind])
-    descr = " ".join([x.strip() for x in descr.split("\n ")]).strip()
-    s += descr
+    # TODO regex for proper text creation
+    descr = " ".join([x.strip() for x in re.split("\n ", descr)]).strip()
+    s += descr + "\n"
 
     # Plots
     s += "\n### Plots\n\n"
@@ -143,19 +150,41 @@ def generate_model_info(dirname, working_dir=None):
         par_name = line[:spl_ind]
         par_descr = line[spl_ind + 1:].strip()
         par_descr = " ".join([x.strip() for x in par_descr.split("\n ")])
-        s += f"| `{par_name}` | {values[par_name]} | {par_descr} |\n"
+        s += f"| `{par_name}` | {values[par_name]:.3f} | {par_descr} |\n"
     s += "\n"
     return s
 
 sim_dirs = ['1_Bot_4_Sim', '2_DivMig_5_Sim', '3_DivMig_8_Sim',
             "4_DivMig_11_Sim"]
 
+real_dirs = ["2_YRI_CEU_6_Gut", "3_YRI_CEU_CHB_13_Gut"]
+
+def generate_toc():
+    s = "# Available AFS data\n\n"
+    if len(sim_dirs) > 0:
+        s += "- [Simulated data](#Simulated data)\n"
+        for dirname in sim_dirs:
+            s += f"\t* [{dirname}](#{dirname})\n"
+    if len(real_dirs) > 0:
+        s += "- [Real data](#Real data)\n"
+        for dirname in real_dirs:
+            s += f"\t* [{dirname}](#{dirname})\n"
+    s += "\n"
+    return s
+
 with open("README.md", "w") as f:
     f.write(INITIAL_README)
+    f.write(generate_toc())
+    f.write(INFO)
     f.write("# Simulated data\n\n")
     for data_dir in sim_dirs:
         info = generate_model_info(data_dir)
         f.write(info)
         with open(os.path.join(data_dir, "README.md"), "w") as loc_f:
             loc_f.write(info.replace(f"{data_dir}/", ""))
-    
+    f.write("# Real data\n\n")
+    for data_dir in real_dirs:
+        info = generate_model_info(data_dir)
+        f.write(info)
+        with open(os.path.join(data_dir, "README.md"), "w") as loc_f:
+            loc_f.write(info.replace(f"{data_dir}/", ""))

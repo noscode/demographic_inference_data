@@ -1,14 +1,15 @@
 ## 1_Bot_4_Sim
 
 
-| Number of populations | Number of parameters | Size of spectrum |
-| --- | --- | --- |
-| 1 | 4 | 20 |
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 1 | 4 | -88.560 | 20 |
 
 
 ### Model Description
 
 Classical one population bottleneck model.
+
 ### Plots
 
 Schematic model plot:
@@ -24,8 +25,8 @@ Simulated allele frequency spectrum:
 
 | Parameter | Value | Description |
 | --- | --- | --- |
-| `nuB` | 0.01 | Size of population during bottleneck. |
-| `nuF` | 1.0 | Size of population now. |
+| `nuB` | 0.010 | Size of population during bottleneck. |
+| `nuF` | 1.000 | Size of population now. |
 | `tB` | 0.005 | Time of bottleneck duration. |
-| `tF` | 0.05 | Time after bottleneck finished. |
+| `tF` | 0.050 | Time after bottleneck finished. |
 

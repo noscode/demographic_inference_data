@@ -3,6 +3,8 @@ from demographic_model import model_func
 from matplotlib import pyplot as plt
 
 n_pop = 3
+pop_labels = ['1 Pop', '2 Pop', '3 Pop']
+
 par_labels = ['nu1', 'nu2', 'nu3', 'm12', 'm13', 'm23', 'T1', 'T2']
 popt = [1.5, 0.5, 1.0, 0.5, 1.0, 3.0, 0.1, 0.05]
 
@@ -41,7 +43,7 @@ if __name__ == "__main__":
     moments.ModelPlot.plot_model(model,
         save_file='model_plot.png',
         fig_title=f'Demographic model for 3_DivMig_8_Sim, Nanc: {Nanc}',
-        pop_labels=['1 Pop', '2 Pop', '3 Pop'],
+        pop_labels=pop_labels,
         nref=Nanc,
         draw_scale=False,
         draw_ancestors=True,

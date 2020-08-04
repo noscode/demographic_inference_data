@@ -2,6 +2,8 @@ import moments
 from demographic_model import model_func
 
 n_pop = 4
+pop_labels = ['1 Pop', '2 Pop', '3 Pop', '4 Pop']
+
 par_labels = ['nu1', 'nu234', 'nu2', 'nu34', 'nu3', 'nu4',
               'm12_anc', 'm34_sym', 'T1', 'T2', 'T3']
 popt = [1.5, 0.8, 1.0, 0.5, 0.2, 0.3, 2, 3, 0.1, 0.15, 0.05]
@@ -41,7 +43,7 @@ if __name__ == "__main__":
     moments.ModelPlot.plot_model(model,
         save_file='model_plot.png',
         fig_title=f'Demographic model for 4_DivMig_11_Sim, Nanc: {Nanc}',
-        pop_labels=['1 Pop', '2 Pop', '3 Pop', '4 Pop'],
+        pop_labels=pop_labels,
         nref=Nanc,
         draw_scale=False,
         draw_ancestors=True,

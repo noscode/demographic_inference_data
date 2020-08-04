@@ -2,6 +2,8 @@ import moments
 from demographic_model import model_func
 
 n_pop = 1
+pop_labels = ["Pop 1"]
+
 par_labels = ['nuB', 'nuF', 'tB', 'tF']
 popt = [0.01, 1.0, 0.005, 0.05]
 
@@ -40,7 +42,7 @@ if __name__ == "__main__":
     moments.ModelPlot.plot_model(model,
         save_file='model_plot.png',
         fig_title=f'Demographic model for 1_Bot_4_Sim, Nanc: {Nanc}',
-        pop_labels=['1 Pop'],
+        pop_labels=pop_labels,
         nref=Nanc,
         draw_scale=False,
         draw_ancestors=True,
