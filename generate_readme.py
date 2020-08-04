@@ -162,11 +162,11 @@ real_dirs = ["2_YRI_CEU_6_Gut", "3_YRI_CEU_CHB_13_Gut"]
 def generate_toc():
     s = "# Available AFS data\n\n"
     if len(sim_dirs) > 0:
-        s += "- [Simulated data](#Simulated data)\n"
+        s += "- [Simulated data](#simulated-data)\n"
         for dirname in sim_dirs:
             s += f"\t* [{dirname}](#{dirname})\n"
     if len(real_dirs) > 0:
-        s += "- [Real data](#Real data)\n"
+        s += "- [Real data](#real-data)\n"
         for dirname in real_dirs:
             s += f"\t* [{dirname}](#{dirname})\n"
     s += "\n"

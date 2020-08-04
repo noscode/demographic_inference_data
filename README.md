@@ -8,12 +8,12 @@ Right now everything is for the python package
 [moments](https://bitbucket.org/simongravel/moments/src/master).
 # Available AFS data
 
-- [Simulated data](#Simulated data)
+- [Simulated data](#simulated-data)
 	* [1_Bot_4_Sim](#1_Bot_4_Sim)
 	* [2_DivMig_5_Sim](#2_DivMig_5_Sim)
 	* [3_DivMig_8_Sim](#3_DivMig_8_Sim)
 	* [4_DivMig_11_Sim](#4_DivMig_11_Sim)
-- [Real data](#Real data)
+- [Real data](#real-data)
 	* [2_YRI_CEU_6_Gut](#2_YRI_CEU_6_Gut)
 	* [3_YRI_CEU_CHB_13_Gut](#3_YRI_CEU_CHB_13_Gut)
 
