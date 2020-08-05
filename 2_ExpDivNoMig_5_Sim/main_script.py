@@ -41,7 +41,7 @@ if __name__ == "__main__":
                                              [4 for _ in range(n_pop)])
     moments.ModelPlot.plot_model(model,
         save_file='model_plot.png',
-        fig_title=f'Demographic model for 2_ExpDivNoMig_5_Sim, Nanc: {Nanc}',
+        fig_title=f'Demographic model for 2_ExpDivNoMig_5_Sim',
         pop_labels=pop_labels,
         nref=Nanc,
         draw_scale=True,
