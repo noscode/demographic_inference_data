@@ -11,6 +11,7 @@ def draw_spectrum(data, pop_ids, out_filename, projections=True):
         pylab.savefig(out_filename)
         pylab.close('all')
     elif data.ndim == 2:
+        pylab.figure(figsize=(3, 2.5))
         moments.Plotting.plot_single_2d_sfs(data, vmin=1.0, vmax=None,
                                             ax=None, pop_ids=pop_ids,
                                             extend='neither', colorbar=True,
@@ -63,10 +64,11 @@ def draw_spectrum(data, pop_ids, out_filename, projections=True):
         f.savefig(out_filename)
         pylab.close('all')
 
-dirnames = ["1_Bot_4_Sim", "2_DivMig_5_Sim", "3_DivMig_8_Sim",
-            "4_DivMig_11_Sim", "2_YRI_CEU_6_Gut", "3_YRI_CEU_CHB_13_Gut"]
 
-for dirname in dirnames:
+for dirname in os.listdir():
+    if not os.path.isdir(dirname) or dirname.startswith("_") or\
+            dirname.startswith("."):
+        continue
     npop = int(dirname[0])
     pop_ids = load_module(dirname, "main_script.py").pop_labels
 

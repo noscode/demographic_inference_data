@@ -154,10 +154,25 @@ def generate_model_info(dirname, working_dir=None):
     s += "\n"
     return s
 
-sim_dirs = ['1_Bot_4_Sim', '2_DivMig_5_Sim', '3_DivMig_8_Sim',
-            "4_DivMig_11_Sim"]
+def valid_dirname(dirname):
+    return (os.path.isdir(dirname) and
+           not dirname.startswith("_") and
+           not dirname.startswith("."))
 
-real_dirs = ["2_YRI_CEU_6_Gut", "3_YRI_CEU_CHB_13_Gut"]
+
+dirnames = []
+for dirname in os.listdir():
+    if valid_dirname(dirname):
+        dirnames.append(dirname)
+dirnames = sorted(dirnames, key=lambda x: int(x.split("_")[-2]))
+dirnames = sorted(dirnames, key=lambda x: int(x.split("_")[0]))
+sim_dirs = []
+real_dirs = []
+for dirname in dirnames:
+    if dirname.endswith("Sim"):
+        sim_dirs.append(dirname)
+    else:
+        real_dirs.append(dirname)
 
 def generate_toc():
     s = "# Available AFS data\n\n"
@@ -178,12 +193,15 @@ with open("README.md", "w") as f:
     f.write(INFO)
     f.write("# Simulated data\n\n")
     for data_dir in sim_dirs:
+        print(data_dir)
         info = generate_model_info(data_dir)
         f.write(info)
         with open(os.path.join(data_dir, "README.md"), "w") as loc_f:
             loc_f.write(info.replace(f"{data_dir}/", ""))
     f.write("# Real data\n\n")
     for data_dir in real_dirs:
+        if data_dir.endswith("Sim"):
+            continue
         info = generate_model_info(data_dir)
         f.write(info)
         with open(os.path.join(data_dir, "README.md"), "w") as loc_f:

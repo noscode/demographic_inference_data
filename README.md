@@ -10,7 +10,9 @@ Right now everything is for the python package
 
 - [Simulated data](#simulated-data)
 	* [1_Bot_4_Sim](#1_Bot_4_Sim)
+	* [2_ExpDivNoMig_5_Sim](#2_ExpDivNoMig_5_Sim)
 	* [2_DivMig_5_Sim](#2_DivMig_5_Sim)
+	* [2_BotDivMig_8_Sim](#2_BotDivMig_8_Sim)
 	* [3_DivMig_8_Sim](#3_DivMig_8_Sim)
 	* [4_DivMig_11_Sim](#4_DivMig_11_Sim)
 - [Real data](#real-data)
@@ -112,6 +114,39 @@ Simulated allele frequency spectrum:
 | `tB` | 0.005 | Time of bottleneck duration. |
 | `tF` | 0.050 | Time after bottleneck finished. |
 
+## 2_ExpDivNoMig_5_Sim
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 2 | 5 | -1503.119 | 20x20 |
+
+
+### Model Description
+
+Demographic model of isolation for two populations with exponential growth of an ancestral population followed by split.
+
+### Plots
+
+Schematic model plot:
+
+<img src="2_ExpDivNoMig_5_Sim/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum:
+
+<img src="2_ExpDivNoMig_5_Sim/fs_plot.png" height="200" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `nu` | 5.000 | Size of ancestral population after exponential growth. |
+| `nu1` | 2.000 | Size of population 1 after split. |
+| `nu2` | 4.000 | Size of population 2 after split. |
+| `T1` | 4.000 | Time between exponential growth of ancestral population and its split. |
+| `T2` | 1.000 | Time of ancestral population split. |
+
 ## 2_DivMig_5_Sim
 
 
@@ -144,6 +179,42 @@ Simulated allele frequency spectrum:
 | `m12` | 5.000 | Migration rate from subpopulation 2 to subpopulation 1. |
 | `m21` | 2.500 | Migration rate from subpopulation 1 to subpopulation 2. |
 | `T` | 0.050 | Time of split. |
+
+## 2_BotDivMig_8_Sim
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 2 | 8 | -1035.905 | 20x20 |
+
+
+### Model Description
+
+Demographic history of two populations with bottleneck of ancestral population followed by split and growth of both new formed populations exponentially and linearly correspondingly.
+
+### Plots
+
+Schematic model plot:
+
+<img src="2_BotDivMig_8_Sim/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum:
+
+<img src="2_BotDivMig_8_Sim/fs_plot.png" height="200" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `nu` | 0.100 | Size of ancestral population after sudden decrease. |
+| `f` | 0.300 | Fraction in which ancestral population splits. |
+| `nu1` | 2.000 | Size of population 1 after exponential growth. |
+| `nu2` | 3.000 | Size of population 2 after linear growth. |
+| `m12` | 1.000 | Migration rate from subpopulation 2 to subpopulation 1. |
+| `m21` | 0.100 | Migration rate from subpopulation 1 to subpopulation 2. |
+| `T1` | 0.500 | Time between sudden growth of ancestral population and its split. |
+| `T2` | 1.000 | Time of ancestral population split. |
 
 ## 3_DivMig_8_Sim
 
