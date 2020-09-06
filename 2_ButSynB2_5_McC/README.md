@@ -8,7 +8,7 @@
 
 ### Model Description
 
-Demographic model with asymmetric migrations for two populations of butterflies. Ancestral population split into two new formed populations with following continuous migrations between them.
+Demographic model with asymmetric migrations for two populations of butterflies. Data and model are from McCoy et al. 2013. Ancestral population split into two new formed populations with following continuous migrations between them.
 
 ### Plots
 

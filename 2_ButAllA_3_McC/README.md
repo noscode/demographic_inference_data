@@ -8,7 +8,7 @@
 
 ### Model Description
 
-Demographic model without migration for two populations of butterflies. Model is very simple: ancestral population splits into two new populations of constant size.
+Demographic model without migration for two populations of butterflies. Data and model are from McCoy et al. 2013. Model is very simple: ancestral population splits into two new populations of constant size.
 
 ### Plots
 
