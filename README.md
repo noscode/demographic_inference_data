@@ -4,8 +4,22 @@ This repo contains AFS data (simulated and real) for different kinds of
 demographic inference, for example, it could be used for some algorithm
 benchmark and so on.
 
-Right now everything is for the python package
+Right now simulations of the data were performed with the python package
 [moments](https://bitbucket.org/simongravel/moments/src/master).
+
+# API for optimization benchmarks
+
+This repo contains package for Python3 for easy benchmark of optimization
+algorithms. It is rather small package and one could take a look to files
+in `deminf_data` folder. To install package run the following command from
+base directory:
+
+```console
+$ python3 setup.py install
+```
+
+The example of usage could be found in jupyter notebook [`API_example.ipynb`](https://github.com/noscode/demographic_inference_data/blob/master/API_example.ipynb)
+
 # Available AFS data
 
 - [Simulated data](#simulated-data)
