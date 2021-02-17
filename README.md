@@ -18,7 +18,20 @@ base directory:
 $ python3 setup.py install
 ```
 
-The example of usage could be found in jupyter notebook [`API_example.ipynb`](https://github.com/noscode/demographic_inference_data/blob/master/API_example.ipynb)
+The example of usage could be found in jupyter notebook
+[`API_example.ipynb`](https://github.com/noscode/demographic_inference_data/blob/master/API_example.ipynb)
+
+## Dependencies
+Among classical dependencies (e. g. numpy) the package depends on
+[moments](https://bitbucket.org/simongravel/moments/src/master).
+
+Moments could be installed from its repo:
+
+```console
+$ git clone https://bitbucket.org/simongravel/moments
+$ cd moments
+$ python3 setup.py install
+```
 
 # Available AFS data
 
