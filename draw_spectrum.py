@@ -2,7 +2,7 @@ import os
 import pylab
 import moments
 import itertools
-from generate_readme import load_module
+from generate_readme import load_module, valid_dirname
 
 def draw_spectrum(data, pop_ids, out_filename, projections=True):
     if data.ndim == 1:
@@ -64,11 +64,10 @@ def draw_spectrum(data, pop_ids, out_filename, projections=True):
         f.savefig(out_filename)
         pylab.close('all')
 
-
 for dirname in os.listdir():
-    if not os.path.isdir(dirname) or dirname.startswith("_") or\
-            dirname.startswith("."):
+    if not valid_dirname(dirname):
         continue
+    print("Drawing spectrum for data:", dirname)
     npop = int(dirname[0])
     pop_ids = load_module(dirname, "main_script.py").pop_labels
 

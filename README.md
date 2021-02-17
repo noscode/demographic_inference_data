@@ -41,12 +41,17 @@ $ python3 setup.py install
 	* [2_DivMig_5_Sim](#2_DivMig_5_Sim)
 	* [2_BotDivMig_8_Sim](#2_BotDivMig_8_Sim)
 	* [3_DivMig_8_Sim](#3_DivMig_8_Sim)
+	* [4_DivNoMig_9_Sim](#4_DivNoMig_9_Sim)
 	* [4_DivMig_11_Sim](#4_DivMig_11_Sim)
+	* [4_DivMig_18_Sim](#4_DivMig_18_Sim)
+	* [5_DivNoMig_9_Sim](#5_DivNoMig_9_Sim)
 - [Real data](#real-data)
 	* [2_ButAllA_3_McC](#2_ButAllA_3_McC)
 	* [2_ButSynB2_5_McC](#2_ButSynB2_5_McC)
 	* [2_YRI_CEU_6_Gut](#2_YRI_CEU_6_Gut)
+	* [3_YRI_CEU_CHB_13_Jou](#3_YRI_CEU_CHB_13_Jou)
 	* [3_YRI_CEU_CHB_13_Gut](#3_YRI_CEU_CHB_13_Gut)
+	* [4_YRI_CEU_CHB_JPT_17_Jou](#4_YRI_CEU_CHB_JPT_17_Jou)
 
 
 ## Structure of data folders
@@ -285,6 +290,43 @@ Simulated allele frequency spectrum (projections):
 | `T1` | 0.100 | Time between ancestral population split and divergence of population 3 from population 2. |
 | `T2` | 0.050 | Time of population 3 divergence from population 2. |
 
+## 4_DivNoMig_9_Sim
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 4 | 9 | -62609.681 | 20x20x20x20 |
+
+
+### Model Description
+
+Four population demographic history without migrations with 9 parameters. Ancestral population of constant size was split (T1 + T2 + T3) time ago into two new populations. First (1) population has constant size till nowdays. The second formed population turned out to be a common population to another three populations: (T2 + T3) time ago it splits and formed so-called population 2 and T3 time ago the second formed population divided into population 3 and population 4. No migrations between populations.
+
+### Plots
+
+Schematic model plot:
+
+<img src="4_DivNoMig_9_Sim/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum (projections):
+
+<img src="4_DivNoMig_9_Sim/fs_plot_projections.png" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `nu1` | 1.500 | Size of population 1 after split of ancestral population. |
+| `nu234` | 0.800 | Size of common ancestor population of populations 2, 3 and 4 after split of ancestral population. |
+| `nu2` | 1.000 | Size of population 2 after split of common ancestor population of populations 2, 3 and 4. |
+| `nu34` | 0.500 | Size of common ancestor population of populations 3 and 4 after division of population 2 from their common ancestor population. |
+| `nu3` | 0.200 | Size of population 3. |
+| `nu4` | 0.300 | Size of population 4. |
+| `T1` | 0.100 | Time between ancestral population split (population 1 formation) and next split. |
+| `T2` | 0.150 | Time between ancestral population of populations 2, 3 and 4 split (population 2 formation) and next split. |
+| `T3` | 0.050 | Time of ancestral population of populations 3 and 4 split which have led to formations of population 3 and population 4. |
+
 ## 4_DivMig_11_Sim
 
 
@@ -323,6 +365,89 @@ Simulated allele frequency spectrum (projections):
 | `T1` | 0.100 | Time between ancestral population split, population 1 formation and next split. |
 | `T2` | 0.150 | Time between ancestral population of populations 2, 3 and 4 split, population 2 formation and next split. |
 | `T3` | 0.050 | Time of ancestral population of populations 3 and 4 split and formations of population 3 and population 4. |
+
+## 4_DivMig_18_Sim
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 4 | 18 | -16452.849 | 10x10x10x10 |
+
+
+### Model Description
+
+Four population demographic history with 18 parameters. Ancestral population of constant size was split (T1 + T2 + T3) time ago into two new populations. First (1) population has constant size till nowdays. The second formed population turned out to be a common population to another three populations: (T2 + T3) time ago it splits and formed so-called population 2 and T3 time ago the second formed population divided into population 3 and population 4. All migrations between populations were symmetrical.
+
+### Plots
+
+Schematic model plot:
+
+<img src="4_DivMig_18_Sim/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum (projections):
+
+<img src="4_DivMig_18_Sim/fs_plot_projections.png" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `nu1` | 1.500 | Size of population 1 after split of ancestral population. |
+| `nu234` | 0.800 | Size of common ancestor population of populations 2, 3 and 4 after split of ancestral population. |
+| `nu2` | 1.000 | Size of population 2 after split of common ancestor population of populations 2, 3 and 4. |
+| `nu34` | 0.500 | Size of common ancestor population of populations 3 and 4 after division of population 2 from their common ancestor population. |
+| `nu3` | 0.200 | Size of population 3. |
+| `nu4` | 0.300 | Size of population 4. |
+| `m1_234` | 5.000 | Symmetric migration rate between population 1 and common ancestor population of 2, 3 and 4 populations (between first and second splits). |
+| `m1_2` | 0.500 | Symmetric migration rate between population 1 and population 2 (between second and third splits). |
+| `m1_34` | 1.000 | Symmetric migration rate between population 1 and common ancestor of population 3 and population 4 (between second and third splits). |
+| `m2_34` | 3.000 | Symmetric migration rate between population 2 and common ancestor of population 3 and population 4 (between second and third splits). |
+| `m1_3` | 0.400 | Symmetric migration rate between population 1 and population 3 (after the third split). |
+| `m1_4` | 0.300 | Symmetric migration rate between population 1 and population 4 (after the third split). |
+| `m2_3` | 1.200 | Symmetric migration rate between population 2 and population 3 (after the third split). |
+| `m2_4` | 1.300 | Symmetric migration rate between population 2 and population 4 (after the third split). |
+| `m3_4` | 2.000 | Symmetric migration rate between population 3 and population 4 (after the third split). |
+| `T1` | 0.100 | Time between ancestral population split (population 1 formation) and next split. |
+| `T2` | 0.150 | Time between ancestral population of populations 2, 3 and 4 split (population 2 formation) and next split. |
+| `T3` | 0.050 | Time of ancestral population of populations 3 and 4 split which have led to formations of population 3 and population 4. |
+
+## 5_DivNoMig_9_Sim
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 5 | 9 | -151872.697 | 20x20x20x20x20 |
+
+
+### Model Description
+
+Simple demographic history of five populations without migrations. Model have 9 parameters. Each population number i has constant size of nui. Ancestral population splits (T1+T2+T3+T4) time ago to population 1 and 2. Then (T2+T3+T4) time ago population 2 splits into population 2 and 3. (T3 + T4) time ago population 3 split to populations 3 and 4. And finally T4 time ago population 4 split in populations 4 and 5.
+
+### Plots
+
+Schematic model plot:
+
+<img src="5_DivNoMig_9_Sim/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum (projections):
+
+<img src="5_DivNoMig_9_Sim/fs_plot_projections.png" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `nu1` | 1.000 | Size of population 1. |
+| `nu2` | 2.000 | Size of population 2. |
+| `nu3` | 1.500 | Size of population 3 after split from population 2. |
+| `nu4` | 1.000 | Size of population 4 after split from population 3. |
+| `nu5` | 0.500 | Size of population 5 after split from population 4. |
+| `T1` | 0.050 | Time between ancestral population split and second split. |
+| `T2` | 0.100 | Time between second and third splits. |
+| `T3` | 0.150 | Time between third and fourth splits. |
+| `T4` | 0.050 | Time of fourth split. |
 
 # Real data
 
@@ -424,6 +549,51 @@ Simulated allele frequency spectrum:
 | `Tp` | 0.355 | The scaled time between ancestral population growth and the split. |
 | `T` | 0.111 | The time between the split and present. |
 
+## 3_YRI_CEU_CHB_13_Jou
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 3 | 13 | -47328.388 | 80x80x80 |
+
+
+### Model Description
+
+Demographic model for three modern human populations: YRI, CEU and CHB. Model from Gutenkunst et al., 2009, data from Jouganous et al. 2019. Model with sudden growth of ancestral population size, followed by split into population YRI and common population of CEU and CHB, which experience bottleneck and split with exponential recovery of both populations. Migrations between populations are symmetrical.
+
+### Plots
+
+Schematic model plot:
+
+<img src="3_YRI_CEU_CHB_13_Jou/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum:
+
+<img src="3_YRI_CEU_CHB_13_Jou/fs_plot.png" height="200" />
+
+Simulated allele frequency spectrum (projections):
+
+<img src="3_YRI_CEU_CHB_13_Jou/fs_plot_projections.png" height="200" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `nuAf` | 2.168 | The ancestral population size after sudden growth and size of YRI population. |
+| `nuB` | 0.269 | The bottleneck size of CEU+CHB common population. |
+| `nuEu0` | 0.229 | The bottleneck size for CEU population. |
+| `nuEu` | 3.015 | The final size of CEU population after exponential growth. |
+| `nuAs0` | 0.085 | The bottleneck size for CHB population. |
+| `nuAs` | 7.987 | The final size of CHB population after exponential growth. |
+| `mAfB` | 3.523 | The scaled symmetric migration rate between YRI and CEU+CHB populations. |
+| `mAfEu` | 0.226 | The scaled symmetric migration rate between YRI and CEU populations. |
+| `mAfAs` | 0.108 | The scaled symmetric migration rate between YRI and CHB populations. |
+| `mEuAs` | 0.901 | The scaled symmetric migration rate between CEU and CHB populations. |
+| `TAf` | 0.348 | The scaled time between ancestral population growth and first split. |
+| `TB` | 0.118 | The time between the first split and second. Time of CEU+CHB population existence. |
+| `TEuAs` | 0.067 | The time between second split and present. |
+
 ## 3_YRI_CEU_CHB_13_Gut
 
 
@@ -468,4 +638,49 @@ Simulated allele frequency spectrum (projections):
 | `TAf` | 0.211 | The scaled time between ancestral population growth and first split. |
 | `TB` | 0.338 | The time between the first split and second. Time of CEU+CHB population existence. |
 | `TEuAs` | 0.058 | The time between second split and present. |
+
+## 4_YRI_CEU_CHB_JPT_17_Jou
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 4 | 17 | -57730.966 | 40x40x40x40 |
+
+
+### Model Description
+
+Demographic model for four modern human populations: YRI, CEU, CHB and JPT. Model and data from Jouganous et al. 2019. Model with sudden growth of ancestral population size, followed by split into population YRI and common population of CEU, CHB and JPT, which experience bottleneck and split with exponential recovery of all populations - first formation of CEU population followed by split of ancestal population of CHB and JPT. Migrations between populations are symmetrical.
+
+### Plots
+
+Schematic model plot:
+
+<img src="4_YRI_CEU_CHB_JPT_17_Jou/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum (projections):
+
+<img src="4_YRI_CEU_CHB_JPT_17_Jou/fs_plot_projections.png" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `nuAf` | 2.101 | The ancestral population size after sudden growth and size of YRI population. |
+| `nuB` | 0.251 | The bottleneck size of CEU+CHB common population. |
+| `nuEu0` | 0.222 | The bottleneck size for CEU population. |
+| `nuEu` | 2.809 | The final size of CEU population after exponential growth. |
+| `nuAs0` | 0.090 | The bottleneck size for CHB population. |
+| `nuAs` | 5.548 | The final size of CHB population after exponential growth. |
+| `nuJp0` | 0.388 | The bottleneck size for JPT population. |
+| `nuJp` | 20.731 | The final size of JPT population after exponential growth. |
+| `mAfB` | 3.794 | The scaled symmetric migration rate between YRI and CEU+CHB populations. |
+| `mAfEu` | 0.257 | The scaled symmetric migration rate between YRI and CEU populations. |
+| `mAfAs` | 0.126 | The scaled symmetric migration rate between YRI and CHB populations. |
+| `mEuAs` | 1.073 | The scaled symmetric migration rate between CEU and CHB populations. |
+| `mChJp` | 0.745 | The scaled symmetric migration rate between CHB and JPT populations. |
+| `TAf` | 0.363 | The scaled time between ancestral population growth and first split. |
+| `TB` | 0.111 | The time between the first split and second. Time of CEU+CHB+JPT population existence. |
+| `TEuAs` | 0.056 | The time between second split and third split. Time of CHB+JPT population existence. |
+| `TEuAs` | 0.056 | The time between third split and present. |
 

@@ -12,8 +12,35 @@ This repo contains AFS data (simulated and real) for different kinds of
 demographic inference, for example, it could be used for some algorithm
 benchmark and so on.
 
-Right now everything is for the python package
+Right now simulations of the data were performed with the python package
 [moments](https://bitbucket.org/simongravel/moments/src/master).
+
+# API for optimization benchmarks
+
+This repo contains package for Python3 for easy benchmark of optimization
+algorithms. It is rather small package and one could take a look to files
+in `deminf_data` folder. To install package run the following command from
+base directory:
+
+```console
+$ python3 setup.py install
+```
+
+The example of usage could be found in jupyter notebook
+[`API_example.ipynb`](https://github.com/noscode/demographic_inference_data/blob/master/API_example.ipynb)
+
+## Dependencies
+Among classical dependencies (e. g. numpy) the package depends on
+[moments](https://bitbucket.org/simongravel/moments/src/master).
+
+Moments could be installed from its repo:
+
+```console
+$ git clone https://bitbucket.org/simongravel/moments
+$ cd moments
+$ python3 setup.py install
+```
+
 """
 
 INFO = """
@@ -156,52 +183,55 @@ def generate_model_info(dirname, working_dir=None):
 
 def valid_dirname(dirname):
     return (os.path.isdir(dirname) and
-           not dirname.startswith("_") and
-           not dirname.startswith("."))
+            not dirname.startswith("_") and
+            not dirname.startswith(".") and
+            len(dirname.split("_")) >= 4 and
+            dirname.split("_")[0].isdigit() and
+            dirname.split("_")[-2].isdigit())
 
+if __name__ == "__main__":
+    dirnames = []
+    for dirname in os.listdir():
+        if valid_dirname(dirname):
+            dirnames.append(dirname)
+    dirnames = sorted(dirnames, key=lambda x: int(x.split("_")[-2]))
+    dirnames = sorted(dirnames, key=lambda x: int(x.split("_")[0]))
+    sim_dirs = []
+    real_dirs = []
+    for dirname in dirnames:
+        if dirname.endswith("Sim"):
+            sim_dirs.append(dirname)
+        else:
+            real_dirs.append(dirname)
 
-dirnames = []
-for dirname in os.listdir():
-    if valid_dirname(dirname):
-        dirnames.append(dirname)
-dirnames = sorted(dirnames, key=lambda x: int(x.split("_")[-2]))
-dirnames = sorted(dirnames, key=lambda x: int(x.split("_")[0]))
-sim_dirs = []
-real_dirs = []
-for dirname in dirnames:
-    if dirname.endswith("Sim"):
-        sim_dirs.append(dirname)
-    else:
-        real_dirs.append(dirname)
+    def generate_toc():
+        s = "# Available AFS data\n\n"
+        if len(sim_dirs) > 0:
+            s += "- [Simulated data](#simulated-data)\n"
+            for dirname in sim_dirs:
+                s += f"\t* [{dirname}](#{dirname})\n"
+        if len(real_dirs) > 0:
+            s += "- [Real data](#real-data)\n"
+            for dirname in real_dirs:
+                s += f"\t* [{dirname}](#{dirname})\n"
+        s += "\n"
+        return s
 
-def generate_toc():
-    s = "# Available AFS data\n\n"
-    if len(sim_dirs) > 0:
-        s += "- [Simulated data](#simulated-data)\n"
-        for dirname in sim_dirs:
-            s += f"\t* [{dirname}](#{dirname})\n"
-    if len(real_dirs) > 0:
-        s += "- [Real data](#real-data)\n"
-        for dirname in real_dirs:
-            s += f"\t* [{dirname}](#{dirname})\n"
-    s += "\n"
-    return s
-
-with open("README.md", "w") as f:
-    f.write(INITIAL_README)
-    f.write(generate_toc())
-    f.write(INFO)
-    f.write("# Simulated data\n\n")
-    for data_dir in sim_dirs:
-        info = generate_model_info(data_dir)
-        f.write(info)
-        with open(os.path.join(data_dir, "README.md"), "w") as loc_f:
-            loc_f.write(info.replace(f"{data_dir}/", ""))
-    f.write("# Real data\n\n")
-    for data_dir in real_dirs:
-        if data_dir.endswith("Sim"):
-            continue
-        info = generate_model_info(data_dir)
-        f.write(info)
-        with open(os.path.join(data_dir, "README.md"), "w") as loc_f:
-            loc_f.write(info.replace(f"{data_dir}/", ""))
+    with open("README.md", "w") as f:
+        f.write(INITIAL_README)
+        f.write(generate_toc())
+        f.write(INFO)
+        f.write("# Simulated data\n\n")
+        for data_dir in sim_dirs:
+            info = generate_model_info(data_dir)
+            f.write(info)
+            with open(os.path.join(data_dir, "README.md"), "w") as loc_f:
+                loc_f.write(info.replace(f"{data_dir}/", ""))
+        f.write("# Real data\n\n")
+        for data_dir in real_dirs:
+            if data_dir.endswith("Sim"):
+                continue
+            info = generate_model_info(data_dir)
+            f.write(info)
+            with open(os.path.join(data_dir, "README.md"), "w") as loc_f:
+                loc_f.write(info.replace(f"{data_dir}/", ""))
