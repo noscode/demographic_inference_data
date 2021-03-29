@@ -10,6 +10,10 @@ popt = [1.320, 0.173, 0.117]
 lower_bound = [1e-2, 1e-2, 1e-15]
 upper_bound = [100, 100, 5]
 
+mu = None  # mutation rate
+L = None  # effective length of sequence
+Nanc = None
+
 ns = [12, 12]
 
 # Get maximum log-likelihood
