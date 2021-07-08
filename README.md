@@ -37,6 +37,7 @@ $ python3 setup.py install
 
 - [Simulated data](#simulated-data)
 	* [1_Bot_4_Sim](#1_Bot_4_Sim)
+	* [1_ZigZag_11_Sim](#1_ZigZag_11_Sim)
 	* [2_ExpDivNoMig_5_Sim](#2_ExpDivNoMig_5_Sim)
 	* [2_DivMig_5_Sim](#2_DivMig_5_Sim)
 	* [2_BotDivMig_8_Sim](#2_BotDivMig_8_Sim)
@@ -46,6 +47,7 @@ $ python3 setup.py install
 	* [4_DivMig_18_Sim](#4_DivMig_18_Sim)
 	* [5_DivNoMig_9_Sim](#5_DivNoMig_9_Sim)
 - [Real data](#real-data)
+	* [1_AraTha_4_Hub](#1_AraTha_4_Hub)
 	* [2_ButAllA_3_McC](#2_ButAllA_3_McC)
 	* [2_ButSynB2_5_McC](#2_ButSynB2_5_McC)
 	* [2_YRI_CEU_6_Gut](#2_YRI_CEU_6_Gut)
@@ -147,6 +149,45 @@ Simulated allele frequency spectrum:
 | `nuF` | 1.000 | Size of population now. |
 | `tB` | 0.005 | Time of bottleneck duration. |
 | `tF` | 0.050 | Time after bottleneck finished. |
+
+## 1_ZigZag_11_Sim
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 1 | 11 | -62.375 | 20 |
+
+
+### Model Description
+
+ZigZag model from Stephan and Durbin, 2014.
+
+### Plots
+
+Schematic model plot:
+
+<img src="1_ZigZag_11_Sim/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum:
+
+<img src="1_ZigZag_11_Sim/fs_plot.png" height="200" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `nu1` | 0.100 | Size of population after first exponential growth. |
+| `nu2` | 1.000 | Size of population after first exponential decrease. |
+| `nu3` | 0.100 | Size of population after second exponential growth. |
+| `nu4` | 1.000 | Size of population after second exponential decrease. |
+| `nu5` | 0.100 | Size of population now after third exp. growth. |
+| `t1` | 1.789 | Time of first exponential growth. |
+| `t2` | 0.447 | Time of first exponential decrease. |
+| `t3` | 0.112 | Time of second exponential growth. |
+| `t4` | 0.028 | Time of second exponential decrease. |
+| `t5` | 0.007 | Time of third exponential growth. |
+| `t6` | 0.002 | Time of end of the last growth. |
 
 ## 2_ExpDivNoMig_5_Sim
 
@@ -450,6 +491,38 @@ Simulated allele frequency spectrum (projections):
 | `T4` | 0.050 | Time of fourth split. |
 
 # Real data
+
+## 1_AraTha_4_Hub
+
+
+| Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
+| --- | --- | --- | --- |
+| 1 | 4 | -72.574 | 16 |
+
+
+### Model Description
+
+Three epoch model from Huber et al., 2018. First epoch is ancestral.
+
+### Plots
+
+Schematic model plot:
+
+<img src="1_AraTha_4_Hub/model_plot.png" height="500" />
+
+Simulated allele frequency spectrum:
+
+<img src="1_AraTha_4_Hub/fs_plot.png" height="200" />
+
+
+### Optimal parameter values
+
+| Parameter | Value | Description |
+| --- | --- | --- |
+| `N1` | 0.149 | Size of population during second epoch. |
+| `T1` | 0.023 | Time of second epoch. |
+| `N2` | 1.256 | Size of population during third epoch. |
+| `T2` | 0.045 | Time of third epoch. |
 
 ## 2_ButAllA_3_McC
 
