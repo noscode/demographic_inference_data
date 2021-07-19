@@ -774,11 +774,11 @@ Demographic model for four modern human populations: YRI, CEU, CHB, JPT and KHV.
 
 Schematic model plot:
 
-<img src="model_plot.png" height="500" />
+<img src="5_YRI_CEU_CHB_JPT_KHV_21_Jou/model_plot.png" height="500" />
 
 Simulated allele frequency spectrum (projections):
 
-<img src="fs_plot_projections.png" />
+<img src="5_YRI_CEU_CHB_JPT_KHV_21_Jou/fs_plot_projections.png" />
 
 
 ### Optimal parameter values
