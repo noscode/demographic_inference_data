@@ -6,8 +6,8 @@ from generate_readme import load_module, valid_dirname
 
 def draw_spectrum(data, pop_ids, out_filename, projections=True):
     if data.ndim == 1:
-        moments.Plotting.plot_1d_fs(data, fig_num=None, show=True, ax=None,
-                                    out=out_filename, markersize=2, lw=1)
+        moments.Plotting.plot_1d_fs(data, fig_num=None, show=False, ax=None,
+                                    out=out_filename, markersize=2, lw=1,)
         pylab.savefig(out_filename)
         pylab.close('all')
     elif data.ndim == 2:
@@ -16,7 +16,7 @@ def draw_spectrum(data, pop_ids, out_filename, projections=True):
                                             ax=None, pop_ids=pop_ids,
                                             extend='neither', colorbar=True,
                                             cmap=pylab.cm.hsv,
-                                            out=out_filename, show=True)
+                                            out=out_filename, show=False)
         pylab.savefig(out_filename)
         pylab.close('all')
     elif data.ndim == 3 and not projections:
@@ -58,7 +58,7 @@ def draw_spectrum(data, pop_ids, out_filename, projections=True):
             moments.Plotting.plot_single_2d_sfs(marg_data, vmin=1.0,
                                                 vmax=None, pop_ids=curr_ids,
                                                 extend='neither',
-                                                colorbar=plot_colorbar)
+                                                colorbar=plot_colorbar, show=False)
             cptr += 1
         f.tight_layout()
         f.savefig(out_filename)

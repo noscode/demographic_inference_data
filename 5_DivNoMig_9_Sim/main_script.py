@@ -15,7 +15,7 @@ L = 20000000  # effective length of sequence
 Nanc = 10000
 theta = 4 * mu * L * Nanc  # mutation flux
 
-ns_per_pop = 20
+ns_per_pop = 10
 ns = [ns_per_pop for _ in range(n_pop)]
 
 # Get maximum log-likelihood

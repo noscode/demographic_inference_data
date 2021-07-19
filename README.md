@@ -458,7 +458,7 @@ Simulated allele frequency spectrum (projections):
 
 | Number of populations | Number of parameters | Max log likelihood | Size of spectrum |
 | --- | --- | --- | --- |
-| 5 | 9 | -151872.697 | 20x20x20x20x20 |
+| 5 | 9 | -55340.517 | 10x10x10x10x10 |
 
 
 ### Model Description
