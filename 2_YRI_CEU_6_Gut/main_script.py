@@ -8,7 +8,7 @@ par_labels = ['nu1F', 'nu2B', 'nu2F', 'm', 'Tp', 'T']
 popt = [1.881, 0.0710, 1.845, 0.911, 0.355, 0.111]
 
 lower_bound = [1e-2, 1e-2, 1e-2, 0, 0, 0]
-upper_bound = [100, 100, 100, 10, 3, 3]
+upper_bound = [100, 100, 100, 10, 5, 5]
 
 mu = 2.35e-8  # mutation rate
 L = 4.04e6  # effective length of sequence

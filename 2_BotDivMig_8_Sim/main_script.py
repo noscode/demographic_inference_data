@@ -7,8 +7,8 @@ pop_labels = ["Pop 1", "Pop 2"]
 par_labels = ['nu', 'f', 'nu1', 'nu2', 'm12', 'm21', 'T1', 'T2']
 popt = [0.1, 0.3, 2.0, 3.0, 1.0, 0.1, 0.5, 1.0]
 
-lower_bound = [1e-2, 1e-2, 1e-2, 1e-2, 0, 0, 1e-15, 1e-15]
-upper_bound = [100, 1 - 1e-2, 100, 100, 10, 10, 5, 5]
+lower_bound = [1e-2, 1e-6, 1e-2, 1e-2, 0, 0, 1e-15, 1e-15]
+upper_bound = [100, 1 - 1e-6, 100, 100, 10, 10, 5, 5]
 
 mu = 2.5e-8  # mutation rate
 L = 20000000  # effective length of sequence
