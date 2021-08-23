@@ -44,13 +44,15 @@ class Objective(object):
     :note: Lower and upper bounds are given in usual parameter space.\
            They are transformed for new parameter space during initialization.
     """
-    def __init__(self, obj_function, n_params, lower_bound, upper_bound,
+    def __init__(self, obj_function, n_params,
+                 par_labels, lower_bound, upper_bound,
                  transform=identical, inv_transform=identical, negate=False,
                  name=None):
         self.obj_function = obj_function
         self.n_params = n_params
         self.transform = transform
         self.inv_transform = inv_transform
+        self.par_labels = list(par_labels)
         self.lower_bound = np.array(lower_bound)
         self.lower_bound = self.transform(self.lower_bound)
         # check if there was 0 in lower bound and log-transform was applied
@@ -63,6 +65,7 @@ class Objective(object):
         # checks
         assert len(self.lower_bound) == self.n_params
         assert len(self.upper_bound) == self.n_params
+        assert len(self.par_labels) == self.n_params
 
     @staticmethod
     def from_name(name, negate=False, type_of_transform=None):
@@ -93,6 +96,7 @@ class Objective(object):
                                                          obj_data.par_labels)
         obj = Objective(obj_function=obj_function,
                         n_params=obj_data.number_of_parameters,
+                        par_labels=obj_data.par_labels,
                         lower_bound=obj_data.lower_bound,
                         upper_bound=obj_data.upper_bound,
                         transform=transform,
@@ -115,3 +119,26 @@ class Objective(object):
         sign = -1 if self.negate else 1
         transf_params = self.inv_transform(params)
         return sign * self.obj_function(transf_params)
+
+    def get_gadma_variables(self):
+        """
+        Returns list of objects :class:`gadma.Variable` that are variables
+        in GADMA.
+        """
+        import gadma
+        variables = []
+        for label, lb, ub in zip(self.par_labels,
+                                 self.lower_bound,
+                                 self.upper_bound):
+            if label.lower().startswith("n"):
+               cls = gadma.PopulationSizeVariable
+            elif label.lower().startswith("t"):
+                cls = gadma.TimeVariable
+            elif label.lower().startswith("m"):
+                cls = gadma.MigrationVariable
+            elif label.lower().startswith("s") or label.lower().startswith("f"):
+                cls = gadma.FractionVariable
+            else:
+                raise ValueError(label)
+            variables.append(cls(name=label, domain=[lb, ub]))
+        return variables
