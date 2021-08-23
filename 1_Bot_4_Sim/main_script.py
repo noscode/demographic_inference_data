@@ -7,7 +7,7 @@ pop_labels = ["Pop 1"]
 par_labels = ['nuB', 'nuF', 'tB', 'tF']
 popt = [0.01, 1.0, 0.005, 0.05]
 
-lower_bound = [1e-3, 1e-3, 0, 0]
+lower_bound = [1e-3, 1e-3, 1e-15, 1e-15]
 upper_bound = [100, 100, 5, 5]
 
 mu = 2.5e-8  # mutation rate
