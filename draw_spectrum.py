@@ -64,12 +64,17 @@ def draw_spectrum(data, pop_ids, out_filename, projections=True):
         f.savefig(out_filename)
         pylab.close('all')
 
+
 for dirname in os.listdir():
     if not valid_dirname(dirname):
         continue
     print("Drawing spectrum for data:", dirname)
     npop = int(dirname[0])
     pop_ids = load_module(dirname, "main_script.py").pop_labels
+
+    if dirname == "5_OOAArcAdm_5R19_19_Sim":
+        npop = 3
+        pop_ids = pop_ids[2:]
 
     if npop <= 3:
         filename = os.path.join(dirname, "fs_data.fs")
