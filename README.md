@@ -517,15 +517,15 @@ The model describes the splits of neandertalian and archaic african populations 
 
 Schematic model plot:
 
-<img src="model_plot.png" height="500" />
+<img src="5_OOAArcAdm_5R19_19_Sim/model_plot.png" height="500" />
 
 Simulated allele frequency spectrum:
 
-<img src="fs_plot.png" height="200" />
+<img src="5_OOAArcAdm_5R19_19_Sim/fs_plot.png" height="200" />
 
 Simulated allele frequency spectrum (projections):
 
-<img src="fs_plot_projections.png" height="200" />
+<img src="5_OOAArcAdm_5R19_19_Sim/fs_plot_projections.png" height="200" />
 
 
 ### Optimal parameter values
