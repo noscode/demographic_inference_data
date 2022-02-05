@@ -1,8 +1,8 @@
-import moments
+import dadi
 
 import numpy as np
 
-def model_func(params, ns):
+def model_func(params, ns, pts):
     """
     Three epoch model from Huber et al., 2018.
     First epoch is ancestral.

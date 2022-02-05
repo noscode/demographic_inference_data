@@ -1,8 +1,8 @@
-import moments
+import dadi
 
 import numpy as np
 
-def model_func(params, ns):
+def model_func(params, ns, pts):
     """
     ZigZag model from Stephan and Durbin, 2014.
 
