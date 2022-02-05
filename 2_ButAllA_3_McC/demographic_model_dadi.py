@@ -21,7 +21,7 @@ def model_func(params, ns, pts):
     phi = dadi.PhiManip.phi_1D_to_2D(xx, phi)
     phi = dadi.Integration.two_pops(phi, xx, T, nu1=nuW, nu2=nuC)
 
-    fs = dadi.Spectrum.from_phi(phi, ns, [xx])
+    fs = dadi.Spectrum.from_phi(phi, ns, [xx, xx])
     return fs
 	
 	
