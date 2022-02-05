@@ -20,17 +20,21 @@ def model_func(params, ns):
     """
     nu1, nu2, nu3, nu4, nu5, t1, t2, t3, t4, t5, t6 = params
 
-    sts = moments.LinearSystem_1D.steady_state_1D(ns[0])
-    fs = moments.Spectrum(sts)
-    nu1_func = lambda t: [1.0 * (nu1 / 1.0) ** (t / t1)]
-    fs.integrate(nu1_func, t1)
-    nu1_func = lambda t: [nu1 * (nu2 / nu1) ** (t / t2)]
-    fs.integrate(nu1_func, t2)
-    nu1_func = lambda t: [nu2 * (nu3 / nu2) ** (t / t3)]
-    fs.integrate(nu1_func, t3)
-    nu1_func = lambda t: [nu3 * (nu4 / nu3) ** (t / t4)]
-    fs.integrate(nu1_func, t4)
-    nu1_func = lambda t: [nu4 * (nu5 / nu4) ** (t / t5)]
-    fs.integrate(nu1_func, t5)
-    fs.integrate([nu5], t6)
+
+    xx = dadi.Numerics.default_grid(pts)
+    phi = dadi.PhiManip.phi_1D(xx)
+
+    nu1_func = lambda t: 1.0 * (nu1 / 1.0) ** (t / t1)
+    phi = dadi.Integration.one_pop(phi, xx, t1, nu=nu1_func)
+    nu1_func = lambda t: nu1 * (nu2 / nu1) ** (t / t2)
+    phi = dadi.Integration.one_pop(phi, xx, t2, nu=nu1_func)
+    nu1_func = lambda t: nu2 * (nu3 / nu2) ** (t / t3)
+    phi = dadi.Integration.one_pop(phi, xx, t3, nu=nu1_func)
+    nu1_func = lambda t: nu3 * (nu4 / nu3) ** (t / t4)
+    phi = dadi.Integration.one_pop(phi, xx, t4, nu=nu1_func)
+    nu1_func = lambda t: nu4 * (nu5 / nu4) ** (t / t5)
+    phi = dadi.Integration.one_pop(phi, xx, t5, nu=nu1_func)
+    phi = dadi.Integration.one_pop(phi, xx, t6, nu=nu5)
+
+    fs = dadi.Spectrum.from_phi(phi, ns, [xx])
     return fs
