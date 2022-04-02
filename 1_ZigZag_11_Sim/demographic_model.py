@@ -22,7 +22,7 @@ def model_func(params, ns):
 
     sts = moments.LinearSystem_1D.steady_state_1D(ns[0])
     fs = moments.Spectrum(sts)
-    nu1_func = lambda t: [1.0 * (nu1 / 1.0) ** (t / t2)]
+    nu1_func = lambda t: [1.0 * (nu1 / 1.0) ** (t / t1)]
     fs.integrate(nu1_func, t1)
     nu1_func = lambda t: [nu1 * (nu2 / nu1) ** (t / t2)]
     fs.integrate(nu1_func, t2)
