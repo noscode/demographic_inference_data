@@ -2,7 +2,7 @@ import momi
 import numpy as np
 
 def model_func(params):
-    Nanc, nu_gen, f, nu1_gen, nu2_gen, m12_gen, m21_gen, T1_gen, T2_gen = params
+    Nanc, nu_gen, f, nu1_gen, nu2_gen, T1_gen, T2_gen = params
 
     nu1_gen_init = nu_gen * f
     nu2_gen_init = nu_gen * (1 - f)

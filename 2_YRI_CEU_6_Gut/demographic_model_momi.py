@@ -6,8 +6,9 @@ def model_func(params):
 
     model = momi.DemographicModel(N_e=1)
     model.add_leaf("pop0", N=nu1F_gen*Nanc, g=0)
-    model.add_leaf("pop1", N=nu2F_gen*Nanc, g=np.log(nu_gen/nu2B_gen) / (T_gen*2*Nanc))
+    model.add_leaf("pop1", N=nu2F_gen*Nanc, g=np.log(nu2F_gen/nu2B_gen) / (T_gen*2*Nanc))
 
-    model.move_lineages("pop0", "pop1", t=T_gen*2*Nanc, N=nu1F_gen*Nanc, g=0)
-    nodel.set_size("pop0", N=Nanc, g=0, t=(Tp_gen+T_gen)*2*Nanc)
+    model.move_lineages("pop1", "pop0", t=T_gen*2*Nanc, N=nu1F_gen*Nanc, g=0)
+    model.set_size("pop0", N=Nanc, g=0, t=(Tp_gen+T_gen)*2*Nanc)
+
     return model
